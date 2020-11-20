@@ -1,0 +1,16 @@
+:root {
+    --green-bg-light: 248, 247, 242; 
+}
+
+body{
+    background-color: rgb (var(--green-bg-light));
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/*p {
+  font-family: 'Montserrat', sans-serif; 
+} */
