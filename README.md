@@ -30,9 +30,9 @@ Site will be one page with minimum of three sections , suitable for visits from 
 
 ### Skeleton
 
-## wireframe.
+#### wireframe.
 
-![initial wireframe](assets/wireframe/Wireframe_1.png)
+![initial wireframe](assets/wireframe/Wireframe_1.jpg)
 
 Mobile first approach - one page site , navigation menu at the top. 
 
