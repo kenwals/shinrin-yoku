@@ -1,7 +1,7 @@
 :root {
-    --green-bg-light: 135, 170, 75; // light green background colour
-    --green-hg-dark: 80, 100, 45; // Dark Green colour
-    --green-mossy: 125, 188, 143; // mossy green colour
+    --green-bg-light: 135, 170, 75; /* light green background colour */
+    --green-hg-dark: 80, 100, 45; /* Dark Green colour */ 
+    --green-mossy: 125, 188, 143; /* mossy green colour */ 
 }
 
 body {
@@ -46,7 +46,11 @@ h2 {
 }
 
 .mid-section {
-    background-color: rgba(var(--green-mossy), 1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    align-content: center;
+    background-color: rgba(var(--green-mossy), 1.0);
     color: white;
-    height: 50vh;
 }
