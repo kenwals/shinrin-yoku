@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgba(var(--green-bg-light), .2);
+  background-color: rgba(var(--green-bg-light), 0.1);
   font-family: "Montserrat", sans-serif;
   color: rgba(var(--green-hg-dark), 1);
 }
@@ -22,7 +22,7 @@ h2 {
 /*                              */
 
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/hero001.jpg");
 
@@ -36,7 +36,7 @@ h2 {
   background-size: cover;
   position: relative;
 
-  // https://www.w3schools.com/howto/howto_css_hero_image.asp
+  /* taken from  https://www.w3schools.com/howto/howto_css_hero_image.asp */
 }
 
 .hero-image-text {
@@ -46,7 +46,7 @@ h2 {
   letter-spacing: 0.051em;
 }
 
-/*                              */
+/*    about section                          */
 
 .mid-section {
   margin-top: 15px;
