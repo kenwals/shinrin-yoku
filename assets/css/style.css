@@ -58,4 +58,8 @@ h2 {
   color: white;
 }
 
-/*                              */
+/*    cards gallery                          */
+
+.card{
+    background-color: transparent;
+}
