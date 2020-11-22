@@ -27,7 +27,7 @@ h2 {
     url("../images/hero001.jpg");
 
   /* Set a specific height */
-  height: 50vh;
+  height: 90vh;
   width: 100vw;
 
   /* Position and center the image to scale nicely on all screens */
@@ -42,7 +42,7 @@ h2 {
 .hero-image-text {
   color: white;
   padding-left: 52px;
-  padding-top: 90px;
+  padding-top: 50vh;
   letter-spacing: 0.051em;
 }
 
