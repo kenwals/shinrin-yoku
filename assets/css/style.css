@@ -67,8 +67,13 @@ h2 {
 
 /*     contact us section                         */
 
+.contact-row{
+    height: 90vh;
+}
 
-
+.contact-form{
+    margin-top: 20vh;
+}
 
 
 
