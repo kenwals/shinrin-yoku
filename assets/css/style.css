@@ -81,7 +81,7 @@ h2 {
 
 
 .footer {
-  
+  background-color: rgba(var(--green-hg-dark), 1);
   height: 100px;
 }
 
@@ -103,7 +103,8 @@ li {
 }
 
 li a {
-  color: rgba(var(--green-hg-dark), 1);
+  /*color: rgba(var(--green-hg-dark), 1); */
+  color:whitesmoke;
   text-align: center;
   padding: 16px;
   text-decoration: none;
