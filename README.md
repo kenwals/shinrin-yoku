@@ -46,9 +46,21 @@ Section 3 Email subscribe form , contact information and links to various social
 
 Colours : various shades of green or natural colours, colours of site will blend with image colours by using a colour picker.
 
+  --green-bg-light: 135, 170, 75; /* light green background colour */
+  --green-hg-dark: 80, 100, 45; /* Dark Green colour */
+  --green-mossy: 125, 188, 143; /* mossy green colour */
+
+hero text color: white;
+mid section background colour :
+mid section text colour: white;
+Footer background colour:
+Footer icons colour:whitesmoke;
+
 Icons , Typography, images to be decided.
 
-
+Font used
+font-family: "Shadows Into Light", cursive;
+font-family: "Montserrat", sans-serif;
 
 ## Features
 
