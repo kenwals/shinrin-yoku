@@ -114,6 +114,15 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
+### Bugs encountered on the way
+
+1. navbar was not expanding collapsing correctly. its out i choose the wrong emmet shortcut when starting the site. So the incorrect version of boostrap and javascript was choosen. once i replaced both the navbar worked correctly.
+2. comments problem
+3. git commit issue , in the begining i was using only git on the command line . somehow not all my commits were appearing in github when i pushed them . the problem maybe linked to me using gitpod in more then one browser (chrome and firefox) while i was trying to debug something else. I resolved this issue by git commiting with the gitpod UI instead.
+4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
+5. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the javascript format for commenting, this resulted in a problem with the colours not displaying correctly.
+
+
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
