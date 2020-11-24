@@ -163,5 +163,5 @@ Photos taken by me
 ### Acknowledgements
 
 - I received inspiration for this project from X
-- [On Nov 4th 2020 , it was announced that 3,050 trees in Dublin (Ireland) would be cut down to facilitate a BusConnects project in the city.](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper")
+- [On Nov 4th 2020 , it was announced that 3,050 trees in Dublin (Ireland) would be cut down to facilitate a BusConnects project in the city.](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper")This news didn't sit with me well , so i decided to make a site that could promote the importance of Trees and why they should be cherished and valued more then wider roads.
 - The book "The Hidden Life of Trees" by Peter Wohlleben 
