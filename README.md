@@ -146,11 +146,22 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Nature therapy ireland
+- Shinrin Yuko Finland
+- Japanese site url
+- [Dublin City Council Tree strategy](https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-08/Dublin_City_Tree_Strategy_2016-2020.pdf)
+- Bootstrap commponents
+- W3schools
+- css tricks 
+- youtube videos 
 
 ### Media
 - The photos used in this site were obtained from ...
 
+Photos taken by me
+
 ### Acknowledgements
 
 - I received inspiration for this project from X
-- On Nov 4th 2020 , it was announced that 3,050 trees in Dublin (Ireland) would be cut down to facilitate a BusConnects project in the city. This news didn't sit with me well , so i decided to make a site that could promote the importance of Trees and why they should be cherished and valued more then wider roads.
+- [On Nov 4th 2020 , it was announced that 3,050 trees in Dublin (Ireland) would be cut down to facilitate a BusConnects project in the city.](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper")
+- The book "The Hidden Life of Trees" by Peter Wohlleben 
