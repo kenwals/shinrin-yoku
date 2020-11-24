@@ -6,7 +6,7 @@ Forest bathing originated in Japan in the 1980s , where it's known as *shinrin-y
 
 This site will hopefully create a community of people who appreciate trees and nature , and maybe wish to learn more about protecting them in their local city. 
 
-
+***
 ## UX
 
 ### Scope
@@ -61,7 +61,7 @@ Icons , Typography, images to be decided.
 Font used
 font-family: "Shadows Into Light", cursive;
 font-family: "Montserrat", sans-serif;
-
+***
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -83,7 +83,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 - Another feature idea
-
+***
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
@@ -95,7 +95,7 @@ IDE: Gitpod
 Browser: Firefox Developer Edition
 
 KanBan : standard github kanban visible under the projects tab on this repositary 
-
+***
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -124,7 +124,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+***
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -141,7 +141,7 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-
+***
 ## Credits
 
 ### Content
