@@ -129,6 +129,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
+The site was built using an online IDE called gitpod . http://gitpod.io/
+
+The site can deployed easily on gitpod , you first register a free account on http://gitpod.io/, then download the gitpod extension on your preferred internet browser. 
+Once you have the extenstion on your browser , a green gitpod button will appear beside this repository in github.
+
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 - Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
