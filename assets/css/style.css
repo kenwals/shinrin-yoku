@@ -86,7 +86,7 @@ h2 {
   height: 100px;
 }
 
-ul {
+#footer-list {     /*    unordered list in the footer                     */
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -99,11 +99,11 @@ ul {
 
 }
 
-li {
+.footer-list-item {  /* each li tag */
   float: left;
 }
 
-li a {
+.footer-list-item a {
   /*color: rgba(var(--green-hg-dark), 1); */
   color:whitesmoke;
   text-align: center;
@@ -111,7 +111,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.footer-list-item a:hover {
   background-color: #111111;
 }
 
