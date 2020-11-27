@@ -20,6 +20,10 @@ h2 {
   font-family: "Shadows Into Light", cursive;
 }
 
+h5 {
+    font-weight: 700;
+}
+
 /*   home page section                           */
 
 .hero-image {
