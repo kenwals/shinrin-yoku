@@ -30,6 +30,9 @@ h5 {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
   background-image: url("../images/Hero_PheonixPark10.jpg");
 
+  /*    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Hero_PheonixPark10.jpg");  */
+
   /* Set a specific height */
   height: 90vh;
   width: 100vw;
@@ -46,8 +49,10 @@ h5 {
 .hero-image-text {
   color: white;
   padding-left: 52px;
-  padding-top: 50vh;
+  margin-top: 50vh;
   letter-spacing: 0.051em;
+  text-shadow: 1px 1p;
+  background-color: rgba(var(--green-hg-dark), 0.5);
 }
 
 /*    about section                          */
