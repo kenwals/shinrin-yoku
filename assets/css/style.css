@@ -8,6 +8,7 @@ body {
   background-color: rgba(var(--green-bg-light), 0.1);
   font-family: "Montserrat", sans-serif;
   color: rgba(var(--green-hg-dark), 1);
+  font-size: 14px;
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
 
 h2 {
   font-family: "Shadows Into Light", cursive;
+  font-size: 1.8rem;
 }
 
 h5 {
