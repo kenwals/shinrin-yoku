@@ -81,12 +81,16 @@ h5 {
 }
 
 .contact-form{
-    margin-top: 20vh;
+    margin-top: 10vh;
+      margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-page-image{
-    height:33vh;
-    justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33vh;
 }
 
 
