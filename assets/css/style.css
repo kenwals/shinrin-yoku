@@ -22,8 +22,13 @@ h2 {
   font-size: 1.8rem;
 }
 
+h3{
+    font-size: 1.7rem;
+}
+}
+
 h5 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /*   home page section                           */
@@ -69,49 +74,45 @@ h5 {
   color: white;
 }
 
-.mid-section-text{
-    padding-left:5px;
+.mid-section-text {
+  padding-left: 5px;
 }
 
 /*    cards gallery                          */
 
-.card{
-    background-color: transparent;
+.card {
+  background-color: transparent;
 }
-
 
 /*     contact us section                         */
 
-.contact-row{
-    height: 90vh;
+.contact-row {
+  height: 90vh;
 }
 
-.contact-form{
-    margin-top: 5vh;
-      margin-left: auto;
+.contact-form {
+  margin-top: 1vh;
+  margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 350px;
 }
 
-.contact-page-image{
+.contact-page-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 33vh;
 }
 
-
-
-
 /*    footer section                       */
-
 
 .footer {
   background-color: rgba(var(--green-hg-dark), 1);
   height: 100px;
 }
 
-#footer-list {     /*    unordered list in the footer                     */
+#footer-list {
+  /*    unordered list in the footer                     */
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -121,16 +122,16 @@ h5 {
   padding-right: 20vw;
   padding-top: 40px;
   overflow: hidden;
-
 }
 
-.footer-list-item {  /* each li tag */
+.footer-list-item {
+  /* each li tag */
   float: left;
 }
 
 .footer-list-item a {
   /*color: rgba(var(--green-hg-dark), 1); */
-  color:whitesmoke;
+  color: whitesmoke;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -140,16 +141,9 @@ h5 {
   background-color: #111111;
 }
 
-
-
-
 /* Small devices (landscape phones, 576px and up)  */
-@media (min-width: 576px) { 
-
-h1{
+@media (min-width: 576px) {
+  h1 {
     font-size: 2.5rem; /* default h1 size */
-}
-
-
-
+  }
 }
