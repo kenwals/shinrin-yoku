@@ -36,11 +36,11 @@ Site will be one page with minimum of three sections , suitable for visits from 
 
 Mobile first approach - one page site , navigation menu at the top. 
 
-Section 1 Navbar at top . Hero image below. 
+Section 1 - Home page - Navbar at top . Hero image below. 
 
-Section 2 Various panels of either Text or images promoting forest bathing , in a gallery format.
+Section 2 - About page - Various panels of either Text or images promoting forest bathing , in a gallery format.
 
-Section 3 Email subscribe form , contact information and links to various social media channels in Footer section.
+Section 3 - Contact page - Email subscribe form , contact information and links to various social media channels in Footer section.
 
 ### Surface
 
@@ -51,17 +51,27 @@ Colours : various shades of green or natural colours, colours of site will blend
   --green-mossy: 125, 188, 143; /* mossy green colour */
 
 hero text color: white;
+
 mid section background colour :
+
 mid section text colour: white;
+
 Footer background colour:
+
 Footer icons colour:whitesmoke;
 
-Icons , Typography, images to be decided.
 
-Font used
-font-family: "Shadows Into Light", cursive;
-font-family: "Montserrat", sans-serif;
-***
+Icons used are from fontawesome.com .
+
+Images used are one i took myself. 
+
+Fonts used
+
+- Header text elements use the font: "Shadows Into Light", cursive;
+
+- All other text uses the font: "Montserrat", sans-serif;
+
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -145,7 +155,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
 - Nature therapy ireland
 - Shinrin Yuko Finland
 - Japanese site url
