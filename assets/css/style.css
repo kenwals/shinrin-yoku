@@ -64,11 +64,14 @@ h5 {
 
 /*    about section                          */
 
+
+
 .mid-section {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 5px;
-  padding-top: 30px;
+  padding-top: 15px;
+  width: 90%;
   align-content: center;
   background-color: rgba(var(--green-mossy), 1);
   color: white;
