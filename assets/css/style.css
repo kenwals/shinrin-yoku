@@ -147,4 +147,10 @@ h5 {
   h1 {
     font-size: 2.5rem; /* default h1 size */
   }
+
+#contact{
+    padding-top: 50px; /* purpose is to make a clean break between about page section and contact page section on small screens and above  */
+}
+
+
 }
