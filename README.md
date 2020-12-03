@@ -36,75 +36,80 @@ Site will be one page with minimum of three sections , suitable for visits from 
 
 Mobile first approach - one page site , navigation menu at the top. 
 
-Section 1 - Home page - Navbar at top . Hero image below. 
+Section 1 - Home page - Navbar at top . Hero image below. With brief headline paragraph.
 
-Section 2 - About page - Various panels of either Text or images promoting forest bathing , in a gallery format.
+Section 2 - About page - Introduction paragraph followed by various panels of either Text or images promoting forest bathing , in a gallery format.
 
-Section 3 - Contact page - Email subscribe form , contact information and links to various social media channels in Footer section.
+Section 3 - Contact page - Email subscribe form , contact information and links to various social media channels in footer section.
 
 ### Surface
 
-Colours : various shades of green or natural colours, colours of site will blend with image colours by using a colour picker.
+**Colours** : various shades of green or natural colours, colours of site will blend with image colours by using a colour picker.
 
-  --green-bg-light: 135, 170, 75; /* light green background colour */
-  --green-hg-dark: 80, 100, 45; /* Dark Green colour */
-  --green-mossy: 125, 188, 143; /* mossy green colour */
+- --green-bg-light: 135, 170, 75; /* light green background colour
 
-hero text color: white;
+- --green-hg-dark: 80, 100, 45; /* Dark Green colour */*
+- *--green-mossy: 125, 188, 143; /* mossy green colour */
+- hero text color: white;
 
-mid section background colour :
+- mid section background colour :
 
-mid section text colour: white;
+- mid section text colour: white;
 
-Footer background colour:
+- Footer background colour:
 
-Footer icons colour:whitesmoke;
+- Footer icons colour:whitesmoke;
 
 
-Icons used are from fontawesome.com .
+**Icons** used are from fontawesome.com .
 
-Images used are one i took myself. 
+**Images** used are one i took myself. 
 
-Fonts used
+**Fonts** (sourced from google fonts) used are:  
 
-- Header text elements use the font: "Shadows Into Light", cursive;
+- Header text elements use the font: **"Shadows Into Light"**, cursive;
 
-- All other text uses the font: "Montserrat", sans-serif;
+- All other text uses the font: **"Montserrat"**, sans-serif;
+
+  
 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-- The site will have be one page that has several sections 
-
-- it will have a contact form
-
-- will be responsive to screen size.
+The site will have be layed out on one page that has several sections .
 
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- It has a subscription form ( this is for display purposes only , it's not working at the moment as it's out of scope for this phase of the project).
+
+- It is responsive to screen size, the navbar at the top collapses into a hamburger button on smaller screens, one of the image cards in the gallery is hidden on small screens to improve flow of the page.
+
+  
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- In the footer section , the icons will incorporate some sort of hover animation
+- the images of trees can be clicked on and the user will be brought to another site that pinpoints the exact location of the tree. 
 ***
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-Languages : HTML , CSS and Bootstrap framework.
+- Languages : HTML , CSS and Bootstrap framework.
 
-IDE: Gitpod 
+- IDE: Gitpod (very similar to Visual Studio code but online).
+- Version control: Git and Github
+- Browser Developer tools : Firefox Developer Edition and Google Chrome
 
-Browser: Firefox Developer Edition
+- KanBan : Github projects . https://github.com/kenwals/shinrin-yoku/projects/1
+- Markdown editor: Typora was used when i needed to do large volume of updates, Gitpod editor was used for minor updates.
+- Image editing: https://www.adobe.com/ie/photoshop/online/resize-image.html
+- Fonts : Google fonts
+- Icons : Fontawesome
 
-KanBan : standard github kanban visible under the projects tab on this repositary 
 ***
 ## Testing
 
@@ -126,11 +131,10 @@ You should also mention in this section any interesting bugs or problems you dis
 
 ### Bugs encountered on the way
 
-1. navbar was not expanding collapsing correctly. its out i choose the wrong emmet shortcut when starting the site. So the incorrect version of boostrap and javascript was choosen. once i replaced both the navbar worked correctly.
-2. comments problem
-3. git commit issue , in the begining i was using only git on the command line . somehow not all my commits were appearing in github when i pushed them . the problem maybe linked to me using gitpod in more then one browser (chrome and firefox) while i was trying to debug something else. I resolved this issue by git commiting with the gitpod UI instead.
+1. navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut when starting the site. So the incorrect version of boostrap and javascript was choosen. once i replaced both the navbar worked correctly.
+3. Git commit issue , in the beginning i was using only git on the command line . Somehow not all my commits were appearing in Github when i pushed them . the problem maybe linked to me using gitpod in more then one browser (chrome and firefox) while i was trying to debug something else. I resolved this issue by git commiting with the Gitpod UI instead.
 4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
-5. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the javascript format for commenting, this resulted in a problem with the colours not displaying correctly.
+5. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the javascript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
 
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
@@ -156,22 +160,28 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 
-- Nature therapy ireland
-- Shinrin Yuko Finland
-- Japanese site url
+- [Nature therapy ireland](https://www.instagram.com/naturetherapyireland) 
+- [Shinrin Yuko Finland]( https://www.shinrin-yoku.fi/home-en)
+- [Forest Therapy Society, Japan](https://fo-society.jp/therapy/cn45/e_en.html)
 - [Dublin City Council Tree strategy](https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-08/Dublin_City_Tree_Strategy_2016-2020.pdf)
-- Bootstrap commponents
+- Bootstrap components
 - W3schools
 - css tricks 
 - youtube videos 
 
 ### Media
-- The photos used in this site were obtained from ...
-
-Photos taken by me
+- The photos used in this site were taken by me mostly around Dublin, Ireland.
 
 ### Acknowledgements
 
 - I received inspiration for this project from X
-- [On Nov 4th 2020 , it was announced that 3,050 trees in Dublin (Ireland) would be cut down to facilitate a BusConnects project in the city.](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper")This news didn't sit with me well , so i decided to make a site that could promote the importance of Trees and why they should be cherished and valued more then wider roads.
+
+- [This newspaper article from The Irish Times](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper"). On the back this news article, i decided to make a site that could promote the importance of Trees and why they should be cherished and valued more then wider roads in our cities.
+
 - The book "The Hidden Life of Trees" by Peter Wohlleben 
+
+- Various people at code institute
+
+- Imbibe Coffee Roasters 
+
+  
