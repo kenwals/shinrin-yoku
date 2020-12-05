@@ -4,7 +4,7 @@
   --green-mossy: 125, 188, 143; /* mossy green colour */
   --white-text : 255, 255, 255; /* white colour used for hero text and mid section*/
   --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
-  --black-shadow : 17, 17, 17; /* black colour used for the hover shadow for icon links in footer */
+  --black-shadow : 17, 17, 17; /* black colour used for the hover shadow for icon links in footer section */
 }
 
 body {
@@ -58,10 +58,10 @@ h5 {
 
 .hero-image-text {
   color: rgba(var(--white-text), 1);
+  text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
   padding-left: 52px;
   margin-top: 50vh;
   letter-spacing: 0.051em;
-  text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
 
@@ -78,6 +78,7 @@ h5 {
   align-content: center;
   background-color: rgba(var(--green-mossy), 1);
   color: rgba(var(--white-text), 1);
+  text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.1);
 }
 
 .mid-section-text {
