@@ -58,7 +58,7 @@ h5 {
   padding-left: 52px;
   margin-top: 50vh;
   letter-spacing: 0.051em;
-  text-shadow: 1px 1p;
+  text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
 
