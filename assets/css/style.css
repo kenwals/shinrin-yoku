@@ -3,7 +3,7 @@
   --green-hg-dark: 80, 100, 45; /* Dark Green colour for heading */
   --green-mossy: 125, 188, 143; /* mossy green colour */
   --white-text : 255, 255, 255; /* white colour used for hero text and mid section*/
-  --whitesmoke :
+  --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
 }
 
 body {
@@ -136,8 +136,7 @@ h5 {
 }
 
 .footer-list-item a {
-  /*color: rgba(var(--green-hg-dark), 1); */
-  color: whitesmoke;
+  color: rgba(var(--white-smoke), 1);
   text-align: center;
   padding: 16px;
   text-decoration: none;
