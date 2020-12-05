@@ -4,6 +4,7 @@
   --green-mossy: 125, 188, 143; /* mossy green colour */
   --white-text : 255, 255, 255; /* white colour used for hero text and mid section*/
   --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
+  --black-shadow : 17, 17, 17; /* black colour used for the hover shadow for icon links in footer */
 }
 
 body {
@@ -136,14 +137,14 @@ h5 {
 }
 
 .footer-list-item a {
-  color: rgba(var(--white-smoke), 1);
+  color: rgba(var(--whitesmoke), 1);
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
 
 .footer-list-item a:hover {
-  background-color: #111111;
+  background-color: rgba(var(--black-shadow), 0.1);
 }
 
 /* Small devices (landscape phones, 576px and up)  */
