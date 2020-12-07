@@ -1,5 +1,4 @@
 # Shinrin-Yoku
--------
 
 
 This is a promotional website for a forest bathing meetup group , one of it's strategies is promote the importance of trees and nature. 
@@ -75,7 +74,7 @@ Root variable are used so colours can be updated quickly if revisions are needed
 
 
 
------------
+
 
 
 ## Features
@@ -111,7 +110,7 @@ The site is laid out on one page that has several sections .
 - Have the subscription form add the visitor to an email list.
 
   
-***
+
 ## Technologies Used
 
 
@@ -140,7 +139,7 @@ The site is laid out on one page that has several sections .
 
   
 
-***
+
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -195,7 +194,7 @@ You should also mention in this section any interesting bugs or problems you dis
 2. image links refusing to work with relative address , so absolute address links are currently used.
 3. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
 
-***
+
 ## Deployment
 
 
@@ -219,7 +218,7 @@ Differences between the deployed version and the development version:
 
   
 
-***
+
 ## Credits
 
 ### Content
