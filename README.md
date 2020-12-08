@@ -53,12 +53,12 @@ Various shades of green or natural colours, colours of site will be referenced t
 
 Root variable are used so colours can be updated quickly if revisions are needed. 
 
-  --green-bg-light: 135, 170, 75; /* light green background colour */
-  --green-hg-dark: 80, 100, 45; /* Dark Green colour for heading */
-  --green-mossy: 125, 188, 143; /* mossy green colour */
-  --white-text : 255, 255, 255; /* white colour used for hero text and mid section*/
-  --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
-  --black-shadow : 17, 17, 17; /* black colour used for the hover shadow for icon links in footer section */
+     --green-bg-light: 135, 170, 75; /* light green background colour */
+     --green-hg-dark: 80, 100, 45; /* Dark Green colour for heading */
+     --green-mossy: 125, 188, 143; /* mossy green colour */
+     --white-text : 255, 255, 255; /* white colour used for hero text and mid section*/
+     --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
+     --black-shadow : 17, 17, 17; /* black colour used for the hover shadow for icon links in footer section */
 
 
 
