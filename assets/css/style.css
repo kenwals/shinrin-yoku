@@ -17,7 +17,7 @@ body {
 h1 {
   font-family: "Shadows Into Light", cursive;
   color: rgba(var(--green-hg-dark), 1);
-  font-size: 1.9rem; /* needed as the title was too big for the small mobile screen width */
+  font-size: 1.6rem; /* needed as the title was too big for the small mobile screen width of 320px*/
 }
 
 h2 {
