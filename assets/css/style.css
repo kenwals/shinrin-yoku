@@ -35,8 +35,8 @@ h5 {
 }
 
 .navbar{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0; /*  make space for title */
+    padding-right: 0; /* make space for title */
 }
 
 /*   home page section                           */
