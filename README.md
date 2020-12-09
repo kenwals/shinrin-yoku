@@ -51,7 +51,9 @@ Section 3 - Contact page - Email subscribe form , contact information and links 
 
 Various shades of green or natural colours, colours of site will be referenced to [image colours](https://photos.app.goo.gl/seXCA8SYe9CFaBF1A) by using a colour picker. 
 
-Root variable are used so colours can be updated quickly if revisions are needed. 
+![Sample Colour palette](assets/images/canva_swatch.png)
+
+Root variable are used so colours can be updated quickly if revisions are needed. Below are the current set of rgba colours which are very much like to change soon.
 
      --green-bg-light: 135, 170, 75; /* light green background colour */
      --green-hg-dark: 80, 100, 45; /* Dark Green colour for heading */
@@ -83,6 +85,7 @@ The site is laid out on one page that has several sections .
 
 
 ### Existing Features
+
 - It is responsive to screen size thanks to bootstrap.
 
 - the navbar at the top collapses into a hamburger button on smaller screens, 
@@ -95,6 +98,7 @@ The site is laid out on one page that has several sections .
   
 
 ### Features Left to Implement
+
 - In the footer section , the icons will incorporate some sort of hover animation
 
 - Form validation on subscribe form , alert if name or email is empty.
@@ -135,6 +139,8 @@ The site is laid out on one page that has several sections .
 
 - Icons : [Fontawesome](https://fontawesome.com/)
 
+- Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/)
+
 - Planning: MS Excel was used for filename changes planning and making the names lowercase.
 
   
@@ -148,13 +154,15 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
+Test being used will be:
 
+- [web.dev](https://web.dev/measure/) (lighthouse)
 
-[web.dev](https://web.dev/measure/) (lighthouse)
+- http://ami.responsivedesign.is/
 
-Peer review on slack
+- Peer review on slack
 
-Devices on Developer tools in Chrome and Firefox DE
+- Devices on Developer tools in Chrome and Firefox DE
 
 
 
@@ -193,6 +201,7 @@ You should also mention in this section any interesting bugs or problems you dis
 1. unordered list is not customizable at present, need to check the bootstrap documentation. 
 2. image links refusing to work with relative address , so absolute address links are currently used.
 3. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
+4. Currently is a display problem on screen width of 320px. 
 
 
 ## Deployment
@@ -236,6 +245,7 @@ Differences between the deployed version and the development version:
 - [YouTube](https://www.youtube.com/)
 
 ### Media
+
 - The photos used in this site were taken by me mostly in Dublin, Ireland.
 
 ### Acknowledgements
