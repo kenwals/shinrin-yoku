@@ -199,9 +199,8 @@ You should also mention in this section any interesting bugs or problems you dis
 ### Known issues
 
 1. unordered list is not customizable at present, need to check the bootstrap documentation. 
-2. image links refusing to work with relative address , so absolute address links are currently used.
-3. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
-4. Currently is a display problem on screen width of 320px. 
+2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
+3. Currently is a display problem on screen width of 320px. 
 
 
 ## Deployment
