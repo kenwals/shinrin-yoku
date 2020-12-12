@@ -64,8 +64,8 @@ h5 {
 .hero-image-text {
   color: rgba(var(--white-text), 1);
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
-  padding-left: 52px;
-  margin-top: 50vh;
+
+  margin-top: 20vh;
   letter-spacing: 0.051em;
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
