@@ -129,10 +129,10 @@ h5 {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   margin: 0;
   padding-top: 20px;
   overflow: hidden;
+  justify-content: center;
 }
 
 
