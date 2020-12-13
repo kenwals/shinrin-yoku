@@ -49,7 +49,7 @@ h5 {
     url("../images/Hero_PheonixPark10.jpg");  */
 
   /* Set a specific height */
-  /*height: 90vh; */
+  margin-top: 10vh;
   width: 100vw;
 
   /* Position and center the image to scale nicely on all screens */
