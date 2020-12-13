@@ -65,7 +65,7 @@ h5 {
   color: rgba(var(--white-text), 1);
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
 
-  margin-top: 33h;
+  margin-top: 33vh;
   letter-spacing: 0.051em;
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
