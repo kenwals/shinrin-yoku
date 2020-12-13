@@ -65,7 +65,7 @@ h5 {
   color: rgba(var(--white-text), 1);
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
 
-  margin-top: 20vh;
+  margin-top: 33h;
   letter-spacing: 0.051em;
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
@@ -98,9 +98,7 @@ h5 {
 
 /*     contact us section                         */
 
-.contact-row {
-  height: 90vh;
-}
+
 
 .contact-form {
   margin-top: 1vh;
