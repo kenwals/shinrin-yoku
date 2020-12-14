@@ -88,22 +88,20 @@ The site is laid out on one page that has several sections .
 
 - It is responsive to screen size thanks to bootstrap.
 
-- the navbar at the top collapses into a hamburger button on smaller screens, 
+- The navbar at the top collapses into a hamburger button on smaller screens.
 
-- one of the image cards in the gallery is hidden on small screens to improve flow of the page.
+- One of the image cards in the gallery is hidden on small screens to improve flow of the page.
 
 - It has a subscription form ( this is for display purposes only , it's not working at the moment as it's out of scope for this phase of the project).
 
-  
+- Form validation on subscribe form , alert if name or email is empty. 
   
 
-### Features Left to Implement
+### Features Left to Implement (out of scope)
 
 - In the footer section , the icons will incorporate some sort of hover animation
 
-- Form validation on subscribe form , alert if name or email is empty.
-
-- In the footer section , a navbar is made to link back to the home or about anchor tags.
+- The navbar button will float on the top of the screen .
 
 - Improvements for visually impaired such as more descriptive tags and better contrasting colours (as per lighthouse report)
 
@@ -198,9 +196,9 @@ You should also mention in this section any interesting bugs or problems you dis
 
 ### Known issues
 
-1. unordered list is not customizable at present, need to check the bootstrap documentation. 
+1. It was desirable to have the navbar menu button float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. 
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
-3. Currently is a display problem on screen width of 320px. 
+3. 
 
 
 ## Deployment
