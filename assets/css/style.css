@@ -49,9 +49,9 @@ h5 {
   /*    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Hero_PheonixPark10.jpg");  */
 
-  /* Set a specific height */
+  /* redundant CSS
   margin-top: 10vh;
-  width: 100vw;
+  width: 100vw;*/
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
