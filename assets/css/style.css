@@ -71,6 +71,10 @@ h5 {
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
 
+.nav-button {
+    margin-bottom: 5px;
+}
+
 /*    about section                          */
 
 
