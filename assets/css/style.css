@@ -11,7 +11,7 @@ body {
   background-color: rgba(var(--green-bg-light), 0.1);
   font-family: "Montserrat", sans-serif;
   color: rgba(var(--green-hg-dark), 1);
-  font-size: 14px;
+  /*font-size: 14px; */
 }
 
 h1 {
