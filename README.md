@@ -16,12 +16,12 @@ This is a fictional meetup group , so this is no limitations on the content . Th
 
 **User stories**
 
-- As a visitor to the site, I want to read about forest bathing and it benefits, so that I can decide if I wish to take part.
-- As a visitor to the site, I want to register my details , so I can be added to an email list to receive updates.
-- As a visitor to the site, I want to view nice pictures of nature.
-- As a visitor to the site, I want to read about locations of future forest bathing events.
-- As site owner , I want to promote my service and have participants for meetups.
-- As site owner , I want to promote the benefits of Trees and nature in our environment. 
+1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
+2. As a visitor to the site, I want to register my details , so I can be added to an email list to receive updates.
+3. As a visitor to the site, I want to view nice pictures of nature.
+4. As a visitor to the site, I want to read about locations of future forest bathing events.
+5. As the site owner , I want to promote my service and have participants for meetups.
+6. As the site owner , I want to promote the benefits of Trees and nature in our environment. 
 
 ### Structure
 
