@@ -73,16 +73,9 @@ Root variable are used so colours can be updated quickly if revisions are needed
 ​				All other text uses the font:  **"Montserrat"**. 
 ​     
 
-
-
-
-
-
-
 ## Features
 
 The site is laid out on one page that has several sections .
-
 
 ### Existing Features
 
@@ -115,8 +108,6 @@ The site is laid out on one page that has several sections .
 
 ## Technologies Used
 
-
-
 - Languages : HTML , CSS and Bootstrap framework (Navbar uses Javascript).
 
 - IDE: [Gitpod](https://www.gitpod.io/) (very similar to Visual Studio code but online).
@@ -142,7 +133,6 @@ The site is laid out on one page that has several sections .
 - Planning: MS Excel was used for filename changes planning and making the names lowercase.
 
   
-
 
 ## Testing
 
@@ -200,10 +190,7 @@ You should also mention in this section any interesting bugs or problems you dis
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
 3. 
 
-
 ## Deployment
-
-
 
 For easy deployment you will need a Github user account and a Gitpod user account. If you wish to make changes to this repository , please follow the Github steps first. 
 
@@ -220,10 +207,9 @@ The site can deployed easily on a gitpod online workspace, you first register a 
 Once you have the extension on your browser , a green gitpod button will appear beside this repository in github. for best results fork the repository in your personal account before you open it in 
 
 Differences between the deployed version and the development version:
-- currently the image links are absolute so the deployed version will be referencing my github images only
+- none!
 
   
-
 
 ## Credits
 
