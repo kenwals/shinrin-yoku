@@ -46,13 +46,6 @@ h5 {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
   background-image: url("../images/phoenix-park-forest.jpg");
 
-  /*    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/Hero_PheonixPark10.jpg");  */
-
-  /* redundant CSS
-  margin-top: 10vh;
-  width: 100vw;*/
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -77,8 +70,6 @@ h5 {
 
 /*    about section                          */
 
-
-
 .mid-section {
   margin-top: 10px;
   margin-bottom: 15px;
@@ -102,8 +93,6 @@ h5 {
 }
 
 /*     contact us section                         */
-
-
 
 .contact-form {
   margin-top: 10vh;
@@ -138,7 +127,6 @@ h5 {
   justify-content: center;
 }
 
-
 .footer-list-item a {
   color: rgba(var(--whitesmoke), 1);
   text-align: center;
@@ -159,6 +147,5 @@ h5 {
 #contact{
     padding-top: 50px; /* purpose is to make a clean break between about page section and contact page section on small screens and above  */
 }
-
 
 }
