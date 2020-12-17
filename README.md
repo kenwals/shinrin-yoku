@@ -88,6 +88,7 @@ Root variable are used so colours can be updated quickly if revisions are needed
 
 ​				All other text uses the font:  **"Montserrat"**. 
 ​
+
 ---
 
 ## Features
@@ -205,7 +206,12 @@ You should also mention in this section any interesting bugs or problems you dis
 
 1. It was desirable to have the navbar menu button float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. I believe it's dependant on Javascript code, and Javascript is out of scope for this project.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
-3. 
+3.
+
+### Project barriers and solutions
+
+### Version control
+
 ---
 ## Deployment
 
