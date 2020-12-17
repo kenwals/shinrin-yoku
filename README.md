@@ -7,9 +7,9 @@ Forest bathing originated in Japan in the 1980s , where it's known as *Shinrin-Y
 
 This site will hopefully create a community of people who appreciate trees and nature , and maybe wish to learn more about protecting them in their local city. 
 
+---
 
 ## Table of contents
-
 1. [**UX**](#ux)
 
 2. [**Features**](#features)
@@ -22,7 +22,7 @@ This site will hopefully create a community of people who appreciate trees and n
 
 6. [**Credits**](#credits)
 
-
+---
 
 ## UX
 
@@ -87,7 +87,8 @@ Root variable are used so colours can be updated quickly if revisions are needed
 **Fonts** :  Header (h1 and h2) text elements use the font:  **"Shadows Into Light"**.
 
 ​				All other text uses the font:  **"Montserrat"**. 
-​     
+​
+---
 
 ## Features
 
@@ -121,7 +122,7 @@ The site is laid out on one page that has several sections .
 - Have the subscription form add the visitor to an email list.
 
   
-
+---
 ## Technologies Used
 
 - Languages : HTML , CSS and Bootstrap framework (Navbar uses Javascript).
@@ -149,7 +150,7 @@ The site is laid out on one page that has several sections .
 - Planning: MS Excel was used for filename changes planning and making the names lowercase.
 
   
-
+---
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -205,7 +206,7 @@ You should also mention in this section any interesting bugs or problems you dis
 1. It was desirable to have the navbar menu button float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. I believe it's dependant on Javascript code, and Javascript is out of scope for this project.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
 3. 
-
+---
 ## Deployment
 
 For easy deployment you will need a Github user account and a Gitpod user account. If you wish to make changes to this repository , please follow the Github steps first. 
@@ -226,7 +227,7 @@ Differences between the deployed version and the development version:
 - none!
 
   
-<a name="credits"></a>
+---
 ## Credits
 
 ### Content
