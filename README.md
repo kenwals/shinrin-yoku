@@ -212,6 +212,20 @@ You should also mention in this section any interesting bugs or problems you dis
 
 ### Version control
 
+### Functionality Testing
+
+### CSS3 validator 
+
+### HTML5 validator
+
+### Usability Testing
+
+### Compatibility Testing
+
+### Performance Testing
+
+### Testing User Stories
+
 ---
 ## Deployment
 
