@@ -284,4 +284,4 @@ Differences between the deployed version and the development version:
 
 - [Imbibe](https://imbibe.ie/) Coffee Roasters and [Barry's Tea](https://www.barrystea.ie/)
 
-  
+ ##### back to [contents](#table-of-contents)   
