@@ -89,6 +89,7 @@ Root variable are used so colours can be updated quickly if revisions are needed
 ​				All other text uses the font:  **"Montserrat"**. 
 ​
 ##### back to [contents](#table-of-contents)
+
 ---
 
 ## Features
@@ -122,7 +123,8 @@ The site is laid out on one page that has several sections .
 
 - Have the subscription form add the visitor to an email list.
 
- ##### back to [contents](#table-of-contents) 
+ ##### back to [contents](#table-of-contents)
+
 ---
 ## Technologies Used
 
@@ -151,6 +153,7 @@ The site is laid out on one page that has several sections .
 - Planning: MS Excel was used for filename changes planning and making the names lowercase.
 
 ##### back to [contents](#table-of-contents)  
+
 ---
 ## Testing
 
@@ -227,6 +230,7 @@ You should also mention in this section any interesting bugs or problems you dis
 ### Testing User Stories
 
 ##### back to [contents](#table-of-contents)
+
 ---
 ## Deployment
 
@@ -248,6 +252,7 @@ Differences between the deployed version and the development version:
 - none!
 
 ##### back to [contents](#table-of-contents)  
+
 ---
 ## Credits
 
