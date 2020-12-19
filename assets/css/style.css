@@ -129,6 +129,7 @@ h5 {
 .footer {
   background-color: rgba(var(--green-hg-dark), 1);
   height: 60px;
+  margin-top: 1rem;
 }
 
 #footer-list {
