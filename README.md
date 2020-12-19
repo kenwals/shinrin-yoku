@@ -112,20 +112,20 @@ The site is laid out on one page that has several sections .
 
 - Form validation on subscribe form , alert if name or email is empty. 
 
-- In each section a button will prompt / take the user to another section. 
+- In each section a call to action button will prompt / take the user to another section. 
   
 
 ### Features Left to Implement ( or out of scope)
 
 - In the footer section , the icons will incorporate some sort of hover animation
 
-- The navbar button will float on the top of the screen .
-
 - Improvements for visually impaired such as more descriptive tags and better contrasting colours (as per lighthouse report)
 
 - The images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree. 
 
 - Have the subscription form add the visitor to an email list.
+
+- The navbar button will float on the top of the screen .
 
  ##### back to [contents](#table-of-contents)
 
