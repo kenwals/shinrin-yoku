@@ -73,7 +73,6 @@ h5 {
 .hero-image-text {
   color: rgba(var(--white-text), 1);
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
-
   margin-top: 33vh;
   letter-spacing: 0.051em;
   background-color: rgba(var(--green-hg-dark), 0.5);
@@ -88,10 +87,10 @@ h5 {
   padding-bottom: 5px;
   padding-top: 15px;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   background-color: rgba(var(--green-mossy), 1);
   color: rgba(var(--white-text), 1);
-  text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.1);
+  text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.6);
 }
 
 .mid-section-text {
