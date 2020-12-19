@@ -22,24 +22,25 @@ body {
   color: #4e5c28;  /*Woodland */
 }
 
+h1, h2 , h3{
+      font-family: "Shadows Into Light", cursive;
+}
+
 h1 {
-  font-family: "Shadows Into Light", cursive;
   color: rgba(var(--green-hg-dark), 1);
   font-size: 1.9rem; /* needed as the title was too big for the small mobile screen width of 320px*/
 }
 
 h2 {
-  font-family: "Shadows Into Light", cursive;
   font-size: 1.8rem; /* for conistancy with the h1 reduction   */
 }
 
 h3{
-    font-family: "Shadows Into Light", cursive;
     font-size: 1.7rem; /* for conistancy with the h1 reduction   */
 }
 
 h5 {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .navbar{
