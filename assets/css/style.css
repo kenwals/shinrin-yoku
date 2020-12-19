@@ -78,7 +78,7 @@ h5 {
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
 
-/*  Buttons - from bootstrap  */
+/*  Navigation Buttons - from bootstrap  */
 
 .btn-success {
     background-color:  rgba(var(--green-hg-dark), 1);   /* bootstrap default colour over-riden by my own */
