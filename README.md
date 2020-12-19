@@ -140,7 +140,7 @@ The site is laid out on one page that has several sections .
 
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 
-- Browser Developer tools : [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts and images) and [Google Chrome](https://www.google.com/chrome).
+- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts and images).
 
 - KanBan planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1) . 
 
@@ -212,7 +212,7 @@ You should also mention in this section any interesting bugs or problems you dis
 4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
 4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the javascript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
 5. text shadow typo mistake
-6. images missing on github pages
+6. images missing on github pages even though they worked in gitpod environment. 
 7. unable to customize the ul for locations
 
 ### Known issues
