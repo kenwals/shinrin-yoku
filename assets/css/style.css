@@ -81,8 +81,8 @@ h5 {
 /*  Navigation Buttons - from bootstrap  */
 
 .btn-success {
-    background-color:  rgba(var(--green-hg-dark), 1);   /* bootstrap default colour over-riden by my own */
-    border-color:  rgba(var(--green-hg-dark), 1); /* bootstrap default colour over-riden by my own */
+    background-color:  rgba(var(--green-hg-dark), 0.9);   /* bootstrap default colour over-riden by my own */
+    border-color:  rgba(var(--green-hg-dark), 0.8); /* bootstrap default colour over-riden by my own */
 }
 
 .btn-group-sm>.btn, .btn-sm {
