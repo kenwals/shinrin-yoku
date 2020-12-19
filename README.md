@@ -78,6 +78,7 @@ Colours used are:
 - "Woodland" Green : Used for headings and text when on light background. This colour is used as background on footer and on the navigation buttons. 
 - "Green Mist": Used on the background of the body.
 - "Olivine" Green: Used on the background of the mid section between hero image and about section.
+- "Lemon Grass" colour: Used for hoover shadow on footer icons.
 
 As colours are configured using RBA properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
 
