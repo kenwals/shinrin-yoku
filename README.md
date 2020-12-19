@@ -150,7 +150,13 @@ The site is laid out on one page that has several sections .
 
 - Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/)
 
-- Planning: MS Excel was used for filename changes planning and making the names lowercase.
+- Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff)
+
+- Misc Planning: MS Excel was used for filename changes planning and making the names lowercase.
+
+- Pomodoro timer : [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj)
+
+- Overflow rescue tool : [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
 
 ##### back to [contents](#table-of-contents)  
 
@@ -259,7 +265,7 @@ Differences between the deployed version and the development version:
 ### Content
 
 - [Nature therapy ireland](https://www.instagram.com/naturetherapyireland) 
-- [Shinrin Yuko Finland]( https://www.shinrin-yoku.fi/home-en)
+- [Shinrin Yuko Finland](https://www.shinrin-yoku.fi/home-en)
 - [Forest Therapy Society, Japan](https://fo-society.jp/therapy/cn45/e_en.html)
 - [Dublin City Council Tree strategy](https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-08/Dublin_City_Tree_Strategy_2016-2020.pdf)
 
@@ -269,6 +275,7 @@ Differences between the deployed version and the development version:
 - [W3schools](https://www.w3schools.com/)
 - [css tricks](https://css-tricks.com/) 
 - [YouTube](https://www.youtube.com/)
+- [Stack Exchange](https://stackexchange.com/)
 
 ### Media
 
