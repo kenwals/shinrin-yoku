@@ -65,29 +65,31 @@ Section 3 - Contact page - Email subscribe form , contact information and links 
 
 **Colours**
 
-Various shades of green or natural colours, colours of site will be referenced to [image colours](https://photos.app.goo.gl/seXCA8SYe9CFaBF1A) by using a colour picker. 
+Various shades of green or natural colours are used. Point of referance for the colours of the site are taken from the hero image below by using a colour picker tool. 
 
-![Sample Colour palette](assets/images/canva_swatch.png)
+![Sample Colour palette](assets/readme-files/canva_swatch.png)
 
-Root variable are used so colours can be updated quickly if revisions are needed. Below are the current set of rgba colours which are very much like to change soon.
+Root variable are used so colours can be updated quickly if revisions are needed. 
 
-     --green-bg-light: 135, 170, 75; /* light green background colour */
-     --green-hg-dark: 80, 100, 45; /* Dark Green colour for heading */
-     --green-mossy: 125, 188, 143; /* mossy green colour */
-     --white-text : 255, 255, 255; /* white colour used for hero text and mid section*/
-     --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
-     --black-shadow : 17, 17, 17; /* black colour used for the hover shadow for icon links in footer section */
+Colours used are:
 
+"Woodland" Green : Used for headings and text when on light background. This colour is used as background on footer and on the naviagtion buttons. 
+"Green Mist": Used on the background of the body.
+"Olivine" Green:  Used on the background of the mid section between hero image and about section.
 
+As colours are configured using RBA properties , they can be tweaked with opactity values to give more variety to the palette and keeping the uniformity. 
 
 **Icons** used are from fontawesome.com .
 
 **Images** used are one I took myself. 
 
-**Fonts** :  Header (h1 and h2) text elements use the font:  **"Shadows Into Light"**.
+**Fonts** :  Header (h1,h2 and h3) text elements use the font:  **"Shadows Into Light"**.
 
 ​				All other text uses the font:  **"Montserrat"**. 
-​
+
+
+![Sample of fonts selected](assets/readme-files/google-font-sample.png)
+
 ##### back to [contents](#table-of-contents)
 
 ---
