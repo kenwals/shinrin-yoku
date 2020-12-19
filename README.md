@@ -10,6 +10,8 @@ This site will hopefully create a community of people who appreciate trees and n
 ---
 
 ## Table of contents
+
+
 1. [**UX**](#ux)
 
 2. [**Features**](#features)
@@ -41,9 +43,9 @@ This is a fictional meetup group , so this is no limitations on the content . Th
 
 ### Structure
 
-Site will be put together using HTML, the Bootstrap framework and CSS.
+Site is put together using HTML, the Bootstrap framework and CSS.
 
-Site will be one page with minimum of three sections , suitable for visits from mobile phones.
+Site is one page with minimum of three sections , suitable for visits from mobile phones. Navigation between sections can be done via the navbar or by call to action buttons .
 
 ### Skeleton
 
