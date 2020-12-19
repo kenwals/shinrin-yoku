@@ -6,19 +6,21 @@
 */
 
 :root {
-  --green-bg-light: 135, 170, 75; /* light green background colour */
-  --green-hg-dark: 80, 100, 45; /* Dark Green colour for heading */
-  --green-mossy: 125, 188, 143; /* mossy green colour */
+  --green-bg-light: 201, 211, 170; /* green mist 135, 170, 75; /* light green background colour */
+  --green-hg-dark: 78, 92, 40;              /*80, 100, 45; /* Dark Green colour for heading */
+  --green-mossy:  157, 183, 105;/*  olivine 125, 188, 143; /* mossy green colour */
   --white-text : 255, 255, 255; /* white colour used for hero text and mid section*/
   --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
   --black-shadow : 17, 17, 17; /* black colour used for the hover shadow for icon links in footer section */
 }
 
 body {
-  background-color: rgba(var(--green-bg-light), 0.1);
+  background-color: rgba(var(--green-bg-light), 0.5); */
+  /* background-color: #c9d3aa; /*Green mist*/
   font-family: "Montserrat", sans-serif;
-  color: rgba(var(--green-hg-dark), 1);
-  font-size: 14px; 
+  /*color: rgba(var(--green-hg-dark), 1); */
+  color: #4e5c28 ;  /*Woodland */
+  /*font-size: 14px; */
 }
 
 h1 {
