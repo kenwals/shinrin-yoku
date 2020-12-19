@@ -10,6 +10,8 @@ This site will hopefully create a community of people who appreciate trees and n
 ---
 
 ## Table of contents
+
+
 1. [**UX**](#ux)
 
 2. [**Features**](#features)
@@ -41,9 +43,9 @@ This is a fictional meetup group , so this is no limitations on the content . Th
 
 ### Structure
 
-Site will be put together using HTML, the Bootstrap framework and CSS.
+Site is put together using HTML, the Bootstrap framework and CSS.
 
-Site will be one page with minimum of three sections , suitable for visits from mobile phones.
+Site is one page with minimum of three sections , suitable for visits from mobile phones. Navigation between sections can be done via the navbar or by call to action buttons .
 
 ### Skeleton
 
@@ -65,29 +67,31 @@ Section 3 - Contact page - Email subscribe form , contact information and links 
 
 **Colours**
 
-Various shades of green or natural colours, colours of site will be referenced to [image colours](https://photos.app.goo.gl/seXCA8SYe9CFaBF1A) by using a colour picker. 
+Various shades of green or natural colours are used. Point of referance for the colours of the site are taken from the hero image below by using a colour palette tool. 
 
-![Sample Colour palette](assets/images/canva_swatch.png)
+![Sample Colour palette](assets/readme-files/canva_swatch.png)
 
-Root variable are used so colours can be updated quickly if revisions are needed. Below are the current set of rgba colours which are very much like to change soon.
+Root variable are used so colours can be updated quickly if revisions are needed. 
 
-     --green-bg-light: 135, 170, 75; /* light green background colour */
-     --green-hg-dark: 80, 100, 45; /* Dark Green colour for heading */
-     --green-mossy: 125, 188, 143; /* mossy green colour */
-     --white-text : 255, 255, 255; /* white colour used for hero text and mid section*/
-     --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
-     --black-shadow : 17, 17, 17; /* black colour used for the hover shadow for icon links in footer section */
+Colours used are:
 
+- "Woodland" Green : Used for headings and text when on light background. This colour is used as background on footer and on the navigation buttons. 
+- "Green Mist": Used on the background of the body.
+- "Olivine" Green: Used on the background of the mid section between hero image and about section.
 
+As colours are configured using RBA properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
 
 **Icons** used are from fontawesome.com .
 
 **Images** used are one I took myself. 
 
-**Fonts** :  Header (h1 and h2) text elements use the font:  **"Shadows Into Light"**.
+**Fonts** :  Header (h1,h2 and h3) text elements use the font:  **"Shadows Into Light"**.
 
 ​				All other text uses the font:  **"Montserrat"**. 
-​
+
+
+![Sample of fonts selected](assets/readme-files/google-font-sample.png)
+
 ##### back to [contents](#table-of-contents)
 
 ---
@@ -108,20 +112,20 @@ The site is laid out on one page that has several sections .
 
 - Form validation on subscribe form , alert if name or email is empty. 
 
-- In each section a button will prompt / take the user to another section. 
+- In each section a call to action button will prompt / take the user to another section. 
   
 
 ### Features Left to Implement ( or out of scope)
 
 - In the footer section , the icons will incorporate some sort of hover animation
 
-- The navbar button will float on the top of the screen .
-
 - Improvements for visually impaired such as more descriptive tags and better contrasting colours (as per lighthouse report)
 
 - The images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree. 
 
 - Have the subscription form add the visitor to an email list.
+
+- The navbar button will float on the top of the screen .
 
  ##### back to [contents](#table-of-contents)
 
@@ -136,7 +140,7 @@ The site is laid out on one page that has several sections .
 
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 
-- Browser Developer tools : [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts and images) and [Google Chrome](https://www.google.com/chrome).
+- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts and images).
 
 - KanBan planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1) . 
 
@@ -150,7 +154,13 @@ The site is laid out on one page that has several sections .
 
 - Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/)
 
-- Planning: MS Excel was used for filename changes planning and making the names lowercase.
+- Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff)
+
+- Misc Planning: MS Excel was used for filename changes planning and making the names lowercase.
+
+- Pomodoro timer : [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj)
+
+- Overflow rescue tool : [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
 
 ##### back to [contents](#table-of-contents)  
 
@@ -202,7 +212,7 @@ You should also mention in this section any interesting bugs or problems you dis
 4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
 4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the javascript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
 5. text shadow typo mistake
-6. images missing on github pages
+6. images missing on github pages even though they worked in gitpod environment. 
 7. unable to customize the ul for locations
 
 ### Known issues
@@ -259,7 +269,7 @@ Differences between the deployed version and the development version:
 ### Content
 
 - [Nature therapy ireland](https://www.instagram.com/naturetherapyireland) 
-- [Shinrin Yuko Finland]( https://www.shinrin-yoku.fi/home-en)
+- [Shinrin Yuko Finland](https://www.shinrin-yoku.fi/home-en)
 - [Forest Therapy Society, Japan](https://fo-society.jp/therapy/cn45/e_en.html)
 - [Dublin City Council Tree strategy](https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-08/Dublin_City_Tree_Strategy_2016-2020.pdf)
 
@@ -267,8 +277,9 @@ Differences between the deployed version and the development version:
 
 - [Bootstrap components](https://getbootstrap.com/)
 - [W3schools](https://www.w3schools.com/)
-- [css tricks](https://css-tricks.com/) 
+- [CSS tricks](https://css-tricks.com/) 
 - [YouTube](https://www.youtube.com/)
+- [Stack Exchange](https://stackexchange.com/)
 
 ### Media
 
