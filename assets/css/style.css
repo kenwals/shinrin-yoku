@@ -54,7 +54,6 @@ h5 {
     margin-bottom: 5px;
 }
 
-
 /*   home page section                           */
 
 .hero-image {
@@ -88,8 +87,6 @@ h5 {
 .btn-group-sm>.btn, .btn-sm {
     font-size: 1rem;  /* bootstrap default font-size over-riden by my own */
 }
-
-
 
 /*    about section                          */
 
