@@ -40,6 +40,11 @@ h5 {
    /* background-color: grey;*/
 }
 
+.nav-button {
+    margin-bottom: 5px;
+}
+
+
 /*   home page section                           */
 
 .hero-image {
@@ -64,9 +69,6 @@ h5 {
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
 
-.nav-button {
-    margin-bottom: 5px;
-}
 
 /*    about section                          */
 
