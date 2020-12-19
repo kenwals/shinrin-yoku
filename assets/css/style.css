@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 :root {
   --green-bg-light: 135, 170, 75; /* light green background colour */
   --green-hg-dark: 80, 100, 45; /* Dark Green colour for heading */
@@ -80,7 +87,8 @@ h5 {
   margin-bottom: 15px;
   padding-bottom: 5px;
   padding-top: 15px;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background-color: rgba(var(--green-mossy), 1);
   color: rgba(var(--white-text), 1);
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.1);
@@ -124,12 +132,19 @@ h5 {
 #footer-list {
   /*    unordered list in the footer section                    */
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 0;
   padding-top: 20px;
   overflow: hidden;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-list-item a {
@@ -148,5 +163,4 @@ h5 {
   h1 {
     font-size: 2.5rem; /* default h1 size */
   }
-
 }
