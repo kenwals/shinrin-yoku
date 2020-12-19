@@ -8,10 +8,10 @@
 :root {
   --green-bg-light: 201, 211, 170; /* green mist #c9d3aa - light green background colour */
   --green-hg-dark: 78, 92, 40;    /* Woodland #4e5c28 - Dark Green colour for heading elements , buttons and footer background*/
-  --green-mossy:  157, 183, 105;  /* Olivine - mossy green colour used for background on mid section */
-  --lemon-grass : 157, 161, 154; /*  Lemon Grass #9da19a - colour used for the hover shadow for icon links in footer section */
-  --white-text : 255, 255, 255; /* white colour used for text in hero and mid section*/
-  --whitesmoke : 245, 245, 245; /* off white colour used in the footer for the social media icons */
+  --green-mossy: 157, 183, 105;  /* Olivine - mossy green colour used for background on mid section */
+  --lemon-grass: 157, 161, 154; /*  Lemon Grass #9da19a - colour used for the hover shadow for icon links in footer section */
+  --white-text: 255, 255, 255; /* white colour used for text in hero and mid section*/
+  --whitesmoke: 245, 245, 245; /* off white colour used in the footer for the social media icons */
 }
 
 body {
