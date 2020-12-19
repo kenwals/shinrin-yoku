@@ -65,7 +65,7 @@ Section 3 - Contact page - Email subscribe form , contact information and links 
 
 **Colours**
 
-Various shades of green or natural colours are used. Point of referance for the colours of the site are taken from the hero image below by using a colour picker tool. 
+Various shades of green or natural colours are used. Point of referance for the colours of the site are taken from the hero image below by using a colour palette tool. 
 
 ![Sample Colour palette](assets/readme-files/canva_swatch.png)
 
@@ -73,11 +73,11 @@ Root variable are used so colours can be updated quickly if revisions are needed
 
 Colours used are:
 
-"Woodland" Green : Used for headings and text when on light background. This colour is used as background on footer and on the naviagtion buttons. 
-"Green Mist": Used on the background of the body.
-"Olivine" Green:  Used on the background of the mid section between hero image and about section.
+- "Woodland" Green : Used for headings and text when on light background. This colour is used as background on footer and on the navigation buttons. 
+- "Green Mist": Used on the background of the body.
+- "Olivine" Green: Used on the background of the mid section between hero image and about section.
 
-As colours are configured using RBA properties , they can be tweaked with opactity values to give more variety to the palette and keeping the uniformity. 
+As colours are configured using RBA properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
 
 **Icons** used are from fontawesome.com .
 
