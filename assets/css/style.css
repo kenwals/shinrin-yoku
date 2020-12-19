@@ -97,7 +97,7 @@ h5 {
   padding-top: 15px;
   -ms-flex-line-pack: center;
   align-content: center;
-  background-color: rgba(var(--green-mossy), 1);
+  background-color: rgba(var(--green-mossy), 0.8);
   color: rgba(var(--white-text), 1);
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.6);
 }
