@@ -273,7 +273,7 @@ Differences between the deployed version and the development version:
 
 - [Bootstrap components](https://getbootstrap.com/)
 - [W3schools](https://www.w3schools.com/)
-- [css tricks](https://css-tricks.com/) 
+- [CSS tricks](https://css-tricks.com/) 
 - [YouTube](https://www.youtube.com/)
 - [Stack Exchange](https://stackexchange.com/)
 
