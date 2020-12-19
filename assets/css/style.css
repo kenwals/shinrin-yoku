@@ -15,19 +15,17 @@
 }
 
 body {
-  background-color: rgba(var(--green-bg-light), 0.5); 
-  /* background-color: #c9d3aa; /*Green mist*/
+  background-color: rgba(var(--green-bg-light), 0.4); /* background-color: #c9d3aa; /*Green mist*/
   font-family: "Montserrat", sans-serif;
-  /*color: rgba(var(--green-hg-dark), 1); */
-  color: #4e5c28;  /*Woodland */
+  color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28;  /*Woodland */
 }
 
 h1, h2 , h3{
-      font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light", cursive;
 }
 
 h1 {
-  color: rgba(var(--green-hg-dark), 1);
+  color: rgba(var(--green-hg-dark), 1); /* although this looks like duplicate css code , this element wasn't inheriting from the body text colour property , so it's necessary for this to be here. */
   font-size: 1.9rem; /* needed as the title was too big for the small mobile screen width of 320px*/
 }
 
@@ -35,7 +33,7 @@ h2 {
   font-size: 1.8rem; /* for conistancy with the h1 reduction   */
 }
 
-h3{
+h3 {
     font-size: 1.7rem; /* for conistancy with the h1 reduction   */
 }
 
@@ -44,12 +42,12 @@ h5 {
 }
 
 .navbar{
-    padding-left: 0; /*  make space for title */
-    padding-right: 0; /* make space for title */
+    padding-left: 0; /*  make space for title on small screens */
+    padding-right: 0; /* make space for title on small screens */
 }
 
 .navbar-nav{
-    text-align: center;
+    text-align: center; /* this puts the list of items in the navbar menu in centre screen*/
 }
 
 .nav-button {
@@ -128,7 +126,7 @@ h5 {
 
 .footer {
   background-color: rgba(var(--green-hg-dark), 1);
-  height: 60px;
+  height: 4rem;
   margin-top: 1rem;
 }
 
