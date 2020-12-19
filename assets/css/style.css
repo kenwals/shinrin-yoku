@@ -78,7 +78,6 @@ h5 {
   background-color: rgba(var(--green-hg-dark), 0.5);
 }
 
-
 /*    about section                          */
 
 .mid-section {
@@ -118,7 +117,6 @@ h5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* height: 33vh; */
 }
 
 /*    footer section                       */
