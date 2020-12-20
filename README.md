@@ -114,13 +114,13 @@ The site is laid out on one page that has several sections .
 - Form validation on subscribe form , alert if name or email is empty. 
 
 - In each section a call to action button will prompt / take the user to another section. 
-  
-
-### Features Left to Implement ( or out of scope)
 
 - In the footer section , the icons will incorporate some sort of hover animation
 
 - Improvements for visually impaired such as more descriptive tags and better contrasting colours (as per lighthouse report)
+  
+
+### Features Left to Implement ( or out of scope)
 
 - The images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree. 
 
@@ -162,6 +162,10 @@ The site is laid out on one page that has several sections .
 - Pomodoro timer : [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj)
 
 - Overflow rescue tool : [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
+
+- HEX to RGB converter : [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
+
+- Colour contrast checking for Accessibility refinements : [WebAIM](https://webaim.org/resources/contrastchecker/)
 
 ##### back to [contents](#table-of-contents)  
 
