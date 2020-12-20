@@ -244,6 +244,13 @@ You should also mention in this section any interesting bugs or problems you dis
 
 ### Testing User Stories
 
+1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
+2. As a visitor to the site, I want to register my details , so I can be added to an email list to receive updates.
+3. As a visitor to the site, I want to view nice pictures of nature.
+4. As a visitor to the site, I want to read about locations of future forest bathing events.
+5. As the site owner , I want to promote my service and have participants for meetups.
+6. As the site owner , I want to promote the benefits of Trees and nature in our environment. 
+
 ##### back to [contents](#table-of-contents)
 
 ---
