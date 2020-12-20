@@ -86,8 +86,8 @@ h5 {
 /*    about section                          */
 
 .mid-section {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-bottom: 5px;
   padding-top: 15px;
   -ms-flex-line-pack: center;
@@ -100,6 +100,11 @@ h5 {
 .mid-section-text {
   padding-left: 5px;
   margin-left: 2vw;
+}
+
+.about-section{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*    cards gallery                          */
