@@ -51,6 +51,10 @@ h5 {
     text-align: center; /* this puts the list of items in the navbar menu in centre screen*/
 }
 
+.nav-link{
+     color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */
+}
+
 .nav-button {
     margin-bottom: 5px;
 }
@@ -81,12 +85,13 @@ h5 {
 /*  Navigation Buttons - from bootstrap  */
 
 .btn-success {
-    background-color:  rgba(var(--green-bg-light), 0.9);   /* bootstrap default colour over-riden by my own */
+    background-color:  rgba(var(--lemon-grass), 1);   /* bootstrap default colour over-riden by my own */
     border-color:  rgba(var(--green-hg-dark), 0.8); /* bootstrap default colour over-riden by my own */
-}
+}  
 
 .btn-group-sm>.btn, .btn-sm {
     font-size: 1rem;  /* bootstrap default font-size over-riden by my own */
+    font-weight: 700;
 }
 
 /*    about section                          */
