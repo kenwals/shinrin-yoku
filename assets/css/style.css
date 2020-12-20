@@ -17,6 +17,7 @@
 body {
   background-color: rgba(var(--green-bg-light), 0.4);   /* green mist #c9d3aa - light green background colour */
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */
 }
 
@@ -74,7 +75,7 @@ h5 {
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
   margin-top: 33vh;
   letter-spacing: 0.051em;
-  background-color: rgba(var(--green-hg-dark), 0.5);
+  background-color: rgba(var(--green-hg-dark), 0.8);
 }
 
 /*  Navigation Buttons - from bootstrap  */
