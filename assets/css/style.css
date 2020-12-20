@@ -17,7 +17,6 @@
 body {
   background-color: rgba(var(--green-bg-light), 0.4);   /* green mist #c9d3aa - light green background colour */
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
   color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */
 }
 
