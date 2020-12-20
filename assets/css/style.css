@@ -76,6 +76,7 @@ h5 {
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
   font-weight: 500;
   margin-top: 33vh;
+  padding-left: 0.5rem;
   letter-spacing: 0.051em;
   background-color: rgba(var(--green-hg-dark), 0.8);
 }
@@ -129,8 +130,7 @@ h5 {
 /*    footer section                       */
 
 .footer {
-  background-color: rgba(var(--green-hg-dark), 1);
-  height: 4rem;
+  background-color: rgba(var(--green-hg-dark), 1);python
   margin-top: 1rem;
 }
 
