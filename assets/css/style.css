@@ -63,13 +63,11 @@ h5 {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
   background-image: url("../images/phoenix-park-forest.jpg");
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
   /* taken from  https://www.w3schools.com/howto/howto_css_hero_image.asp */
 }
 
@@ -81,7 +79,6 @@ h5 {
   letter-spacing: 0.051em;
   background-color: rgba(var(--green-hg-dark), 0.8);
 }
-
 
 /*    about section                          */
 
