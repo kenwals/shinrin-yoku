@@ -82,12 +82,7 @@ h5 {
   background-color: rgba(var(--green-hg-dark), 0.8);
 }
 
-/*  Navigation Buttons - from bootstrap  */
-
-.btn-success {
-    background-color:  rgba(var(--lemon-grass), 1);   /* bootstrap default colour over-riden by my own */
-    border-color:  rgba(var(--green-hg-dark), 0.8); /* bootstrap default colour over-riden by my own */
-}  
+/*  Navigation Buttons - from bootstrap  */ 
 
 .btn-group-sm>.btn, .btn-sm {
     font-size: 1rem;  /* bootstrap default font-size over-riden by my own */
