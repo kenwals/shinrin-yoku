@@ -290,7 +290,7 @@ Differences between the deployed version and the development version:
 
 - [Bootstrap components](https://getbootstrap.com/)
 - [W3schools](https://www.w3schools.com/)
-- [Code institute Slack channels](code-institute-room.slack.com)
+- [Code institute's Slack workspace channels](https://slack.com)
 - [CSS tricks](https://css-tricks.com/) 
 - [YouTube](https://www.youtube.com/)
 - [Stack Exchange](https://stackexchange.com/)
