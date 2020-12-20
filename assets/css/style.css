@@ -76,17 +76,12 @@ h5 {
 .hero-image-text {
   color: rgba(var(--white-text), 1);
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
+  font-weight: 500;
   margin-top: 33vh;
   letter-spacing: 0.051em;
   background-color: rgba(var(--green-hg-dark), 0.8);
 }
 
-/*  Navigation Buttons - from bootstrap  */ 
-/*
-.btn-group-sm>.btn, .btn-sm {
-    font-size: 1rem;  /* bootstrap default font-size over-riden by my own */
-    font-weight: 700;
-} */
 
 /*    about section                          */
 
