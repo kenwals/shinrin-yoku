@@ -81,7 +81,7 @@ h5 {
 /*  Navigation Buttons - from bootstrap  */
 
 .btn-success {
-    background-color:  rgba(var(--green-hg-dark), 0.9);   /* bootstrap default colour over-riden by my own */
+    background-color:  rgba(var(--green-bg-light), 0.9);   /* bootstrap default colour over-riden by my own */
     border-color:  rgba(var(--green-hg-dark), 0.8); /* bootstrap default colour over-riden by my own */
 }
 
@@ -98,9 +98,9 @@ h5 {
   padding-top: 15px;
   -ms-flex-line-pack: center;
   align-content: center;
-  background-color: rgba(var(--green-mossy), 0.8);
+  background-color: rgba(var(--green-hg-dark), 0.8);
   color: rgba(var(--white-text), 1);
-  text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.6);
+  text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.8);
 }
 
 .mid-section-text {
