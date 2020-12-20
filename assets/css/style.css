@@ -159,7 +159,7 @@ h5 {
   text-decoration: none;
 }
 
-/* Pulse Grow  taken from hover css https://ianlunn.github.io/Hover/#effects*/
+/* Pulse Grow  taken from hover css https://ianlunn.github.io/Hover/#effects    */
 @-webkit-keyframes hvr-pulse-grow {
   to {
     -webkit-transform: scale(1.1);
