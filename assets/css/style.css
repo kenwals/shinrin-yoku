@@ -57,7 +57,17 @@ h5 {
 }
 
 .nav-button {
-    margin-bottom: 5px;
+    margin-bottom: .25rem;
+}
+
+.btn-success{
+    font-weight: 700;
+    font-size: 1.17rem;
+}
+
+.btn-outline-success{
+    font-weight: 700;
+    font-size: 1.17rem;
 }
 
 /*   home page section                           */
