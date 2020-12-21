@@ -295,6 +295,7 @@ Differences between the deployed version and the development version:
 - [YouTube](https://www.youtube.com/)
 - [Stack Exchange](https://stackexchange.com/)
 - [Hover.css](https://ianlunn.github.io/Hover/#effects)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 ### Media
 
