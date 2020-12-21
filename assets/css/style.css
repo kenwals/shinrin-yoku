@@ -52,6 +52,9 @@ h5 {
 
 .nav-link{
      color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */
+    font-weight: 900;
+    font-size: 1rem;
+}
 }
 
 .nav-button {
