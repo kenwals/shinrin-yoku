@@ -264,6 +264,15 @@ I shared the project on the peer review channel and also with firends. No Usabil
 
 ### Compatibility Testing
 
+| Screen size\Browser                          | Chrome | Firefox | Edge |
+| -------------------------------------------- | ------ | ------- | ---- |
+| Android Mobile phone (Screen width 360px) xs |        |         |      |
+| Android Mobile phone (Screen width 412px) xs |        |         |      |
+| Android Tablet (Screen width 600px) sm       |        |         |      |
+| Smart TV (Screen width 1920px) lg            |        |         |      |
+| Windows laptop (Screen width 2560px)         |   pass |  pass |  pass    |
+
+
 ### Performance Testing
 
 ### Testing User Stories
