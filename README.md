@@ -3,9 +3,9 @@
 
 This is a promotional website for a forest bathing meetup group , one of it's strategies is promote the importance of trees and nature. 
 
-Forest bathing originated in Japan in the 1980s , where it's known as *Shinrin-Yoku*. It's the practice of walking in any natural environment and consciously connecting with what’s around you
+Forest bathing originated in Japan in the 1980s , where it's known as *Shinrin-Yoku*. It's the practice of walking in any natural environment and consciously connecting with what’s around you.
 
-This site will hopefully create a community of people who appreciate trees and nature , and maybe wish to learn more about protecting them in their local city. 
+This site will hopefully create a community of people who appreciate trees and nature, and maybe wish to learn more about protecting them in their local city. 
 
 ---
 
@@ -30,7 +30,7 @@ This site will hopefully create a community of people who appreciate trees and n
 
 ### Scope
 
-This is a fictional meetup group , so this is no limitations on the content . The site will be made to an MVP first , and if there is additional time, content/features will can be added.
+This is a fictional meetup group, so there is no limitations on the content . The site will be made to an MVP first, and if there is additional time, content/features will can be added.
 
 **User stories**
 
@@ -67,7 +67,7 @@ Section 3 - Contact page - Email subscribe form , contact information and links 
 
 **Colours**
 
-Various shades of green or natural colours are used. Point of referance for the colours of the site are taken from the hero image below by using a colour palette tool. 
+As the site theme is connecting with nature , the colours too are connected to nature. Various shades of green or natural colours are used. Point of referance for the colours of the site are taken from the images using a colour palette tool. 
 
 ![Sample Colour palette](assets/readme-files/canva_swatch.png)
 
