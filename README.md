@@ -71,16 +71,20 @@ As the site theme is connecting with nature , the colours too are connected to n
 
 ![Sample Colour palette](assets/readme-files/canva_swatch.png)
 
-Root variable are used so colours can be updated quickly if revisions are needed. 
+Root variables are used so colours can be updated quickly if revisions are needed. 
 
 Colours used are:
 
 - "Woodland" Green : Used for headings and text when on light background. This colour is used as background on footer and on the navigation buttons. 
 - "Green Mist": Used on the background of the body.
-- "Olivine" Green: Used on the background of the mid section between hero image and about section.
+- "Olivine" Green:
+- "Nador" Green :  Used on the background of the mid section between hero image and about section.
 - "Lemon Grass" colour: Used for hoover shadow on footer icons.
+- White : used for text.
+- Whitesmoke : used for the footer icons.
 
-As colours are configured using RBA properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
+
+As colours are configured using rbga properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
 
 **Icons** used are from fontawesome.com .
 
