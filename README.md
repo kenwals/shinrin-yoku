@@ -262,6 +262,8 @@ Initially I did get errors ,  x y z  .  No errors to report now.
 
 I shared the project on the peer review channel and also with firends. No Usability issues were raised with me.
 
+Lighthouse Accessibility validation gave me interesting insights on issues that would impact visually imparied visitors to the sight, as a result i made efforts to improve access for this audience. 
+
 ### Compatibility Testing
 
 | Screen size\Browser                          | Chrome | Firefox | Edge |
@@ -274,6 +276,9 @@ I shared the project on the peer review channel and also with firends. No Usabil
 
 
 ### Performance Testing
+
+
+Lighthouse Performance report highlighted issues for me in regard to images  xyz , so i xyz
 
 ### Testing User Stories
 
