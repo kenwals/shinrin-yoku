@@ -308,8 +308,6 @@ The site can deployed easily on a gitpod online workspace, you first register a 
 
 Once you have the extension on your browser , a green gitpod button will appear beside this repository in github. for best results fork the repository in your personal account before you open it in 
 
-Differences between the deployed version and the development version:
-- none!
 
 ##### back to [contents](#table-of-contents)  
 
