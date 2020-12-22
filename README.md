@@ -226,21 +226,41 @@ You should also mention in this section any interesting bugs or problems you dis
 
 ### Known issues
 
-1. It was desirable to have the navbar menu button float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. I believe it's dependant on Javascript code, and Javascript is out of scope for this project.
+1
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
 3.
 
 ### Project barriers and solutions
 
+The navbar 
+
+It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. I believe it's dependant on Javascript code, and Javascript is out of scope for this phase of the project. But I will review this again in future and hope to impove the UX for navigation.
+
 ### Version control
+
+For Verions control i used the UI on gitpod for making commits. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
 
 ### Functionality Testing
 
+Devices manually tested browser for the following devices on:  
+
+- Android Mobile phone (Screen width 360px) 
+- Android Mobile phone (Screen width 412px)
+- Android Tablet (Screen width 600px) sm
+- Smart TV (Screen width 1920px) lg
+- Windows laptop (Screen width 2560px) 
+
 ### CSS3 validator 
+
+Initially I did get errors ,  x y z  .  a Problem with jigsaw is that it does not recognise root variables and rgba combinations. 
 
 ### HTML5 validator
 
+Initially I did get errors ,  x y z  .  No errors to report now.
+
 ### Usability Testing
+
+I shared the project on the peer review channel and also with firends. No Usability issues were raised with me.
 
 ### Compatibility Testing
 
