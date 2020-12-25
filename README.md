@@ -246,11 +246,11 @@ For Verions control i used the UI on gitpod for making commits. I used branches 
 
 Devices manually tested browser for the following devices on:  
 
-- Android Mobile phone (Screen width 360px) 
-- Android Mobile phone (Screen width 412px)
-- Android Tablet (Screen width 600px) sm
-- Smart TV (Screen width 1920px) lg
-- Windows laptop (Screen width 2560px) 
+- Android Mobile phone  (Screen width 360px) 
+- Android Mobile phone  (Screen width 412px)
+- Android Tablet        (Screen width 600px) sm
+- Smart TV              (Screen width 1920px) lg
+- Windows laptop        (Screen width 2560px)  
 
 ### CSS3 validator 
 
