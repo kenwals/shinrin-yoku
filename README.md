@@ -94,6 +94,8 @@ As colours are configured using rbga properties , these can be tweaked with opac
 
 ​				All other text uses the font:  **"Montserrat"**. 
 
+On slow connections , another font might be swapped in and visible while the site is loading.
+
 
 ![Sample of fonts selected](assets/readme-files/google-font-sample.png)
 
