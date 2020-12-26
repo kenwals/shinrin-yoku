@@ -44,6 +44,7 @@ h5 {
 .navbar{
     padding-left: 0; /*  make space for title on small screens */
     padding-right: 0; /* make space for title on small screens */
+     background-color: rgba(var(--green-bg-light), 0.4);
 }
 
 .navbar-nav{
