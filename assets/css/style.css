@@ -82,6 +82,7 @@ h5 {
   background-size: cover;
   position: relative;
   /* taken from  https://www.w3schools.com/howto/howto_css_hero_image.asp */
+  margin-top: 82px;
 }
 
 .hero-image-text {
