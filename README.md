@@ -230,7 +230,15 @@ For Verions control i used the UI on gitpod for making commits. I used branches 
 
 ### Functionality Testing
 
-check if something worked it did
+Navbar : all the links work, this section is reponsive to screen size, menu collapses after item is selected.
+
+Hero image and text: clearly visible
+
+about section: 
+
+Contact form :
+
+Footer section :
 
 Devices manually tested browser for the following devices on:  
 
@@ -246,11 +254,11 @@ Initially I did get errors ,  x y z  .  a Problem with jigsaw is that it does no
 
 ### HTML5 validator
 
-Initially I did get errors ,  x y z  .  No errors to report now.
+Initially I did typos and invalid synthax , all issues resolved .  No errors to report now.
 
 ### Usability Testing
 
-I shared the project on the peer review channel and also with firends. No Usability issues were raised with me.
+I shared the project on the peer review channel and also with frends/family. No major usability issues were raised.
 
 Lighthouse Accessibility validation gave me interesting insights on issues that would impact visually imparied visitors to the sight, as a result i made efforts to improve access for this audience. 
 
@@ -273,11 +281,28 @@ Lighthouse Performance report highlighted issues for me in regard to images  xyz
 ### Testing User Stories
 
 1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
+
+There is bit size pieces of information spread around the home page section and the about page section.
+
 2. As a visitor to the site, I want to register my details , so I can be added to an email list to receive updates.
+
+This can be achieved on the contact page section .
+
 3. As a visitor to the site, I want to view nice pictures of nature.
+
+Various pictures are used on each section of the site.
+
 4. As a visitor to the site, I want to read about locations of future forest bathing events.
+
+A list of locations is available on the secord card in the about page section.
+
 5. As the site owner , I want to promote my service and have participants for meetups.
+
+The site is structured to load up fast to avoid bounce from visitors , it also prompts the user to sign up their contact details if they wish the hear more. 
+
 6. As the site owner , I want to promote the benefits of Trees and nature in our environment. 
+
+Various facts about trees and nature are displayed in the about page section. 
 
 ##### back to [contents](#table-of-contents)
 
