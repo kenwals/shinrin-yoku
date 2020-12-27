@@ -323,6 +323,28 @@ The site can edited easily on a gitpod online workspace, you first register a fr
 
 Once you have the extension on your browser , a green gitpod button will appear beside this repository in github. for best results fork the repository in your personal account before you open it in Gitpod.
 
+**Github Pages**
+
+Once you have the completed site in your own repository, you can deploy to Github pages by the following steps.
+
+1. On Github, go to the completed sites repository.
+2. Click on settings, on the settings page scroll down the the Github Pages section. .
+3. Under Github pages Select the appropriate branch or folder the index.html is in. 
+4. Click on save . A message should then appear advising the URL of your deployed site.
+
+**Cloning**
+
+If you prefer working on the repository locally, You can clone the repository to your desktop by the following steps.
+
+1. Go to [the Shinrin-Yuko github page](https://github.com/kenwals/shinrin-yoku) .
+2. above the list of files , click on the code button.
+3. - To clone the repository using HTTPS, under "Clone with HTTPS", click the paste icon. 
+   - To clone the repository using an SSH key, click Use SSH, then click the paste icon . 
+   - To clone a repository using GitHub CLI, click Use GitHub CLI, then click the paste icon.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+5. Type 'git clone' , then paste the URL you copied earlier above. 
+6. Press Enter to create your local clone.
 
 
 
