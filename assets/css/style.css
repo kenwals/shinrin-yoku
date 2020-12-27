@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: rgba(var(--green-bg-light), 0.4);   /* green mist #c9d3aa - light green background colour */
+  background-color: rgba(var(--green-bg-light), 0.4);   /* green mist #c9d3aa - light green background colour */                                                                                                           /* Colour*/
   font-family: "Montserrat", sans-serif;
   color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */
 }
@@ -25,7 +25,7 @@ h1, h2 , h3{
 }
 
 h1 {
-  color: rgba(var(--green-hg-dark), 1); /* although this looks like duplicate css code , this element wasn't inheriting from the body text colour property , so it's necessary for this to be here. */
+  color: rgba(var(--green-hg-dark), 1); /* although this looks like duplicate css code , this element wasn't inheriting from the body text colour property , so it's necessary for this to be here. */                  /* Colour*/
   font-size: 1.9rem; /* needed as the title was too big for the small mobile screen width of 320px*/
 }
 
@@ -42,11 +42,11 @@ h5 {
 }
 
 .navbar{
-    background-color: rgba(var(--green-bg-light), 0.9);
-}
+    background-color: rgba(var(--green-bg-light), 0.9);                                                                                                                                                                     /* Colour*/
+} 
 
 .nav-link{
-    color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */
+    color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */                                                                                                                                                /* Colour*/
     font-weight: 900;
     font-size: 1rem;
 }
@@ -75,13 +75,13 @@ h5 {
 }
 
 .hero-image-text {
-  color: rgba(var(--white-text), 1);
+  color: rgba(var(--white-text), 1);                                                                                                                                                                                         /* Colour*/
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
   font-weight: 500;
   margin-top: 33vh;
   padding-left: 0.5rem;
   letter-spacing: 0.051em;
-  background-color: rgba(var(--green-hg-dark), 0.8);
+  background-color: rgba(var(--green-hg-dark), 0.8);                                                                                                                                                                         /* Colour*/
 }
 
 /*    about section                          */
@@ -93,8 +93,8 @@ h5 {
   padding-top: 15px;
   -ms-flex-line-pack: center;
   align-content: center;
-  background-color: #4F5C54;   /*   Nandor #4F5C54   */
-  color: rgba(var(--white-text), 1);
+  background-color: #4F5C54;   /*   Nandor #4F5C54   */                                                                                                                                                                      /* Colour*/
+  color: rgba(var(--white-text), 1);                                                                                                                                                                                            /* Colour*/
   text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.8);
 }
 
@@ -131,13 +131,13 @@ h5 {
 }
 
 .email-link{
-  color: rgba(var(--green-hg-dark), 1) ;  /* needed for lighthouse accessability rating */
+  color: rgba(var(--green-hg-dark), 1) ;  /* needed for lighthouse accessability rating */                                                                                                               /* Colour*/
 }
 
 /*    footer section                       */
 
 .footer {
-  background-color: rgba(var(--green-hg-dark), 1);
+  background-color: rgba(var(--green-hg-dark), 1);                                                                                                                                                       /* Colour*/
   margin-top: 1rem;
 }
 
@@ -160,7 +160,7 @@ h5 {
 }
 
 .footer-list-item a {
-  color: rgba(var(--whitesmoke), 1);
+  color: rgba(var(--whitesmoke), 1);                                                                                                                                                                     /* Colour*/
   text-align: center;
   padding: 1rem;
   text-decoration: none;
