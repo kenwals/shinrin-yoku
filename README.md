@@ -228,7 +228,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 ### Known issues
 
-1
+1 . On larger screens the navbar items flicker after they have been selected.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
 3.
 
@@ -242,7 +242,9 @@ It was desirable to have the navbar menu float at the top of the screen , but i 
 
 For Verions control i used the UI on gitpod for making commits. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
 
-### Functionality Testing
+### Functionality Testing`
+
+check if something worked it did
 
 Devices manually tested browser for the following devices on:  
 
