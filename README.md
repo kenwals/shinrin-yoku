@@ -250,7 +250,7 @@ Devices manually tested browser for the following devices on:
 
 ### CSS3 validator 
 
-Initially I did get errors ,  x y z  .  a Problem with jigsaw is that it does not recognise root variables and rgba combinations. 
+Initially I did get errors ,  x y z  .  a Problem with jigsaw is that it does not recognise root variables and rgba combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables)
 
 ### HTML5 validator
 
@@ -334,7 +334,7 @@ Once you have the completed site in your own repository, you can deploy to Githu
 
 **Cloning**
 
-If you prefer working on the repository locally, You can clone the repository to your desktop by the following steps.
+If you prefer working on the repository locally, you can clone the repository to your desktop by the following steps.
 
 1. Go to [the Shinrin-Yuko github page](https://github.com/kenwals/shinrin-yoku) .
 2. above the list of files , click on the code button.
