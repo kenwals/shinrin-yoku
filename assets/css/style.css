@@ -139,6 +139,10 @@ h5 {
   margin-right: auto;
 }
 
+.email-link{
+  color: rgba(var(--green-hg-dark), 1) ;
+}
+
 /*    footer section                       */
 
 .footer {
