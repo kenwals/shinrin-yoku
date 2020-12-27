@@ -178,21 +178,18 @@ The site is laid out on one page that has several sections .
 ---
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I tested the site as i went along. I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools). All other screen sizes were testing secondary.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Test being used will be:
-
-- [web.dev](https://web.dev/measure/) (lighthouse)
+- lighthouse audit tool in Chrome devtools
 
 - http://ami.responsivedesign.is/
 
 - Peer review on slack
 
-- Devices on Developer tools in Chrome and Firefox DE
+- Simulated Devices on Developer tools in Chrome
+
+- Friends and family .
 
 
 
@@ -206,29 +203,18 @@ Devices manually tested browser for the following devices on:
 
 
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
 ### Bugs encountered on the way
 
-1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut when starting the site. So the incorrect version of bootstrap and javascript was choosen. once i replaced both the navbar worked correctly.
-3. Git commit issue , in the beginning i was using only git on the command line . Somehow not all my commits were appearing in Github when i pushed them . the problem maybe linked to me using gitpod in more then one browser (chrome and firefox) while i was trying to debug something else. I resolved this issue by git commiting with the Gitpod UI instead.
+1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut when starting the site. So the incorrect version of bootstrap and javascript was choosen. Once i replaced both the navbar worked correctly.
+3. Git commit issue , in the beginning i was using only git on the command line . Somehow not all my commits were appearing in Github when i pushed them . The problem maybe linked to me using gitpod in more then one browser (chrome and firefox) while i was trying to debug something else. I resolved this issue by git commiting with the Gitpod UI instead.
 4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
 4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the javascript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
-5. text shadow typo mistake
-6. images missing on github pages even though they worked in gitpod environment. 
-7. unable to customize the ul for locations
+5. Images missing on github pages even though they worked in gitpod environment. fix for this was to input a "." in the begining of image file address. 
+6. Unable to customize the ul for locations.
 
 ### Known issues
 
-1 . On larger screens the navbar items flicker after they have been selected.
+1. On larger screens the navbar items flicker after they have been selected.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
 3.
 
@@ -236,13 +222,13 @@ You should also mention in this section any interesting bugs or problems you dis
 
 The navbar 
 
-It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. I believe it's dependant on Javascript code, and Javascript is out of scope for this phase of the project. But I will review this again in future and hope to impove the UX for navigation.
+It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. I believe it's dependant on Javascript code, and Javascript is out of scope for this phase of the project. But I seem [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack so , I included this in the navbar links. 
 
 ### Version control
 
 For Verions control i used the UI on gitpod for making commits. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
 
-### Functionality Testing`
+### Functionality Testing
 
 check if something worked it did
 
