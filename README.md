@@ -309,7 +309,7 @@ Various facts about trees and nature are displayed in the about page section.
 ---
 ## Deployment
 
-For easy deployment you will need a Github user account and a Gitpod user account. If you wish to make changes to this repository , please follow the Github steps first. 
+For easy deployment on github pages you will need a Github user account and a possibly a Gitpod user account. If you wish to make changes to this repository , please follow the Github steps first. 
 
 **Github**
 
@@ -319,9 +319,11 @@ When you have a Github account you can simple click on the Fork button on the to
 
 **Gitpod**
 
-The site can deployed easily on a gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the gitpod extension on your preferred internet browser. On signing up you will be expected to  have a Github user account.
+The site can edited easily on a gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the gitpod extension on your preferred internet browser. On signing up you will be expected to  have a Github user account.
 
-Once you have the extension on your browser , a green gitpod button will appear beside this repository in github. for best results fork the repository in your personal account before you open it in 
+Once you have the extension on your browser , a green gitpod button will appear beside this repository in github. for best results fork the repository in your personal account before you open it in Gitpod.
+
+
 
 
 ##### back to [contents](#table-of-contents)  
