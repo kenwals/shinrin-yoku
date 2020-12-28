@@ -6,11 +6,11 @@
 */
 
 :root {
-  --green-bg-light: 201, 211, 170; /* green mist #c9d3aa - light green background colour */
+  --green-bg-light: 201, 211, 170; /* green mist #c9d3aa - light green background colour used on body and navbar */
   --green-hg-dark: 78, 92, 40;    /* Woodland #4e5c28 - Dark Green colour for heading elements , buttons and footer background*/
-  --green-mossy: 79, 92, 84;  /*    Nandor #4F5C54    mossy green colour used for background on mid section */
-  --lemon-grass: 157, 161, 154; /*  Lemon Grass #9da19a - colour used for the hover shadow for icon links in footer section */
-  --white-text: 255, 255, 255; /* white colour used for text in hero and mid section*/
+  --green-mossy: 79, 92, 84;  /*    Nandor #4F5C54    mossy green colour used for background on mid section box */
+  --lemon-grass: 157, 161, 154; /*  Lemon Grass #9da19a - colour used for text shadow*/
+  --white-text: 255, 255, 255; /* white colour used for text in hero and mid section */
   --whitesmoke: 245, 245, 245; /* off white colour used in the footer for the social media icons */
 }
 
@@ -76,7 +76,7 @@ h5 {
 
 .hero-image-text {
   color: rgba(var(--white-text), 1);                                                                                                                                                                                         /* Colour*/
-  text-shadow: 1px 1px rgba(var(--green-hg-dark), 1);
+  text-shadow: 1px 1px rgba(var(--lemon-grass), 1);
   font-weight: 500;
   margin-top: 33vh;
   padding-left: 0.5rem;
