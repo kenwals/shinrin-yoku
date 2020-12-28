@@ -45,7 +45,7 @@ This is a fictional meetup group, so there is no limitations on the content . Th
 
 Site is put together using HTML, the Bootstrap framework and CSS.
 
-Site is one page with minimum of three sections , suitable for visits from mobile phones. Navigation between sections can be done via the navbar or by call to action buttons .
+Site is one page with three sections , suitable for visits from mobile phones. Navigation between sections can be done via the navbar or by call to action buttons .
 
 ### Skeleton
 
@@ -115,24 +115,24 @@ The site is laid out on one page that has several sections .
 
 - One of the image cards in the gallery is hidden on small screens to improve flow of the page.
 
-- It has a subscription form ( this is for display purposes only , it's not working at the moment as it's out of scope for this phase of the project).
-
 - Form validation on subscribe form , alert if name or email is empty. 
 
-- In each section a call to action button will prompt / take the user to another section. 
+- In the first two sections a call to action button prompts the user to another section. 
 
-- In the footer section , the icons will incorporate some sort of hover animation
+- In the footer section , the icons will incorporate a hover animation
 
-- Improvements for visually impaired such as more descriptive tags and better contrasting colours (as per lighthouse report)
+- Contrasting colours are used to ensure site supports visually impaired visitors.
+
+- The navbar button will float at the top of the screen .
   
 
 ### Features Left to Implement ( or out of scope)
 
 - The images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree. 
 
-- Have the subscription form add the visitor to an email list.
+- Have the subscription form add the visitor to an email list. 
 
-- The navbar button will float on the top of the screen .
+
 
  ##### back to [contents](#table-of-contents)
 
