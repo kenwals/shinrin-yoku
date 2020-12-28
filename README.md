@@ -77,11 +77,11 @@ Root variables are used so colours can be updated quickly if revisions are neede
 Colours used are:
 
 - "Woodland" Green  #4e5c28 : Used for headings and text when on light background. This colour is used as background on footer. 
-- "Green Mist" #c9d3aa : Used on the background of the body and navbar.
-- "Nador" Green #4F5C54 :  Used on the background of the mid section between hero image and about section.
-- "Lemon Grass" colour #9da19a : Used for text shadow on the hero image text.
-- White : used for text.
-- Whitesmoke : used for the footer icons.
+- "Green Mist"      #c9d3aa : Used on the background of the body and navbar.
+- "Nador" Green     #4F5C54 :  Used on the background of the mid section between hero image and about section.
+- "Lemon Grass"     #9da19a : Used for text shadow on the hero image text.
+- White                     : used for text.
+- Whitesmoke                : used for the footer icons.
 
 ![Site colour palette](assets/readme-files/colours-swatch.png)
 
@@ -91,14 +91,15 @@ As colours are configured using rbga properties , these can be tweaked with opac
 
 **Images** used are ones I took myself. The original high quality images are located [here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3).
 
-**Fonts** :  Header (h1,h2 and h3) text elements use the font:  **"Shadows Into Light"**.
-
-​				All other text uses the font:  **"Montserrat"**. 
-
-On slow connections , another font might be swapped in and visible while the site is loading.
-
+**Fonts** : 
 
 ![Sample of fonts selected](assets/readme-files/google-font-sample.png)
+
+**"Shadows Into Light"** was used for Header (h1,h2 and h3) text elements
+
+**"Montserrat"**​ was used for all other text. 
+
+On slow connections , another font might be swapped in and visible while the site is loading.
 
 ##### back to [contents](#table-of-contents)
 
@@ -370,7 +371,7 @@ If you prefer working on the repository locally, you can clone the repository to
 
 ### Media
 
-- The photos used in this site were taken by me mostly in Dublin, Ireland.
+- The photos used in this site were taken by me mostly in Dublin, Ireland. [Album available here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3).
 
 ### Acknowledgements
 
