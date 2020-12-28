@@ -126,7 +126,7 @@ The site is laid out on one page that has several sections .
 - The navbar button will float at the top of the screen .
   
 
-### Features Left to Implement ( or out of scope)
+### Features Left to Implement
 
 - The images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree. 
 
@@ -178,8 +178,9 @@ The site is laid out on one page that has several sections .
 ---
 ## Testing
 
-I tested the site as i went along. I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools). All other screen sizes were testing secondary.
+I tested the site as i went along , either manual testing myself or automated testing using online tools such a Lighthouse . I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
 
+Utilities used for testing were:
 
 - lighthouse audit tool in Chrome devtools
 
@@ -214,7 +215,7 @@ Devices manually tested browser for the following devices on:
 
 ### Known issues
 
-1. On larger screens the navbar items flicker after they have been selected.
+1. On medium and larger screens the navbar items flicker after they have been selected.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
 3.
 
@@ -222,7 +223,7 @@ Devices manually tested browser for the following devices on:
 
 The navbar 
 
-It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. I believe it's dependant on Javascript code, and Javascript is out of scope for this phase of the project. But I seem [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack so , I included this in the navbar links. 
+It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. But I seem [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack so , I included this trick in the navbar links. 
 
 ### Version control
 
@@ -232,13 +233,15 @@ For Verions control i used the UI on gitpod for making commits. I used branches 
 
 Navbar : all the links work, this section is reponsive to screen size, menu collapses after item is selected.
 
-Hero image and text: clearly visible
+Hero image and text: clearly visible/readable , call to action button takes user to the about section.
 
-about section: 
+About section: The card gallery is a template taken from the bootstrap framework library . it's reponsive to screen size off the shelf. No isues found. 
 
-Contact form :
+email link: This behaves as expected, the link should trigger the users browser to open a new window for composing an email , the To field and the subject field should be prepopulated.
 
-Footer section :
+Subscription form : The form displays validation messages if fields are blank when the subscribe button is pressed. 
+
+Footer section : All icons animate when the mouse is hovering over them, each icon links to a new page.
 
 Devices manually tested browser for the following devices on:  
 
@@ -260,7 +263,7 @@ Initially I did typos and invalid synthax , all issues resolved .  No errors to 
 
 I shared the project on the peer review channel and also with frends/family. No major usability issues were raised.
 
-Lighthouse Accessibility validation gave me interesting insights on issues that would impact visually imparied visitors to the sight, as a result i made efforts to improve access for this audience. 
+Lighthouse Accessibility validation gave me interesting insights on issues that would impact visually imparied visitors to the site, as a result i made efforts to improve access for this audience. 
 
 ### Compatibility Testing
 
@@ -282,27 +285,27 @@ Lighthouse Performance report highlighted issues for me in regard to images  xyz
 
 1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
 
-There is bit size pieces of information spread around the home page section and the about page section.
+*There is bit size pieces of information spread around the home page section and the about page section.*
 
 2. As a visitor to the site, I want to register my details , so I can be added to an email list to receive updates.
 
-This can be achieved on the contact page section .
+*This can be achieved on the contact page section.*
 
 3. As a visitor to the site, I want to view nice pictures of nature.
 
-Various pictures are used on each section of the site.
+*Various pictures are used on each section of the site.*
 
 4. As a visitor to the site, I want to read about locations of future forest bathing events.
 
-A list of locations is available on the secord card in the about page section.
+*A list of locations is available on the secord card in the about page section.*
 
 5. As the site owner , I want to promote my service and have participants for meetups.
 
-The site is structured to load up fast to avoid bounce from visitors , it also prompts the user to sign up their contact details if they wish the hear more. 
+*The site is structured to load up fast to avoid bounce from visitors , it also prompts the user to sign up their contact details if they wish the hear more.*
 
 6. As the site owner , I want to promote the benefits of Trees and nature in our environment. 
 
-Various facts about trees and nature are displayed in the about page section. 
+*Various facts about trees and nature are displayed in the about page section.* 
 
 ##### back to [contents](#table-of-contents)
 
