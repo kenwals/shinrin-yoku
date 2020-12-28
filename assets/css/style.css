@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: rgba(var(--green-bg-light), 0.4);   /* green mist #c9d3aa - light green background colour */                                                                                                         
+  background-color: rgba(var(--green-bg-light), 1);   /* green mist #c9d3aa - light green background colour */                                                                                                         
   font-family: "Montserrat", sans-serif;
   color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */
 }
@@ -42,7 +42,7 @@ h5 {
 }
 
 .navbar{
-    background-color: rgba(var(--green-bg-light), 0.9);        /* green mist #c9d3aa - light green background colour */                                                                                              
+    background-color: rgba(var(--green-bg-light), 1);        /* green mist #c9d3aa - light green background colour */                                                                                              
 } 
 
 .nav-link{
