@@ -187,6 +187,8 @@ Utilities used for testing were:
 
 - http://ami.responsivedesign.is/
 
+- Accessibility insight for the web (microsoft)
+
 - Peer review on slack
 
 - Simulated Devices on Developer tools in Chrome
