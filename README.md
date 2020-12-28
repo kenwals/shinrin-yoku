@@ -86,9 +86,9 @@ Colours used are:
 
 As colours are configured using rbga properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
 
-**Icons** used are from fontawesome.com .
+**Icons** used are from fontawesome.com . these icons are visible on buttons , each card in the card gallery and in the social media icons in the footer.
 
-**Images** used are one I took myself. 
+**Images** used are ones I took myself. The original high quality images are located [here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3).
 
 **Fonts** :  Header (h1,h2 and h3) text elements use the font:  **"Shadows Into Light"**.
 
@@ -192,8 +192,6 @@ Utilities used for testing were:
 
 - Friends and family .
 
-
-
 Devices manually tested browser for the following devices on:  
 
 - Android Mobile phone  (Screen width 360px) 
@@ -201,8 +199,6 @@ Devices manually tested browser for the following devices on:
 - Android Tablet        (Screen width 600px) sm
 - Smart TV              (Screen width 1920px) lg
 - Windows laptop        (Screen width 2560px) 
-
-
 
 ### Bugs encountered on the way
 
@@ -217,11 +213,10 @@ Devices manually tested browser for the following devices on:
 
 1. On medium and larger screens the navbar items flicker after they have been selected.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
-3.
 
 ### Project barriers and solutions
 
-The navbar 
+#### The navbar 
 
 It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. But I seem [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack so , I included this trick in the navbar links. 
 
