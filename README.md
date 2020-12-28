@@ -1,5 +1,6 @@
 # Shinrin-Yoku
 
+![display of site seen from different devices](assets/readme-files/amiresponsivescreenshot.png)
 
 This is a promotional website for a forest bathing meetup group , one of it's strategies is promote the importance of trees and nature. 
 
