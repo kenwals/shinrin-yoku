@@ -69,20 +69,20 @@ Section 3 - Contact page - Email subscribe form , contact information and links 
 
 As the site theme is connecting with nature , the colours too are connected to nature. Various shades of green or natural colours are used. Point of referance for the colours of the site are taken from the images using a colour palette tool. 
 
-![Sample Colour palette](assets/readme-files/canva_swatch.png)
+![demonstration of colour sourcing to image](assets/readme-files/canva_swatch.png)
 
 Root variables are used so colours can be updated quickly if revisions are needed. 
 
 Colours used are:
 
-- "Woodland" Green : Used for headings and text when on light background. This colour is used as background on footer and on the navigation buttons. 
-- "Green Mist": Used on the background of the body.
-- "Olivine" Green:
-- "Nador" Green :  Used on the background of the mid section between hero image and about section.
-- "Lemon Grass" colour: Used for hoover shadow on footer icons.
+- "Woodland" Green  #4e5c28 : Used for headings and text when on light background. This colour is used as background on footer. 
+- "Green Mist" #c9d3aa : Used on the background of the body and navbar.
+- "Nador" Green #4F5C54 :  Used on the background of the mid section between hero image and about section.
+- "Lemon Grass" colour #9da19a : Used for text shadow on the hero image text.
 - White : used for text.
 - Whitesmoke : used for the footer icons.
 
+![Site colour palette](assets/readme-files/colours-swatch.png)
 
 As colours are configured using rbga properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
 
