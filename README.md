@@ -57,9 +57,9 @@ Below is the initial wireframe.
 
 Mobile use a first approach - one page site , navigation menu at the top. 
 
-Section 1 - Home page - Navbar at top . Hero image below. With brief headline paragraph.
+Section 1 - Home page - Navbar at top . Hero image below. With brief headline paragraph. under that a mid section with introduction paragraph.
 
-Section 2 - About page - Introduction paragraph followed by various panels of either Text or images promoting forest bathing , in a gallery format.
+Section 2 - About page -  Here is displayed various panels of either Text or images promoting forest bathing , in a gallery format.
 
 Section 3 - Contact page - Email subscribe form , contact information and links to various social media channels in footer section.
 
@@ -125,14 +125,11 @@ The site is laid out on one page that has several sections .
 
 - The navbar button will float at the top of the screen .
   
-
 ### Features Left to Implement
 
 - The images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree. 
 
 - Have the subscription form add the visitor to an email list. 
-
-
 
  ##### back to [contents](#table-of-contents)
 
@@ -218,11 +215,11 @@ Devices manually tested browser for the following devices on:
 
 #### The navbar 
 
-It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. But I seem [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack so , I included this trick in the navbar links. 
+It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack so , I included this trick in the navbar links. 
 
 ### Version control
 
-For Verions control i used the UI on gitpod for making commits. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
+For version control i used the UI on gitpod for making commits. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
 
 ### Functionality Testing
 
@@ -355,7 +352,7 @@ If you prefer working on the repository locally, you can clone the repository to
 
 - [Nature therapy ireland](https://www.instagram.com/naturetherapyireland) 
 - [Shinrin Yuko Finland](https://www.shinrin-yoku.fi/home-en)
-- [Forest Therapy Society, Japan](https://fo-society.jp/therapy/cn45/e_en.html)
+- [Forest Therapy Society,Japan](https://fo-society.jp/therapy/cn45/e_en.html)
 - [Dublin City Council Tree strategy](https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-08/Dublin_City_Tree_Strategy_2016-2020.pdf)
 
 ### Resources
@@ -380,8 +377,8 @@ If you prefer working on the repository locally, you can clone the repository to
 
 - The book ["The Hidden Life of Trees"](https://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees) by Peter Wohlleben .
 
-- Various people at [code institute](https://codeinstitute.net/)
+- Various people at [code institute](https://codeinstitute.net/).
 
-- [Imbibe](https://imbibe.ie/) Coffee Roasters and [Barry's Tea](https://www.barrystea.ie/)
+- [Imbibe](https://imbibe.ie/) Coffee Roasters and [Barry's Tea](https://www.barrystea.ie/).
 
  ##### back to [contents](#table-of-contents)   
