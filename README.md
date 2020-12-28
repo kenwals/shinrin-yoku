@@ -126,10 +126,10 @@ The site is laid out on one page that has several sections .
 - Contrasting colours are used to ensure site supports visually impaired visitors.
 
 - The navbar button will float at the top of the screen .
+
+- Some images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree.
   
 ### Features Left to Implement
-
-- The images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree. 
 
 - Have the subscription form add the visitor to an email list. 
 
@@ -168,9 +168,11 @@ The site is laid out on one page that has several sections .
 
 - Overflow rescue tool : [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
 
-- HEX to RGB converter : [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
+- HEX to RGB converter : [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html) and [](https://www.webfx.com/web-design/hex-to-rgb/)
 
 - Colour contrast checking for Accessibility refinements : [WebAIM](https://webaim.org/resources/contrastchecker/)
+
+- Favicon creater : [favicon.io](https://favicon.io/favicon-generator/)
 
 ##### back to [contents](#table-of-contents)  
 
@@ -184,6 +186,8 @@ Utilities used for testing were:
 - lighthouse audit tool in Chrome devtools
 
 - http://ami.responsivedesign.is/
+
+- Accessibility insight for the web (microsoft)
 
 - Peer review on slack
 
