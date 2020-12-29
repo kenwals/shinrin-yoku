@@ -196,7 +196,7 @@ h5 {
   animation-direction: alternate;
 }
 
-/* Small devices (landscape phones, 576px and up)  */
+/* Small devices (landscape phones, screen width 576px and higher )  */
 @media (min-width: 576px) {
   h1 {
     font-size: 2.5rem; /* default h1 size */
