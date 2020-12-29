@@ -222,11 +222,11 @@ Devices manually tested browser for the following devices on:
 
 #### The navbar 
 
-It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack so , I included this trick in the navbar links. 
+It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links. 
 
 ### Version control
 
-For version control i used the UI on gitpod for making commits. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
+For version control i used the UI on gitpod for making commits, and command line for branches, Merging was done on the Github site. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
 
 ### Functionality Testing
 
@@ -252,11 +252,12 @@ Devices manually tested browser for the following devices on:
 
 ### CSS3 validator 
 
-Initially I did get errors ,  x y z  .  a Problem with jigsaw is that it does not recognise root variables and rgba combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables)
+a Problem with jigsaw is that it does not recognise root variables and rgba combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables) . 
+Apart from this , there is no validation issues. 
 
 ### HTML5 validator
 
-Initially I did typos and invalid synthax , all issues resolved .  No errors to report now.
+Initially I did typos and invalid synthax , all issues resolved .  No validation errors to report now.
 
 ### Usability Testing
 
@@ -277,8 +278,7 @@ Lighthouse Accessibility validation gave me interesting insights on issues that 
 
 ### Performance Testing
 
-
-Lighthouse Performance report highlighted issues for me in regard to images  xyz , so i xyz
+Lighthouse Performance report highlighted issues for me in regard to Performance. I made improvements to the page based on this feedpack such as compressing the images, using lazy loading on images that weren't visible on initial loading .
 
 ### Testing User Stories
 
