@@ -50,12 +50,6 @@ Site is one page with three sections , suitable for visits from mobile phones. N
 
 ### Skeleton
 
-**Wireframe**
-
-Below is the initial wireframe.
-
-![initial wireframe](assets/wireframe/Wireframe_1.jpg)
-
 Mobile use a first approach - one page site , navigation menu at the top. 
 
 Section 1 - Home page - Navbar at top . Hero image below. With brief headline paragraph. under that a mid section with introduction paragraph.
@@ -63,6 +57,12 @@ Section 1 - Home page - Navbar at top . Hero image below. With brief headline pa
 Section 2 - About page -  Here is displayed various panels of either Text or images promoting forest bathing , in a gallery format.
 
 Section 3 - Contact page - Email subscribe form , contact information and links to various social media channels in footer section.
+
+**Wireframe**
+
+Below is the initial wireframe.
+
+![initial wireframe](assets/wireframe/Wireframe_1.jpg)
 
 ### Surface
 
@@ -76,10 +76,10 @@ Root variables are used so colours can be updated quickly if revisions are neede
 
 Colours used are:
 
-- "Woodland" Green  #4e5c28 : Used for headings and text when on light background. This colour is used as background on footer. 
-- "Green Mist"      #c9d3aa : Used on the background of the body and navbar.
-- "Nador" Green     #4F5C54 :  Used on the background of the mid section between hero image and about section.
-- "Lemon Grass"     #9da19a : Used for text shadow on the hero image text.
+- "Woodland" Green  (#4e5c28) : Used for headings and text when on light background. This colour is used as background on footer. 
+- "Green Mist"      (#c9d3aa) : Used on the background of the body and navbar.
+- "Nador" Green     (#4F5C54) :  Used on the background of the mid section between hero image and about section.
+- "Lemon Grass"     (#9da19a) : Used for text shadow on the hero image text.
 - White                     : used for text.
 - Whitesmoke                : used for the footer icons.
 
@@ -87,7 +87,7 @@ Colours used are:
 
 As colours are configured using rbga properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
 
-**Icons** used are from fontawesome.com . these icons are visible on buttons , each card in the card gallery and in the social media icons in the footer.
+**Icons** used are from fontawesome.com . these icons are visible on buttons , the sub heading of each card in the card gallery and for the social media icons in the footer.
 
 **Images** used are ones I took myself. The original high quality images are located [here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3).
 
@@ -99,7 +99,7 @@ As colours are configured using rbga properties , these can be tweaked with opac
 
 **"Montserrat"**​ was used for all other text. 
 
-On slow connections , another font might be swapped in and visible while the site is loading.
+On slow connections , another font may be visible while the site is loading.
 
 ##### back to [contents](#table-of-contents)
 
@@ -117,13 +117,13 @@ The site is laid out on one page that has several sections .
 
 - One of the image cards in the gallery is hidden on small screens to improve flow of the page.
 
-- Form validation on subscribe form , alert if name or email is empty. 
+- There is form validation on subscription form , an alert displays if name or email fields are empty. 
 
 - In the first two sections a call to action button prompts the user to another section. 
 
 - In the footer section , the icons will incorporate a hover animation
 
-- Contrasting colours are used to ensure site supports visually impaired visitors.
+- Contrasting colours and aria labels are used to ensure site supports visually impaired visitors. 
 
 - The navbar button will float at the top of the screen .
 
@@ -146,7 +146,7 @@ The site is laid out on one page that has several sections .
 
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 
-- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts and images).
+- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts , accessability and images).
 
 - KanBan planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1) . 
 
@@ -210,12 +210,13 @@ Devices manually tested browser for the following devices on:
 4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
 4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the javascript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
 5. Images missing on github pages even though they worked in gitpod environment. fix for this was to input a "." in the begining of image file address. 
-6. Unable to customize the ul for locations.
 
 ### Known issues
 
 1. On medium and larger screens the navbar items flicker after they have been selected.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
+3. Unable to customize the ul for locations card in the card gallery, I haven't yet figured out how to over-ride the bootstrap style .
+4. The navbar items text needs to be bolder to be WCAG AAA compliant for visually impaired visitors. I haven't yet figured out how to over-ride the bootstrap style .
 
 ### Project barriers and solutions
 
