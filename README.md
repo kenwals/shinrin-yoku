@@ -19,14 +19,12 @@ This site will hopefully create a community of people who appreciate trees and n
     - [**Surface**](#surface)
     
 2. [**Features**](#features)
-
     - [**Existing features**](#existing-features)
     - [**Features left to implement**](#features-left-to-implement)
 
 3. [**Technologies Used**](#technologies-used)
 
 4. [**Testing**](#testing)
-
     - [**Bugs encountered on the way**](#bugs-encountered-on-the-way)
     - [**Known issues**](#known-issues)
     - [**Project barriers and solutions**](#project-barriers-and-solutions)
