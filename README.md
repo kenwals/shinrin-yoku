@@ -244,7 +244,8 @@ Footer section : All icons animate when the mouse is hovering over them, each ic
 
 Devices manually tested browser for the following devices on:  
 
-- Android Mobile phone  (Screen width 360px) 
+- Android Mobile phone  (Screen width 320px)
+- Android Mobile phone  (Screen width 360px)  
 - Android Mobile phone  (Screen width 412px)
 - Android Tablet        (Screen width 600px) sm
 - Smart TV              (Screen width 1920px) lg
@@ -269,7 +270,7 @@ Lighthouse Accessibility validation gave me interesting insights on issues that 
 
 | Screen size\Browser                          | Chrome | Firefox | Edge |
 | -------------------------------------------- | ------ | ------- | ---- |
-| Android Mobile phone (Screen width 360px) xs |        |         |      |
+| Android Mobile phone (Screen width 320px) xs |        |         |      |
 | Android Mobile phone (Screen width 412px) xs |        |         |      |
 | Android Tablet (Screen width 600px) sm       |        |         |      |
 | Smart TV (Screen width 1920px) lg            |        |         |      |
