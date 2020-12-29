@@ -12,18 +12,40 @@ This site will hopefully create a community of people who appreciate trees and n
 
 ## Table of contents
 
-
 1. [**UX**](#ux)
-
+    - [**Scope**](#scope)
+    - [**Structure**](#structure)
+    - [**Skeleton**](#skeleton)
+    - [**Surface**](#surface)
+    
 2. [**Features**](#features)
+
+    - [**Existing features**](#existing-features)
+    - [**Features left to implement**](#features-left-to-implement)
 
 3. [**Technologies Used**](#technologies-used)
 
 4. [**Testing**](#testing)
 
+    - [**Bugs encountered on the way**](#bugs-encountered-on-the-way)
+    - [**Known issues**](#known-issues)
+    - [**Project barriers and solutions**](#project-barriers-and-solutions)
+    - [**Version control**](#version-control)
+    - [**Functionality testing**](#functionality-testing)
+    - [**CSS3 validator**](#css3-validator)
+    - [**HTML5 validator**](#html5-validator)
+    - [**Usability testing**](#usability-testing)
+    - [**Compatibility testing**](#compatibility-testing)
+    - [**Performance testing**](#performance-testing)
+    - [**Testing user stories**](#testing-user-stories)
+
 5. [**Deployment**](#deployment)
 
 6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Resources**](#resources)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
 
 ---
 
