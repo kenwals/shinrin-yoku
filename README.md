@@ -101,11 +101,11 @@ Colours used are:
 - "Nador" Green     (#4F5C54) :  Used on the background of the mid section between hero image and about section.
 - "Lemon Grass"     (#9da19a) : Used for text shadow on the hero image text.
 - White                     : used for text.
-- Whitesmoke                : used for the footer icons.
+- WhiteSmoke                : used for the footer icons.
 
 ![Site colour palette](assets/readme-files/colours-swatch.png)
 
-As colours are configured using rbga properties , these can be tweaked with opactity values to give more variety to the palette while keeping the uniformity. 
+As colours are configured using rbga properties , these can be tweaked with opacity values to give more variety to the palette while keeping the uniformity. 
 
 **Icons** used are from fontawesome.com . these icons are visible on buttons , the sub heading of each card in the card gallery and for the social media icons in the footer.
 
@@ -158,7 +158,7 @@ The site is laid out on one page that has several sections .
 ---
 ## Technologies Used
 
-- Languages : HTML , CSS and Bootstrap framework (Navbar uses Javascript).
+- Languages : HTML , CSS and Bootstrap framework (Navbar uses JavaScript).
 
 - IDE: [Gitpod](https://www.gitpod.io/) (very similar to Visual Studio code but online).
 
@@ -166,9 +166,9 @@ The site is laid out on one page that has several sections .
 
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 
-- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts , accessability and images).
+- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts , accessibility and images).
 
-- KanBan planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1) . 
+- Kanban planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1) . 
 
 - Markdown editor: [Typora](https://typora.io/) was used when doing bulk updates to my README.md file, Gitpod editor was used for minor updates.
 
@@ -182,24 +182,24 @@ The site is laid out on one page that has several sections .
 
 - Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff)
 
-- Misc Planning: MS Excel was used for filename changes planning and making the names lowercase.
+- Misc. Planning: MS Excel was used for filename changes planning and making the names lowercase.
 
 - Pomodoro timer : [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj)
 
 - Overflow rescue tool : [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
 
-- HEX to RGB converter : [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html) and [](https://www.webfx.com/web-design/hex-to-rgb/)
+- HEX to RGB converter : [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html) and [webfx](https://www.webfx.com/web-design/hex-to-rgb/)
 
 - Colour contrast checking for Accessibility refinements : [WebAIM](https://webaim.org/resources/contrastchecker/)
 
-- Favicon creater : [favicon.io](https://favicon.io/favicon-generator/)
+- Favicon creator : [favicon.io](https://favicon.io/favicon-generator/)
 
 ##### back to [contents](#table-of-contents)  
 
 ---
 ## Testing
 
-I tested the site as i went along, manual testing myself or automated testing using online tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
+I tested the site as I went along, manual testing or automated testing using online tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
 
 Utilities/channels used for testing were:
 
@@ -215,44 +215,44 @@ Utilities/channels used for testing were:
 
 - Friends and family.
 
-- checking every smart device i had within reach.
+- Personally checking every smart device I had within reach.
 
 ### Bugs encountered on the way
 
-1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut when starting the site. So the incorrect version of bootstrap and javascript was choosen. Once i replaced both the navbar worked correctly.
-3. Git commit issue , in the beginning i was using only git on the command line . Somehow not all my commits were appearing in Github when i pushed them . The problem maybe linked to me using gitpod in more then one browser (chrome and firefox) while i was trying to debug something else. I resolved this issue by git commiting with the Gitpod UI instead.
+1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut when starting the site. So the incorrect version of bootstrap and JavaScript was chosen. Once I replaced both the navbar worked correctly.
+3. Git commit issue , in the beginning i was using only git on the command line . Somehow not all my commits were appearing in GitHub when i pushed them . The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
 4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
-4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the javascript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
-5. Images missing on github pages even though they worked in gitpod environment. fix for this was to input a "." in the begining of image file address. 
+4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the JavaScript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
+5. Images missing on GitHub pages even though they worked in Gitpod environment. fix for this was to input a "." in the beginning of image file address. 
 
 ### Known issues
 
 1. On medium and larger screens the navbar items flicker after they have been selected.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
-3. Unable to customize the ul for locations card in the card gallery, I haven't yet figured out how to over-ride the bootstrap style .
+3. Unable to customize the ul tagged text for locations card in the card gallery, I haven't yet figured out how to over-ride the bootstrap style .
 4. The navbar items text needs to be bolder to be WCAG AAA compliant for visually impaired visitors. I haven't yet figured out how to over-ride the bootstrap style .
 
 ### Project barriers and solutions
 
 #### The navbar 
 
-It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links. 
+It was desirable to have the navbar menu float at the top of the screen , but I had difficulty getting the menu to collapse itself automatically with the standard Bootstrap template. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links. 
 
 #### Gitpod
 
-Gitpod has been an enemy of mine on some ocassions , i have lost work a few times with it. I may have to use another IDE option on future projects. 
+Gitpod has been an enemy of mine on some occasions , I have lost work a few times with it. I may have to use another IDE option on future projects. 
 
 ### Version control
 
-For version control i used the UI on gitpod for making commits, and command line for branches, Merging was done on the Github site. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
+For version control i used the UI on Gitpod for making commits, and command line for branches, Merging was done on the GitHub site. I used branches when i was working on new features , some branch's were scrapped didn't make it to the master.
 
 ### Functionality Testing
 
-Navbar : all the links work, this section is reponsive to screen size, menu collapses after item is selected.
+Navbar : all the links work, this section is responsive to screen size, menu collapses after item is selected.
 
 Hero image and text: clearly visible/readable , call to action button takes user to the about section.
 
-About section: The card gallery is a template taken from the bootstrap framework library . It is reponsive to screen size off the shelf. No issues found. 
+About section: The card gallery is a template taken from the bootstrap framework library . It is responsive to screen size off the shelf. No issues found. 
 
 Email link on contact page: This behaves as expected, the link should trigger the users browser to open a new window for composing an email , the To field and the subject field should be prepopulated.
 
@@ -265,9 +265,9 @@ Devices manually tested browser for the following devices on:
 - Android Mobile phone  (Screen width 320px)        Samsung Galaxy SIII
 - Android Mobile phone  (Screen width 360px)        Oneplus one
 - Android Mobile phone  (Screen width 412px)        Oneplus six 
-- Android Tablet        (Screen width 600px) sm     Google NEXUS 7
-- Smart TV WEBOS        (Screen width 1920px) lg    LG 
-- Windows laptop        (Screen width 2560px)       Dell XPS
+- Android Tablet   (Screen width 600px) sm         Google NEXUS 7
+- Smart TV WEBOS  (Screen width 1920px) lg     LG 
+- Windows laptop  (Screen width 2560px)           Dell XPS
   
 
 ### CSS3 validator 
@@ -277,13 +277,13 @@ Apart from this , there is no validation issues.
 
 ### HTML5 validator
 
-Initially I did have typos and invalid synthax , all issues resolved .  No validation errors to report now.
+Initially I did have typos and invalid syntax , all issues resolved .  No validation errors to report now.
 
 ### Usability Testing
 
-I shared the project on the peer review channel and also with frends/family. No major usability issues were raised.
+I shared the project on the peer review channel and also with friends/family. No major usability issues were raised.
 
-The Validation reports [Lighthouse](https://developers.google.com/web/tools/lighthouse) Accessibility and [Microsofts Accessibility Insights](https://accessibilityinsights.io/) gave me interesting insights on issues that would impact visually imparied visitors to the site, as a result i made efforts to improve access for this audience. 
+The Validation reports [Lighthouse](https://developers.google.com/web/tools/lighthouse) Accessibility and [Microsofts Accessibility Insights](https://accessibilityinsights.io/) gave me interesting insights on issues that would impact visually impaired visitors to the site, as a result i made efforts to improve access for this audience. 
 
 ### Compatibility Testing
 
@@ -316,7 +316,7 @@ Lighthouse Performance report highlighted issues for me in regard to Performance
 
 4. As a visitor to the site, I want to read about locations of future forest bathing events.
 
-*A list of locations is available on the secord card in the about page section.*
+*A list of locations is available on the second card in the about page section.*
 
 5. As the site owner , I want to promote my service and have participants for meetups.
 
@@ -331,27 +331,27 @@ Lighthouse Performance report highlighted issues for me in regard to Performance
 ---
 ## Deployment
 
-For easy deployment on github pages you will need a Github user account and a possibly a Gitpod user account. If you wish to make changes to this repository , please follow the Github steps first. 
+For easy deployment on GitHub pages you will need a GitHub user account and a possibly a Gitpod user account. If you wish to make changes to this repository , please follow the GitHub steps first. 
 
-**Github**
+**GitHub**
 
-Github is a code hosting platform for version control and collaboration. It's free to enroll for a user account and i would recommend you have one if you wish to deploy this repository and make changes.
+GitHub is a code hosting platform for version control and collaboration. It's free to enrol for a user account and i would recommend you have one if you wish to deploy this repository and make changes.
 
-When you have a Github account you can simple click on the Fork button on the top right corner. This is clone the Shinrin-Yuko repository for your Github account, then you can make any changes you like.
+When you have a GitHub account you can simple click on the Fork button on the top right corner. This is clone the Shinrin-Yuko repository for your GitHub account, then you can make any changes you like.
 
 **Gitpod**
 
-The site can edited easily on a gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the gitpod extension on your preferred internet browser. On signing up you will be expected to  have a Github user account.
+The site can edited easily on a Gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the Gitpod extension on your preferred internet browser. On signing up you will be expected to  have a GitHub user account.
 
-Once you have the extension on your browser , a green gitpod button will appear beside this repository in github. for best results fork the repository in your personal account before you open it in Gitpod.
+Once you have the extension on your browser , a green Gitpod button will appear beside this repository in GitHub. for best results fork the repository in your personal account before you open it in Gitpod.
 
-**Github Pages**
+GitHub Pages**
 
-Once you have the completed site in your own repository, you can deploy to Github pages by the following steps.
+Once you have the completed site in your own repository, you can deploy to GitHub pages by the following steps.
 
-1. On Github, go to the completed sites repository.
-2. Click on settings, on the settings page scroll down the the Github Pages section. .
-3. Under Github pages Select the appropriate branch or folder the index.html is in. 
+1. On GitHub, go to the completed sites repository.
+2. Click on settings, on the settings page scroll down the the GitHub Pages section. .
+3. Under GitHub pages Select the appropriate branch or folder the index.html is in. 
 4. Click on save . A message should then appear advising the URL of your deployed site.
 
 **Cloning**
