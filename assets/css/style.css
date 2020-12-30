@@ -6,199 +6,199 @@
 */
 
 :root {
-  --green-bg-light: 201, 211, 170; /* green mist #c9d3aa - light green background colour used on body and navbar */
-  --green-hg-dark: 78, 92, 40;    /* Woodland #4e5c28 - Dark Green colour for heading elements , buttons and footer background*/
-  --green-mossy: 79, 92, 84;  /*    Nandor #4F5C54    mossy green colour used for background on mid section box */
-  --lemon-grass: 157, 161, 154; /*  Lemon Grass #9da19a - colour used for text shadow*/
-  --white-text: 255, 255, 255; /* white colour used for text in hero and mid section */
-  --whitesmoke: 245, 245, 245; /* off white colour used in the footer for the social media icons */
+	--green-bg-light: 201, 211, 170;
+	/* green mist #c9d3aa - light green background colour used on body and navbar */
+	--green-hg-dark: 78, 92, 40;
+	/* Woodland #4e5c28 - Dark Green colour for heading elements , buttons and footer background*/
+	--green-mossy: 79, 92, 84;
+	/* Nandor #4F5C54    mossy green colour used for background on mid section box */
+	--lemon-grass: 157, 161, 154;
+	/* Lemon Grass #9da19a - colour used for text shadow*/
+	--white-text: 255, 255, 255;
+	/* White colour used for text in hero and mid section */
+	--whitesmoke: 245, 245, 245;
+	/* Off white colour used in the footer for the social media icons */
 }
-
 body {
-  background-color: rgba(var(--green-bg-light), 1);   /* green mist #c9d3aa - light green background colour */                                                                                                         
-  font-family: "Montserrat", sans-serif;
-  color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */
+	background-color: rgba(var(--green-bg-light), 1);
+	/* green mist #c9d3aa - light green background colour */
+	font-family: "Montserrat", sans-serif;
+	color: rgba(var(--green-hg-dark), 1);
+	/*color: #4e5c28 - woodland */
 }
-
-h1, h2 , h3{
-  font-family: "Shadows Into Light", cursive;
+h1, h2, h3 {
+	font-family: "Shadows Into Light", cursive;
 }
-
 h1 {
-  color: rgba(var(--green-hg-dark), 1); /* although this looks like duplicate css code , this element wasn't inheriting from the body text colour property , so it's necessary for this to be here. */               
-  font-size: 1.9rem; /* needed as the title was too big for the small mobile screen width of 320px*/
+	color: rgba(var(--green-hg-dark), 1);
+	/* although this looks like duplicate css code , this element wasn't inheriting from the body text colour property , so it's necessary for this to be here. */
+	font-size: 1.9rem;
+	/* needed as the title was too big for the small mobile screen width of 320px*/
 }
-
 h2 {
-  font-size: 1.8rem; /* for conistancy with the h1 reduction   */
+	font-size: 1.8rem;
+	/* for conistancy with the h1 reduction   */
 }
-
 h3 {
-    font-size: 1.7rem; /* for conistancy with the h1 reduction   */
+	font-size: 1.7rem;
+	/* for conistancy with the h1 reduction   */
 }
-
 h5 {
-    font-weight: 700;
+	font-weight: 700;
 }
-
-.navbar{
-    background-color: rgba(var(--green-bg-light), 1);        /* green mist #c9d3aa - light green background colour */                                                                                              
-} 
-
+.navbar {
+	background-color: rgba(var(--green-bg-light), 1);
+	/* green mist #c9d3aa - light green background colour */
+}
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(var(--green-hg-dark), 1);  /*color: #4e5c28 - woodland */                                                                                                                                           
-    font-weight: 900;   /* needed for lighthouse accessability rating */
-    font-size: 1rem;   /* needed for lighthouse accessability rating */      
+	color: rgba(var(--green-hg-dark), 1);
+	/*color: #4e5c28 - woodland */
+	font-weight: 900;
+	/* needed for lighthouse accessability rating */
+	font-size: 1rem;
+	/* needed for lighthouse accessability rating */
 }
-
-
 .nav-button {
-    margin-bottom: .25rem;
+	margin-bottom: .25rem;
 }
-
-.btn-success{
-    font-weight: 700;   /* needed for lighthouse accessability rating */     
-    font-size: 1.17rem; /* needed for lighthouse accessability rating */     
+.btn-success {
+	font-weight: 700;
+	/* needed for lighthouse accessability rating */
+	font-size: 1.17rem;
+	/* needed for lighthouse accessability rating */
 }
 
 /*   home page section                           */
-
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-  background-image: url("../images/phoenix-park-forest.jpg");
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  /* taken from  https://www.w3schools.com/howto/howto_css_hero_image.asp */
-  margin-top: 70px;
+	/* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+	background-image: url("../images/phoenix-park-forest.jpg");
+	/* Position and center the image to scale nicely on all screens */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	/* taken from  https://www.w3schools.com/howto/howto_css_hero_image.asp */
+	margin-top: 70px;
+	/*  needed as the navbar covers the hero image otherwise */
 }
-
 .hero-image-text {
-  color: rgba(var(--white-text), 1);                                                                                                                                                                                      
-  text-shadow: 1px 1px rgba(var(--lemon-grass), 1);
-  font-weight: 500;
-  margin-top: 33vh;
-  padding-left: 0.5rem;
-  letter-spacing: 0.051em;
-  background-color: rgba(var(--green-hg-dark), 0.8);                                                                                                                                                                       
+	color: rgba(var(--white-text), 1);
+	text-shadow: 1px 1px rgba(var(--lemon-grass), 1);
+	font-weight: 500;
+	margin-top: 33vh;
+	padding-left: 0.5rem;
+	letter-spacing: 0.051em;
+	background-color: rgba(var(--green-hg-dark), 0.8);
 }
 
 /*    about section                          */
-
 .mid-section {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding-bottom: 5px;
-  padding-top: 15px;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  background-color: rgba(var(--green-mossy), 1);   /*   Nandor #4F5C54   */                                                                                                                                                   
-  color: rgba(var(--white-text), 1);                                                                                                                                                                                          
-  text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.8);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-bottom: 5px;
+	padding-top: 15px;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	background-color: rgba(var(--green-mossy), 1);
+	/*   Nandor #4F5C54   */
+	color: rgba(var(--white-text), 1);
+	text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.8);
 }
-
 .mid-section-text {
-  padding-left: 5px;
-  margin-left: 2vw;
+	padding-left: 5px;
+	margin-left: 2vw;
 }
-
-.about-section{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.about-section {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
 }
 
 /*    cards gallery                          */
-
 .card {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 /*     contact us section                         */
-
 .contact-form {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  width: 300px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 300px;
 }
-
 .contact-page-image {
-  display: block;
+	display: block;
 }
-
-.email-link{
-  color: rgba(var(--green-hg-dark), 1) ;  /* needed for lighthouse accessability rating */                                                                                                             
+.email-link {
+	color: rgba(var(--green-hg-dark), 1);
+	/* needed for lighthouse accessability rating */
 }
 
 /*    footer section                       */
-
 .footer {
-  background-color: rgba(var(--green-hg-dark), 1);                                                                                                                                                   
-  margin-top: 1rem;
+	background-color: rgba(var(--green-hg-dark), 1);
+	margin-top: 1rem;
 }
-
 #footer-list {
-  /*    unordered list in the footer section                    */
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin: 0;
-  padding-top: 20px;
-  overflow: hidden;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+	/*    unordered list in the footer section                    */
+	list-style-type: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	margin: 0;
+	padding-top: 20px;
+	overflow: hidden;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
-
 .footer-list-item a {
-  color: rgba(var(--whitesmoke), 1);                                                                                                                                                                     
-  text-align: center;
-  padding: 1rem;
-  text-decoration: none;
+	color: rgba(var(--whitesmoke), 1);
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
 }
 
 /* Pulse Grow  taken from hover css https://ianlunn.github.io/Hover/#effects  used for the footer icons  */
 @-webkit-keyframes hvr-pulse-grow {
-  to {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
+	to {
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
 }
 @keyframes hvr-pulse-grow {
-  to {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
+	to {
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
 }
 .hvr-pulse-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
-  -webkit-animation-name: hvr-pulse-grow;
-  animation-name: hvr-pulse-grow;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
+	-webkit-animation-name: hvr-pulse-grow;
+	animation-name: hvr-pulse-grow;
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
 }
 
 /* Small devices (landscape phones, screen width 576px and higher )  */
 @media (min-width: 576px) {
-  h1 {
-    font-size: 2.5rem; /* default h1 size */
-  }
+	h1 {
+		font-size: 2.5rem;
+		/* default h1 size */
+	}
 }
