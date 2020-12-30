@@ -2,9 +2,9 @@
 
 ![display of site seen from different devices](assets/readme-files/amiresponsivescreenshot.png)
 
-This is a [promotional website](https://kenwals.github.io/shinrin-yoku/) for a forest bathing meetup group , one of it's strategies is promote the importance of trees and nature. 
+This is a [promotional website](https://kenwals.github.io/shinrin-yoku/) for a forest bathing meetup group, one of its strategies is promote the importance of trees and nature. 
 
-Forest bathing originated in Japan in the 1980s , where it's known as *Shinrin-Yoku*. It's the practice of walking in any natural environment and consciously connecting with what’s around you.
+Forest bathing originated in Japan in the 1980s, where it's known as *Shinrin-Yoku*. It's the practice of walking in any natural environment and consciously connecting with what’s around you.
 
 This [site](https://kenwals.github.io/shinrin-yoku/) will hopefully create a community of people who appreciate trees and nature, and maybe wish to learn more about protecting them in their local city. 
 
@@ -51,32 +51,32 @@ This [site](https://kenwals.github.io/shinrin-yoku/) will hopefully create a com
 
 ### Scope
 
-This is a fictional meetup group, so there is no limitations on the content . The site will be made to an MVP first, and if there is additional time, content/features will can be added.
+This is a fictional meetup group, so there are no limitations on the content. The site will be made to an MVP first, and if there is additional time, content/features will can be added.
 
 **User stories**
 
-1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
-2. As a visitor to the site, I want to register my details , so I can be added to an email list to receive updates.
+1. As a visitor to the site, I want to read about forest bathing and its benefits, so that I can decide if I wish to take part.
+2. As a visitor to the site, I want to register my details, so I can be added to an email list to receive updates.
 3. As a visitor to the site, I want to view nice pictures of nature.
 4. As a visitor to the site, I want to read about locations of future forest bathing events.
-5. As the site owner , I want to promote my service and have participants for meetups.
-6. As the site owner , I want to promote the benefits of Trees and nature in our environment. 
+5. As the site owner, I want to promote my service and have participants for meetups.
+6. As the site owner, I want to promote the benefits of Trees and nature in our environment. 
 
 ### Structure
 
 Site is put together using HTML, the Bootstrap framework and CSS.
 
-Site is one page with three sections , suitable for visits from mobile phones. Navigation between sections can be done via the navbar or by call to action buttons .
+Site is one page with three sections, suitable for visits from mobile phones. Navigation between sections can be done via the navbar or by call to action buttons.
 
 ### Skeleton
 
-Mobile use a first approach - one page site , navigation menu at the top. 
+Mobile use a first approach - one page site, navigation menu at the top. 
 
-Section 1 - Home page - Navbar at top . Hero image below. With brief headline paragraph. under that a mid section with introduction paragraph.
+Section 1 - Home page - Navbar at top . Hero image below. With brief headline paragraph. under that a mid-section with introduction paragraph.
 
-Section 2 - About page -  Here is displayed various panels of either Text or images promoting forest bathing , in a gallery format.
+Section 2 - About page -  Here is displayed various panels of either Text or images promoting forest bathing, in a gallery format.
 
-Section 3 - Contact page - Email subscribe form , contact information and links to various social media channels in footer section.
+Section 3 - Contact page - Email subscribe form, contact information and links to various social media channels in footer section.
 
 **Wireframe**
 
@@ -88,7 +88,7 @@ Below is the initial wireframe.
 
 **Colours**
 
-As the site theme is connecting with nature , the colours too are connected to nature. Various shades of green or natural colours are used. Point of referance for the colours of the site are taken from the images using a colour palette tool. 
+As the site theme is connecting with nature, the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours of the site are taken from the images using a colour palette tool. 
 
 ![demonstration of colour sourcing to image](assets/readme-files/canva_swatch.png)
 
