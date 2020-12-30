@@ -7,11 +7,11 @@
 
 :root {
   --green-bg-light: 201, 211, 170; /* green mist #c9d3aa - light green background colour used on body and navbar */
-  --green-hg-dark: 78, 92, 40;    /* Woodland #4e5c28 - Dark Green colour for heading elements , buttons and footer background*/
-  --green-mossy: 79, 92, 84;  /*    Nandor #4F5C54    mossy green colour used for background on mid section box */
-  --lemon-grass: 157, 161, 154; /*  Lemon Grass #9da19a - colour used for text shadow*/
-  --white-text: 255, 255, 255; /* white colour used for text in hero and mid section */
-  --whitesmoke: 245, 245, 245; /* off white colour used in the footer for the social media icons */
+  --green-hg-dark: 78, 92, 40;     /* Woodland #4e5c28 - Dark Green colour for heading elements , buttons and footer background*/
+  --green-mossy: 79, 92, 84;       /* Nandor #4F5C54    mossy green colour used for background on mid section box */
+  --lemon-grass: 157, 161, 154;    /* Lemon Grass #9da19a - colour used for text shadow*/
+  --white-text: 255, 255, 255;     /* White colour used for text in hero and mid section */
+  --whitesmoke: 245, 245, 245;     /* Off white colour used in the footer for the social media icons */
 }
 
 body {
@@ -72,7 +72,7 @@ h5 {
   background-size: cover;
   position: relative;
   /* taken from  https://www.w3schools.com/howto/howto_css_hero_image.asp */
-  margin-top: 70px;
+  margin-top: 70px; /*  needed as the navbar covers the hero image otherwise */
 }
 
 .hero-image-text {
