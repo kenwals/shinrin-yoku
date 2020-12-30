@@ -2,11 +2,11 @@
 
 ![display of site seen from different devices](assets/readme-files/amiresponsivescreenshot.png)
 
-This is a promotional website for a forest bathing meetup group , one of it's strategies is promote the importance of trees and nature. 
+This is a [promotional website](https://kenwals.github.io/shinrin-yoku/) for a forest bathing meetup group , one of it's strategies is promote the importance of trees and nature. 
 
 Forest bathing originated in Japan in the 1980s , where it's known as *Shinrin-Yoku*. It's the practice of walking in any natural environment and consciously connecting with what’s around you.
 
-This site will hopefully create a community of people who appreciate trees and nature, and maybe wish to learn more about protecting them in their local city. 
+This [site](https://kenwals.github.io/shinrin-yoku/) will hopefully create a community of people who appreciate trees and nature, and maybe wish to learn more about protecting them in their local city. 
 
 ---
 
@@ -199,29 +199,23 @@ The site is laid out on one page that has several sections .
 ---
 ## Testing
 
-I tested the site as i went along , either manual testing myself or automated testing using online tools such a Lighthouse . I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
+I tested the site as i went along, manual testing myself or automated testing using online tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
 
-Utilities used for testing were:
+Utilities/channels used for testing were:
 
-- lighthouse audit tool in Chrome devtools
+- [lighthouse](https://developers.google.com/web/tools/lighthouse) report in Chrome devtools.
 
 - http://ami.responsivedesign.is/
 
-- Accessibility insight for the web (microsoft)
+- [Accessibility](https://accessibilityinsights.io/) insight for the web (microsoft)
 
-- Peer review on slack
+- Peer review channel on slack
 
-- Simulated Devices on Developer tools in Chrome
+- Simulated Devices on Developer tools in Chrome and sometimes on Firefox Developer Edition.
 
-- Friends and family .
+- Friends and family.
 
-Devices manually tested browser for the following devices on:  
-
-- Android Mobile phone  (Screen width 360px) 
-- Android Mobile phone  (Screen width 412px)
-- Android Tablet        (Screen width 600px) sm
-- Smart TV              (Screen width 1920px) lg
-- Windows laptop        (Screen width 2560px) 
+- checking every smart device i had within reach.
 
 ### Bugs encountered on the way
 
@@ -244,6 +238,10 @@ Devices manually tested browser for the following devices on:
 
 It was desirable to have the navbar menu float at the top of the screen , but i had difficulty getting the menu to collapse itself automatically with Bootstrap or CSS. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links. 
 
+#### Gitpod
+
+Gitpod has been an enemy of mine on some ocassions , i have lost work a few times with it. I may have to use another IDE option on future projects. 
+
 ### Version control
 
 For version control i used the UI on gitpod for making commits, and command line for branches, Merging was done on the Github site. I used branches when i was working on new features , some branchs were scrapped didn't make it to the master.
@@ -254,9 +252,9 @@ Navbar : all the links work, this section is reponsive to screen size, menu coll
 
 Hero image and text: clearly visible/readable , call to action button takes user to the about section.
 
-About section: The card gallery is a template taken from the bootstrap framework library . it's reponsive to screen size off the shelf. No isues found. 
+About section: The card gallery is a template taken from the bootstrap framework library . It is reponsive to screen size off the shelf. No issues found. 
 
-email link: This behaves as expected, the link should trigger the users browser to open a new window for composing an email , the To field and the subject field should be prepopulated.
+Email link on contact page: This behaves as expected, the link should trigger the users browser to open a new window for composing an email , the To field and the subject field should be prepopulated.
 
 Subscription form : The form displays validation messages if fields are blank when the subscribe button is pressed. 
 
@@ -264,12 +262,13 @@ Footer section : All icons animate when the mouse is hovering over them, each ic
 
 Devices manually tested browser for the following devices on:  
 
-- Android Mobile phone  (Screen width 320px)
-- Android Mobile phone  (Screen width 360px)  
-- Android Mobile phone  (Screen width 412px)
-- Android Tablet        (Screen width 600px) sm
-- Smart TV              (Screen width 1920px) lg
-- Windows laptop        (Screen width 2560px)  
+- Android Mobile phone  (Screen width 320px)        Samsung Galaxy SIII
+- Android Mobile phone  (Screen width 360px)        Oneplus one
+- Android Mobile phone  (Screen width 412px)        Oneplus six 
+- Android Tablet        (Screen width 600px) sm     Google NEXUS 7
+- Smart TV WEBOS        (Screen width 1920px) lg    LG 
+- Windows laptop        (Screen width 2560px)       Dell XPS
+  
 
 ### CSS3 validator 
 
@@ -278,13 +277,13 @@ Apart from this , there is no validation issues.
 
 ### HTML5 validator
 
-Initially I did typos and invalid synthax , all issues resolved .  No validation errors to report now.
+Initially I did have typos and invalid synthax , all issues resolved .  No validation errors to report now.
 
 ### Usability Testing
 
 I shared the project on the peer review channel and also with frends/family. No major usability issues were raised.
 
-Lighthouse Accessibility validation gave me interesting insights on issues that would impact visually imparied visitors to the site, as a result i made efforts to improve access for this audience. 
+The Validation reports [Lighthouse](https://developers.google.com/web/tools/lighthouse) Accessibility and [Microsofts Accessibility Insights](https://accessibilityinsights.io/) gave me interesting insights on issues that would impact visually imparied visitors to the site, as a result i made efforts to improve access for this audience. 
 
 ### Compatibility Testing
 
@@ -299,7 +298,7 @@ Lighthouse Accessibility validation gave me interesting insights on issues that 
 
 ### Performance Testing
 
-Lighthouse Performance report highlighted issues for me in regard to Performance. I made improvements to the page based on this feedpack such as compressing the images, using lazy loading on images that weren't visible on initial loading .
+Lighthouse Performance report highlighted issues for me in regard to Performance. I made improvements to the page based on this feedback such as compressing the images, using lazy loading on images that weren't visible on initial loading .
 
 ### Testing User Stories
 
