@@ -196,6 +196,8 @@ The site is laid out on one page that has several sections .
 
 - Autoprefixer CSS : [Autoprefixer](https://autoprefixer.github.io/)
 
+- Beautifier for HTML and CSS : [dirtyMarkUp](https://www.10bestdesign.com/dirtymarkup/)
+
 ##### back to [contents](#table-of-contents)  
 
 ---
