@@ -233,8 +233,7 @@ Utilities/channels used for testing were:
 
 1. On medium and larger screens the navbar items flicker after they have been selected.
 2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
-3. Unable to customize the ul tagged text for locations card in the card gallery, I haven't yet figured out how to over-ride the bootstrap style .
-4. The navbar items text needs to be bolder to be WCAG AAA compliant for visually impaired visitors. I haven't yet figured out how to over-ride the bootstrap style .
+3. Unable to customize the ul tagged text for locations card in the card gallery, I haven't yet figured out how to over-ride the bootstrap style.
 
 ### Project barriers and solutions
 
