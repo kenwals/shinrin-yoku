@@ -194,6 +194,8 @@ The site is laid out on one page that has several sections .
 
 - Favicon creator : [favicon.io](https://favicon.io/favicon-generator/)
 
+- Autoprefixer CSS : [Autoprefixer](https://autoprefixer.github.io/)
+
 ##### back to [contents](#table-of-contents)  
 
 ---
