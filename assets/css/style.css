@@ -23,7 +23,7 @@
 .row, .container-fluid, .container-lg{
     padding:0;
     margin:0;
-} /*  fix potential overflow situation that was happening on smaller screens */
+} /*  fix potential overflow situation that was happening on smaller screens , taken from kick ass milestone handout pdf on slack*/
 body {
 	background-color: rgba(var(--green-bg-light), 1);
 	/* green mist #c9d3aa - light green background colour */
