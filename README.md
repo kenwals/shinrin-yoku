@@ -4,7 +4,7 @@
 
 This is a [promotional website](https://kenwals.github.io/shinrin-yoku/) for a forest bathing meetup group, one of its strategies is promote the importance of trees and nature. 
 
-Forest bathing originated in Japan in the 1980s, where it's known as *Shinrin-Yoku*. It's the practice of walking in any natural environment and consciously connecting with what’s around you.
+Forest bathing originated in Japan in the 1980s, where it is known as *Shinrin-Yoku*. It is the practice of walking in any natural environment and consciously connecting with what’s around you.
 
 This [site](https://kenwals.github.io/shinrin-yoku/) will hopefully create a community of people who appreciate trees and nature, and maybe wish to learn more about protecting them in their local city. 
 
@@ -51,7 +51,7 @@ This [site](https://kenwals.github.io/shinrin-yoku/) will hopefully create a com
 
 ### Scope
 
-This is a fictional meetup group, so there are no limitations on the content. The site will be made to an MVP first, and if there is additional time, content/features will can be added.
+This is a fictional meetup group, so there are no limitations on the content. The site will be made to an MVP first, and if there is additional time, content/features can be added.
 
 **User stories**
 
@@ -66,11 +66,11 @@ This is a fictional meetup group, so there are no limitations on the content. Th
 
 Site is put together using HTML, the Bootstrap framework and CSS.
 
-Site is one page with three sections, suitable for visits from mobile phones. Navigation between sections can be done via the navbar or by call to action buttons.
+A Mobile first approach is taken - site is all on one page site with three sections, navigation menu at the top. 
+
+ Navigation between sections can be done via the navbar or by"call to action" buttons.
 
 ### Skeleton
-
-Mobile use a first approach - one page site, navigation menu at the top. 
 
 Section 1 - Home page - Navbar at top . Hero image below. With brief headline paragraph. under that a mid-section with introduction paragraph.
 
@@ -88,7 +88,7 @@ Below is the initial wireframe.
 
 **Colours**
 
-As the site theme is connecting with nature, the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours of the site are taken from the images using a colour palette tool. 
+The site theme is about connecting with nature, so the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours of the site are taken from the site images using a colour palette tool. 
 
 ![demonstration of colour sourcing to image](assets/readme-files/canva_swatch.png)
 
@@ -97,17 +97,17 @@ Root variables are used so colours can be updated quickly if revisions are neede
 Colours used are:
 
 - "Woodland" Green  (#4e5c28) : Used for headings and text when on light background. This colour is used as background on footer. 
-- "Green Mist"      (#c9d3aa) : Used on the background of the body and navbar.
-- "Nador" Green     (#4F5C54) :  Used on the background of the mid section between hero image and about section.
-- "Lemon Grass"     (#9da19a) : Used for text shadow on the hero image text.
-- White                     : used for text.
-- WhiteSmoke                : used for the footer icons.
+- "Green Mist"  (#c9d3aa) : Used on the background of the body and navbar.
+- "Nador" Green  (#4F5C54) :  Used on the background of the mid section between hero image and about section.
+- "Lemon Grass"  (#9da19a) : Used for text shadow on the hero image text.
+- White  (#FFFFFF) : used for text when on a dark background.
+- WhiteSmoke  (#F5F5F5) : used for the footer icons.
 
 ![Site colour palette](assets/readme-files/colours-swatch.png)
 
-As colours are configured using rbga properties , these can be tweaked with opacity values to give more variety to the palette while keeping the uniformity. 
+As colours are configured using rbga() properties, these can be tweaked with opacity values to give more variety to the palette while keeping the uniformity. 
 
-**Icons** used are from fontawesome.com . these icons are visible on buttons , the sub heading of each card in the card gallery and for the social media icons in the footer.
+**Icons** used are from fontawesome.com . These icons are visible on buttons , the sub heading of each card in the card gallery and as the social media icons in the footer.
 
 **Images** used are ones I took myself. The original high quality images are located [here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3).
 
@@ -115,11 +115,10 @@ As colours are configured using rbga properties , these can be tweaked with opac
 
 ![Sample of fonts selected](assets/readme-files/google-font-sample.png)
 
-**"Shadows Into Light"** was used for Header (h1,h2 and h3) text elements
+- **"Shadows Into Light"** was used for Header (h1,h2 and h3) text elements
+- **"Montserrat"**​ was used for all other text. 
 
-**"Montserrat"**​ was used for all other text. 
-
-On slow connections , another font may be visible while the site is loading.
+On slow connections, another font may be visible while the site is loading.
 
 ##### back to [contents](#table-of-contents)
 
@@ -141,17 +140,17 @@ The site is laid out on one page that has several sections .
 
 - In the first two sections a call to action button prompts the user to another section. 
 
-- In the footer section , the icons will incorporate a hover animation
+- In the footer section , the icons hover animation that make them grow in size.
 
 - Contrasting colours and aria labels are used to ensure site supports visually impaired visitors. 
 
-- The navbar button will float at the top of the screen .
+- The navbar menu is fixed to the top of the screen .
 
 - Some images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree.
   
 ### Features Left to Implement
 
-- Have the subscription form add the visitor to an email list. 
+- Have the subscription form add the visitor to an email list database. 
 
  ##### back to [contents](#table-of-contents)
 
@@ -166,7 +165,7 @@ The site is laid out on one page that has several sections .
 
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 
-- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (really helped with fonts , accessibility and images).
+- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (which really helped with fonts , accessibility and images).
 
 - Kanban planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1) . 
 
@@ -178,19 +177,19 @@ The site is laid out on one page that has several sections .
 
 - Icons : [Fontawesome](https://fontawesome.com/)
 
-- Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/)
+- Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/) was used for automatically selected green colours from images.
 
-- Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff)
+  - Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff) was used when trying to decide what colour to use against which background.
 
 - Misc. Planning: MS Excel was used for filename changes planning and making the names lowercase.
 
-- Pomodoro timer : [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj)
+- Pomodoro timer : [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj) 
 
-- Overflow rescue tool : [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
+- Overflow rescue tool : [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) was used for when a scroll left to right appeared on my site on smaller screens.
 
 - HEX to RGB converter : [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html) and [webfx](https://www.webfx.com/web-design/hex-to-rgb/)
 
-- Colour contrast checking for Accessibility refinements : [WebAIM](https://webaim.org/resources/contrastchecker/)
+- Colour contrast checking for Accessibility refinements : [WebAIM](https://webaim.org/resources/contrastchecker/) was used for when trying to decide what colours to use for text against which background colour.
 
 - Favicon creator : [favicon.io](https://favicon.io/favicon-generator/)
 
@@ -223,7 +222,7 @@ Utilities/channels used for testing were:
 
 ### Bugs encountered on the way
 
-1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut when starting the site. So the incorrect version of bootstrap and JavaScript was chosen. Once I replaced both the navbar worked correctly.
+1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut command when starting the site. So the incorrect version of bootstrap and JavaScript was chosen. Once I replaced both the navbar worked correctly.
 3. Git commit issue , in the beginning i was using only git on the command line . Somehow not all my commits were appearing in GitHub when i pushed them . The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
 4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
 4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the JavaScript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
@@ -239,15 +238,19 @@ Utilities/channels used for testing were:
 
 #### The navbar 
 
-It was desirable to have the navbar menu float at the top of the screen , but I had difficulty getting the menu to collapse itself automatically with the standard Bootstrap template. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links. 
+It was desirable to have the navbar menu float at the top of the screen , but I had difficulty getting the menu to collapse itself automatically with the standard Bootstrap template. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links list of classes. 
 
 #### Gitpod
 
 Gitpod has been an enemy of mine on some occasions , I have lost work a few times with it. I may have to use another IDE option on future projects. 
 
+#### Colour scheme and font challenges
+
+The font and colour scheme chosen for this site did initially cause problems with accessibility audits (Firefox, Lighthouse and Accessibility insights) . So I had to make a slight change to the colour scheme in order to have the correct colour contrasts to ensure legibility.
+
 ### Version control
 
-For version control i used the UI on Gitpod for making commits, and command line for branches, Merging was done on the GitHub site. I used branches when i was working on new features , some branch's were scrapped didn't make it to the master.
+For version control I used the UI on Gitpod for making commits, and command line for branches, Merging was done on the GitHub site. I used branches when I was working on new features , some branch's were scrapped didn't make it to the master.
 
 ### Functionality Testing
 
@@ -255,7 +258,7 @@ Navbar : all the links work, this section is responsive to screen size, menu col
 
 Hero image and text: clearly visible/readable , call to action button takes user to the about section.
 
-About section: The card gallery is a template taken from the bootstrap framework library . It is responsive to screen size off the shelf. No issues found. 
+About section: The card gallery is a template taken from the bootstrap framework library . It is responsive to screen size off the shelf. Some images have links that take you to another site. No issues found. 
 
 Email link on contact page: This behaves as expected, the link should trigger the users browser to open a new window for composing an email , the To field and the subject field should be prepopulated.
 
@@ -265,18 +268,18 @@ Footer section : All icons animate when the mouse is hovering over them, each ic
 
 Devices manually tested browser for the following devices on:  
 
-- Android Mobile phone  (Screen width 320px)        Samsung Galaxy SIII
-- Android Mobile phone  (Screen width 360px)        Oneplus one
-- Android Mobile phone  (Screen width 412px)        Oneplus six 
-- Android Tablet   (Screen width 600px) sm         Google NEXUS 7
-- Smart TV WEBOS  (Screen width 1920px) lg     LG 
-- Windows laptop  (Screen width 2560px)           Dell XPS
+- Android Mobile phone  (Screen width 320px)        Samsung Galaxy SIII mini
+- Android Mobile phone  (Screen width 360px)        Oneplus One
+- Android Mobile phone  (Screen width 412px)        Oneplus Six 
+- Android Tablet   (Screen width 600px) sm              Google NEXUS 7
+- Smart TV WEBOS  (Screen width 1920px) lg           LG 
+- Windows 10 laptop  (Screen width 2560px)            Dell XPS
   
 
 ### CSS3 validator 
 
-a Problem with jigsaw is that it does not recognise root variables and rgba combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables) . 
-Apart from this , there is no validation issues. 
+A known problem with jigsaw is that it does not recognise root variables and rgba() combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables) . 
+Apart from this limitation with jigsaw, there is no validation issues. 
 
 ### HTML5 validator
 
@@ -286,18 +289,19 @@ Initially I did have typos and invalid syntax , all issues resolved .  No valida
 
 I shared the project on the peer review channel and also with friends/family. No major usability issues were raised.
 
-The Validation reports [Lighthouse](https://developers.google.com/web/tools/lighthouse) Accessibility and [Microsofts Accessibility Insights](https://accessibilityinsights.io/) gave me interesting insights on issues that would impact visually impaired visitors to the site, as a result i made efforts to improve access for this audience. 
+The Validation reports [Lighthouse](https://developers.google.com/web/tools/lighthouse) Accessibility and [Microsofts Accessibility Insights](https://accessibilityinsights.io/) gave me interesting insights on issues that would impact visually impaired visitors to the site, as a result I made efforts to improve access for this audience. 
 
 ### Compatibility Testing
 
 | Screen size\Browser                          | Chrome | Firefox | Edge |
 | -------------------------------------------- | ------ | ------- | ---- |
-| Android Mobile phone (Screen width 320px) xs |        |         |      |
-| Android Mobile phone (Screen width 412px) xs |        |         |      |
-| Android Tablet (Screen width 600px) sm       |        |         |      |
-| Smart TV (Screen width 1920px) lg            |        |         |      |
+| Android Mobile phone (Screen width 320px) xs | Pass | Pass | Pass |
+| Android Mobile phone (Screen width 412px) xs | Pass | Pass | Pass |
+| Android Tablet (Screen width 600px) sm       | Pass | Pass | Pass |
+| Smart TV (Screen width 1920px) lg*           | NA | NA | NA |
 | Windows laptop (Screen width 2560px)         |   pass |  pass |  pass    |
 
+Native browser on the LG Smart tv I tested on was an outdated version of WebOS NetCast , which i think is safe to say is out of scope here for compatibility. 
 
 ### Performance Testing
 
@@ -311,7 +315,7 @@ Lighthouse Performance report highlighted issues for me in regard to Performance
 
 2. As a visitor to the site, I want to register my details , so I can be added to an email list to receive updates.
 
-*This can be achieved on the contact page section.*
+*This can be achieved on the contact page section.* There is a sign up button that links to this section on the home page. 
 
 3. As a visitor to the site, I want to view nice pictures of nature.
 
@@ -334,11 +338,11 @@ Lighthouse Performance report highlighted issues for me in regard to Performance
 ---
 ## Deployment
 
-For easy deployment on GitHub pages you will need a GitHub user account and a possibly a Gitpod user account. If you wish to make changes to this repository , please follow the GitHub steps first. 
+For easy deployment on GitHub pages you will need a GitHub user account and a possibly a Gitpod user account. If you wish to make changes to this repository, please follow the GitHub steps first. 
 
 **GitHub**
 
-GitHub is a code hosting platform for version control and collaboration. It's free to enrol for a user account and i would recommend you have one if you wish to deploy this repository and make changes.
+GitHub is a code hosting platform for version control and collaboration. It's free to enrol for a user account and I would recommend you have one if you wish to deploy this repository and make changes.
 
 When you have a GitHub account you can simple click on the Fork button on the top right corner. This is clone the Shinrin-Yuko repository for your GitHub account, then you can make any changes you like.
 
@@ -346,15 +350,15 @@ When you have a GitHub account you can simple click on the Fork button on the to
 
 The site can edited easily on a Gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the Gitpod extension on your preferred internet browser. On signing up you will be expected to  have a GitHub user account.
 
-Once you have the extension on your browser , a green Gitpod button will appear beside this repository in GitHub. for best results fork the repository in your personal account before you open it in Gitpod.
+Once you have the extension on your browser, a green Gitpod button will appear beside this repository in GitHub. For best results fork the repository in your personal account before you open it in Gitpod.
 
-GitHub Pages**
+**GitHub Pages**
 
 Once you have the completed site in your own repository, you can deploy to GitHub pages by the following steps.
 
 1. On GitHub, go to the completed sites repository.
-2. Click on settings, on the settings page scroll down the the GitHub Pages section. .
-3. Under GitHub pages Select the appropriate branch or folder the index.html is in. 
+2. Click on settings, on the settings page scroll down the the GitHub Pages section. 
+3. Under GitHub pages, Select the appropriate branch or folder the index.html is in. 
 4. Click on save . A message should then appear advising the URL of your deployed site.
 
 **Cloning**
@@ -362,7 +366,7 @@ Once you have the completed site in your own repository, you can deploy to GitHu
 If you prefer working on the repository locally, you can clone the repository to your desktop by the following steps.
 
 1. Go to [the Shinrin-Yuko github page](https://github.com/kenwals/shinrin-yoku) .
-2. above the list of files , click on the code button.
+2. Above the list of files , click on the code button.
 3. - To clone the repository using HTTPS, under "Clone with HTTPS", click the paste icon. 
    - To clone the repository using an SSH key, click Use SSH, then click the paste icon . 
    - To clone a repository using GitHub CLI, click Use GitHub CLI, then click the paste icon.
