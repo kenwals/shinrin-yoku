@@ -81,7 +81,6 @@ h5 {
 	/* taken from  https://www.w3schools.com/howto/howto_css_hero_image.asp */
 	margin-top: 75px;
     /*  needed as the navbar covers the hero image otherwise */
-    border-radius: 5px;
 }
 .hero-image-text {
 	color: rgba(var(--white-text), 1);
