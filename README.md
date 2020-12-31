@@ -179,7 +179,7 @@ The site is laid out on one page that has several sections .
 
 - Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/) was used for automatically selected green colours from images.
 
-  - Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff) was used when trying to decide what colour to use against which background.
+- Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff) was used when trying to decide what colour to use against which background.
 
 - Misc. Planning: MS Excel was used for filename changes planning and making the names lowercase.
 
