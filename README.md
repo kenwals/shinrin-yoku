@@ -212,7 +212,7 @@ Utilities/channels used for testing were:
 
 - [lighthouse](https://developers.google.com/web/tools/lighthouse) report in Chrome devtools and on command line.
 
-- [w3c Markup Validation service (HTML)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkenwals.github.io%2Fshinrin-yoku%2F)
+- [w3c HTML Markup Validation service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkenwals.github.io%2Fshinrin-yoku%2F)
 
 - [w3c CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
