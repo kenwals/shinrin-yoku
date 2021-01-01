@@ -72,7 +72,7 @@ h5 {
 /*   home page section                           */
 .hero-image {
 	/* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-	background-image: url("../images/phoenix-park-forest.jpg");
+	background-image: url("../images/phoenix-park-forest.webp");
 	/* Position and center the image to scale nicely on all screens */
 	background-position: center;
 	background-repeat: no-repeat;
