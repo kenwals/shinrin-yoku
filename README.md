@@ -181,7 +181,7 @@ The site is laid out on one page that has several sections .
 
 - Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff) was used when trying to decide what colour to use against which background.
 
-- Misc. Planning: MS Excel was used for filename changes planning and making the names lowercase.
+- File renaming utility : PowerRename from [PowerToys on Windows 10](https://www.windowscentral.com/how-bulk-rename-your-files-windows-10-powertoys)
 
 - Pomodoro timer : [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj) 
 
@@ -196,6 +196,8 @@ The site is laid out on one page that has several sections .
 - Autoprefixer CSS : [Autoprefixer](https://autoprefixer.github.io/)
 
 - Beautifier for HTML and CSS : [dirtyMarkUp](https://www.10bestdesign.com/dirtymarkup/)
+
+- Image conversion tool to WEBP (Next gen image format) : [XnConvert](https://www.xnview.com/en/xnconvert/)
 
 ##### back to [contents](#table-of-contents)  
 
