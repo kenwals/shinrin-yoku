@@ -88,7 +88,7 @@ Below is the initial wireframe.
 
 **Colours**
 
-The site theme is about connecting with nature, so the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours of the site are taken from the site images using a colour palette tool. 
+The site theme is about connecting with nature, so the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours choosen are taken from the site images using a colour palette tool. 
 
 ![demonstration of colour sourcing to image](assets/readme-files/canva_swatch.png)
 
@@ -109,7 +109,7 @@ As colours are configured using rbga() properties, these can be tweaked with opa
 
 **Icons** used are from fontawesome.com . These icons are visible on buttons , the sub heading of each card in the card gallery and as the social media icons in the footer.
 
-**Images** used are ones I took myself. The original high quality images are located [here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3).
+**Images** used are ones I took myself. The original high quality images are located [here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3). Images are in jpg format and have been compressed. 
 
 **Fonts** : 
 
@@ -177,7 +177,7 @@ The site is laid out on one page that has several sections .
 
 - Icons : [Fontawesome](https://fontawesome.com/)
 
-- Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/) was used for automatically selected green colours from images.
+- Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/) was used for automatically selecting green colours from images.
 
 - Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff) was used when trying to decide what colour to use against which background.
 
@@ -208,11 +208,13 @@ I tested the site as I went along, manual testing or automated testing using onl
 
 Utilities/channels used for testing were:
 
-- [lighthouse](https://developers.google.com/web/tools/lighthouse) report in Chrome devtools.
+- [lighthouse](https://developers.google.com/web/tools/lighthouse) report in Chrome devtools and on command line.
 
 - http://ami.responsivedesign.is/
 
 - [Accessibility](https://accessibilityinsights.io/) insight for the web (microsoft)
+
+- [Accessibility insprector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) on Firefox Developer Edition.
 
 - Peer review channel on slack
 
@@ -228,12 +230,12 @@ Utilities/channels used for testing were:
 3. Git commit issue , in the beginning i was using only git on the command line . Somehow not all my commits were appearing in GitHub when i pushed them . The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
 4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
 4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the JavaScript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
-5. Images missing on GitHub pages even though they worked in Gitpod environment. fix for this was to input a "." in the beginning of image file address. 
+5. Images missing on GitHub pages even though they worked in Gitpod environment. fix for this was to input a "." in the beginning of image file address.
 
 ### Known issues
 
 1. On medium and larger screens the navbar items flicker after they have been selected.
-2. When tested on my smart tv browser, the background colours don't show for hero text , mid section text and footer section. 
+2. When tested on my smart tv browser(outdated version of WebOS NetCast), the background colours don't show for hero text , mid section text and footer section. This problem happens on the internet explorer browser also. 
 3. Unable to customize the ul tagged text for locations card in the card gallery, I haven't yet figured out how to over-ride the bootstrap style.
 
 ### Project barriers and solutions
@@ -246,9 +248,13 @@ It was desirable to have the navbar menu float at the top of the screen , but I 
 
 Gitpod has been an enemy of mine on some occasions , I have lost work a few times with it. I may have to use another IDE option on future projects. 
 
+#### Images format dilema 
+
+In the lighthouse performance audit report, the images are currently flagged as being an opurtunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so i abandoned that opurtunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains, but i think the site felt slower. Also the images failed to load on Safari Browser(a friend checked this for me!). So i decided to abondon it , perhaps in a later version of the site i can have the images dynamic to the browser/device.  
+
 #### Colour scheme and font challenges
 
-The font and colour scheme chosen for this site did initially cause problems with accessibility audits (Firefox, Lighthouse and Accessibility insights) . So I had to make a slight change to the colour scheme in order to have the correct colour contrasts to ensure legibility.
+The font and colour scheme chosen for this site did initially cause problems with accessibility audits (Firefox, Lighthouse and Accessibility insights). So I had to make a slight change to the colour scheme in order to have the correct colour contrasts to ensure legibility.
 
 ### Version control
 
@@ -300,10 +306,8 @@ The Validation reports [Lighthouse](https://developers.google.com/web/tools/ligh
 | Android Mobile phone (Screen width 320px) xs | Pass | Pass | Pass |
 | Android Mobile phone (Screen width 412px) xs | Pass | Pass | Pass |
 | Android Tablet (Screen width 600px) sm       | Pass | Pass | Pass |
-| Smart TV (Screen width 1920px) lg*           | NA | NA | NA |
 | Windows laptop (Screen width 2560px)         |   pass |  pass |  pass    |
 
-Native browser on the LG Smart tv I tested on was an outdated version of WebOS NetCast , which i think is safe to say is out of scope here for compatibility. 
 
 ### Performance Testing
 
