@@ -397,6 +397,7 @@ If you prefer working on the repository locally, you can clone the repository to
 - [Bootstrap components](https://getbootstrap.com/)
 - [W3schools](https://www.w3schools.com/)
 - [Code institute's Slack workspace channels](https://slack.com)
+- How to make a Kick-Ass first Milestone (part 1 , 2 and 3)
 - [CSS tricks](https://css-tricks.com/) 
 - [YouTube](https://www.youtube.com/)
 - [Stack Exchange](https://stackexchange.com/)
@@ -413,7 +414,7 @@ If you prefer working on the repository locally, you can clone the repository to
 
 - The book ["The Hidden Life of Trees"](https://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees) by Peter Wohlleben .
 
-- Various people at [code institute](https://codeinstitute.net/).
+- Various people at [code institute](https://codeinstitute.net/) and the code institute Slack channel.
 
 - [Imbibe](https://imbibe.ie/) Coffee Roasters and [Barry's Tea](https://www.barrystea.ie/).
 
