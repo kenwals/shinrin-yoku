@@ -206,6 +206,8 @@ The site is laid out on one page that has several sections .
 
 I tested the site as I went along, manual testing or automated testing using online tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
 
+![Lighthouse report 1-Jan-2021](assets/readme-files/lighthouse-desktop-20210101.png)
+
 Utilities/channels used for testing were:
 
 - [lighthouse](https://developers.google.com/web/tools/lighthouse) report in Chrome devtools and on command line.
