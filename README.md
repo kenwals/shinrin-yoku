@@ -99,7 +99,7 @@ Colours used are:
 - "Woodland" Green  (#4e5c28) : Used for headings and text when on light background. This colour is used as background on footer. 
 - "Green Mist"  (#c9d3aa) : Used on the background of the body and navbar.
 - "Nador" Green  (#4F5C54) :  Used on the background of the mid section between hero image and about section.
-- "Lemon Grass"  (#9da19a) : Used for text shadow on the hero image text.
+- "Lemon Grass"  (#9da19a) : Used for text shadow on the hero image text, and box shadow on cards.
 - White  (#FFFFFF) : used for text when on a dark background.
 - WhiteSmoke  (#F5F5F5) : used for the footer icons.
 
@@ -252,9 +252,9 @@ Gitpod has been an enemy of mine on some occasions , I have lost work a few time
 
 In the lighthouse performance audit report, the images are currently flagged as being an opurtunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so i abandoned that opurtunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains, but i think the site felt slower. Also the images failed to load on Safari Browser(a friend checked this for me!). So i decided to abondon it , perhaps in a later version of the site i can have the images dynamic to the browser/device.  
 
-#### Colour scheme and font challenges
+#### Colour scheme compromise and font challenges
 
-The font and colour scheme chosen for this site did initially cause problems with accessibility audits (Firefox, Lighthouse and Accessibility insights). So I had to make a slight change to the colour scheme in order to have the correct colour contrasts to ensure legibility.
+The font and colour scheme chosen for this site initially have problems with the accessibility audits (Firefox, Lighthouse and Accessibility insights). So I had to make a slight change to the colour scheme in order to have the ideal colour contrasts to ensure legibility of content.
 
 ### Version control
 
