@@ -132,7 +132,7 @@ The site is laid out on one page that has several sections.
 
 - It is responsive to screen size thanks to bootstrap.
 
-- The navbar at the top collapses into a hamburger button on smaller screens.
+- The navbar remains fixed to the top of the screen, and collapses into a hamburger button on smaller screens.
 
 - One of the image cards in the gallery is hidden on small screens to improve flow of the page.
 
@@ -143,8 +143,6 @@ The site is laid out on one page that has several sections.
 - Hover animations are used on the cards (box shadow appears) in the about section and the social media icons (grow in size) in the footer section.
 
 - Contrasting colours and aria labels are used to ensure site supports visually impaired visitors. 
-
-- The navbar menu is fixed to the top of the screen.
 
 - Some images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree.
   
