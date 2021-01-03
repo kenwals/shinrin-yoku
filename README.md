@@ -68,7 +68,7 @@ Site is put together using HTML, the Bootstrap framework and CSS.
 
 A Mobile first approach is taken - site is all on one page site with three sections, navigation menu at the top. 
 
- Navigation between sections can be done via the navbar or by"call to action" buttons.
+Navigation between sections can be done via the navbar or by"call to action" buttons.
 
 ### Skeleton
 
@@ -323,37 +323,37 @@ Lighthouse Performance report highlighted issues for me in regard to Performance
 
 1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
 
-![user story 01 screenshot](assets/readme-files/user-story-01.PNG)
+    ![user story 01 screenshot](assets/readme-files/user-story-01.PNG)
 
 *There is bit size pieces of information spread around the home page section and the about page section.*
 
 2. As a visitor to the site, I want to register my details, so I can be added to an email list to receive updates.
 
-![user story 02 screenshot](assets/readme-files/user-story-02.PNG)
+    ![user story 02 screenshot](assets/readme-files/user-story-02.PNG)
 
 *This can be achieved on the contact page section.* There is a sign up button that links to this section on the home page. 
 
 3. As a visitor to the site, I want to view nice pictures of nature.
 
-![user story 03 screenshot](assets/readme-files/user-story-03.PNG)
+    ![user story 03 screenshot](assets/readme-files/user-story-03.PNG)
 
 *Various pictures are used on each section of the site.*
 
 4. As a visitor to the site, I want to read about locations of future forest bathing events.
 
-![user story 04 screenshot](assets/readme-files/user-story-04.PNG)
+    ![user story 04 screenshot](assets/readme-files/user-story-04.PNG)
 
 *A list of locations is available on the second card in the about page section.*
 
 5. As the site owner, I want to promote my service and have participants for meetups.
 
-![user story 05 screenshot](assets/readme-files/user-story-05.PNG)
+    ![user story 05 screenshot](assets/readme-files/user-story-05.PNG)
 
 *The site is structured to load up fast to avoid bounce from visitors, it also prompts the user to sign up their contact details if they wish the hear more.*
 
 6. As the site owner, I want to promote the benefits of Trees and nature in our environment. 
 
-![user story 06 screenshot](assets/readme-files/user-story-06.PNG)
+    ![user story 06 screenshot](assets/readme-files/user-story-06.PNG)
 
 *Various facts about trees and nature are displayed in the about page section.* 
 
