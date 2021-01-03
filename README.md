@@ -243,7 +243,8 @@ Utilities/channels used for testing were:
 ### Known issues
 
 1. On medium and larger screens the navbar items flicker after they have been selected.
-2. When tested on Intennet Explorer and my smart tv browser(outdated version of WebOS NetCast), the background colours don't show for hero text, mid section text and footer section.  
+2. When tested on Internet Explorer and my smart tv browser(outdated version of WebOS NetCast), the background colours don't show for hero text, mid section text and footer section.
+3. The [Curio](https://www.curio-eco.com/) website that some images links to is very slow to load. 
 
 ### Project barriers and solutions
 
