@@ -69,6 +69,10 @@ h5 {
 	/* needed for lighthouse accessability rating */
 }
 
+.anchor{
+    padding-bottom: 80px;  /* this is used on the About and Contact id anchor tags */
+}  /*  inspired by code here https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
+
 /*   home page section                           */
 .hero-image {
 	/* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
@@ -148,12 +152,12 @@ h5 {
 .footer {
 	background-color: rgba(var(--green-hg-dark), 1);
     margin-top: 1rem;
+    padding: 1rem;
     justify-content: center;
 }
 
 .footer-list-item{
 	color: rgba(var(--whitesmoke), 1);
-	text-align: center;
 	padding: 1rem;
 }
 
