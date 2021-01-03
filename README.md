@@ -68,11 +68,11 @@ Site is put together using HTML, the Bootstrap framework and CSS.
 
 A Mobile first approach is taken - site is all on one page site with three sections, navigation menu at the top. 
 
- Navigation between sections can be done via the navbar or by"call to action" buttons.
+Navigation between sections can be done via the navbar or by"call to action" buttons.
 
 ### Skeleton
 
-Section 1 - Home page - Navbar at top . Hero image below. With brief headline paragraph. under that a mid-section with introduction paragraph.
+Section 1 - Home page - Navbar at top. Hero image below. With brief headline paragraph. under that a mid-section with introduction paragraph.
 
 Section 2 - About page -  Here is displayed various panels of either Text or images promoting forest bathing, in a gallery format.
 
@@ -88,7 +88,7 @@ Below is the initial wireframe.
 
 **Colours**
 
-The site theme is about connecting with nature, so the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours choosen are taken from the site images using a colour palette tool. 
+The site theme is about connecting with nature, so the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours chosen are taken from the site images using a colour palette tool. 
 
 ![demonstration of colour sourcing to image](assets/readme-files/canva_swatch.png)
 
@@ -107,7 +107,7 @@ Colours used are:
 
 As colours are configured using rbga() properties, these can be tweaked with opacity values to give more variety to the palette while keeping the uniformity. 
 
-**Icons** used are from fontawesome.com . These icons are visible on buttons , the sub heading of each card in the card gallery and as the social media icons in the footer.
+**Icons** used are from fontawesome.com. These icons are visible on buttons, the sub heading of each card in the card gallery and as the social media icons in the footer.
 
 **Images** used are ones I took myself. The original high quality images are located [here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3). Images are in jpg format and have been compressed. 
 
@@ -126,38 +126,36 @@ On slow connections, another font may be visible while the site is loading.
 
 ## Features
 
-The site is laid out on one page that has several sections .
+The site is laid out on one page that has several sections.
 
 ### Existing Features
 
 - It is responsive to screen size thanks to bootstrap.
 
-- The navbar at the top collapses into a hamburger button on smaller screens.
+- The navbar remains fixed to the top of the screen, and collapses into a hamburger button on smaller screens.
 
 - One of the image cards in the gallery is hidden on small screens to improve flow of the page.
 
-- There is form validation on subscription form , an alert displays if name or email fields are empty. 
+- There is form validation on subscription form, an alert displays if name or email fields are empty. 
 
 - In the first two sections a call to action button prompts the user to another section. 
 
-- In the footer section , the icons hover animation that make them grow in size.
+- Hover animations are used on the cards (box shadow appears) in the about section and the social media icons (grow in size) in the footer section.
 
 - Contrasting colours and aria labels are used to ensure site supports visually impaired visitors. 
-
-- The navbar menu is fixed to the top of the screen .
 
 - Some images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree.
   
 ### Features Left to Implement
 
-- Have the subscription form add the visitor to an email list database. 
+- Have the subscription form add the visitor details to an email list database. 
 
  ##### back to [contents](#table-of-contents)
 
 ---
 ## Technologies Used
 
-- Languages : HTML , CSS and Bootstrap framework (Navbar uses JavaScript).
+- Languages : HTML, CSS and Bootstrap framework (Navbar uses JavaScript).
 
 - IDE: [Gitpod](https://www.gitpod.io/) (very similar to Visual Studio code but online).
 
@@ -165,9 +163,9 @@ The site is laid out on one page that has several sections .
 
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 
-- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (which really helped with fonts , accessibility and images).
+- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (which really helped with fonts, accessibility and images).
 
-- Kanban planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1) . 
+- Kanban planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1). 
 
 - Markdown editor: [Typora](https://typora.io/) was used when doing bulk updates to my README.md file, Gitpod editor was used for minor updates.
 
@@ -235,48 +233,48 @@ Utilities/channels used for testing were:
 ### Bugs encountered on the way
 
 1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut command when starting the site. So the incorrect version of bootstrap and JavaScript was chosen. Once I replaced both the navbar worked correctly.
-3. Git commit issue , in the beginning i was using only git on the command line . Somehow not all my commits were appearing in GitHub when i pushed them . The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
-4. Page title was too long for mobile phone viewing , it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
-4. CSS comments , i made a mistake with the format used initially for commenting in the CSS file. I was using the JavaScript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
+3. Git commit issue, in the beginning i was using only git on the command line. Somehow not all my commits were appearing in GitHub when i pushed them. The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
+4. Page title was too long for mobile phone viewing, it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
+4. CSS comments, i made a mistake with the format used initially for commenting in the CSS file. I was using the JavaScript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
 5. Images missing on GitHub pages even though they worked in Gitpod environment. fix for this was to input a "." in the beginning of image file address.
 
 ### Known issues
 
 1. On medium and larger screens the navbar items flicker after they have been selected.
-2. When tested on my smart tv browser(outdated version of WebOS NetCast), the background colours don't show for hero text , mid section text and footer section. This problem happens on the internet explorer browser also. 
-3. Unable to customize the ul tagged text for locations card in the card gallery, I haven't yet figured out how to over-ride the bootstrap style.
+2. When tested on Internet Explorer and my smart tv browser(outdated version of WebOS NetCast), the background colours don't show for hero text, mid section text and footer section.
+3. The [Curio](https://www.curio-eco.com/) website that some images links to is very slow to load. 
 
 ### Project barriers and solutions
 
 #### The navbar 
 
-It was desirable to have the navbar menu float at the top of the screen , but I had difficulty getting the menu to collapse itself automatically with the standard Bootstrap template. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links list of classes. 
+It was desirable to have the navbar menu float at the top of the screen, but I had difficulty getting the menu to collapse itself automatically with the standard Bootstrap template. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links list of classes. 
 
 #### Gitpod
 
-Gitpod has been an enemy of mine on some occasions , I have lost work a few times with it. I may have to use another IDE option on future projects. 
+Gitpod has been an enemy of mine on some occasions, I have lost work a few times with it. I may have to use another IDE option on future projects. 
 
 #### Images format dilema 
 
-In the lighthouse performance audit report, the images are currently flagged as being an opurtunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so i abandoned that opurtunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains, but i think the site felt slower. Also the images failed to load on Safari Browser(a friend checked this for me!). So i decided to abondon it , perhaps in a later version of the site i can have the images dynamic to the browser/device.  
+In the lighthouse performance audit report, the images are sometimes flagged as being an opportunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so i abandoned that opportunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains on mobile browser, but i think the site felt slower on desktop. Also the images failed to load on Safari Browser(a friend checked this for me!). So i decided to abandon it, perhaps in a later version of the site i can have the images dynamic to the browser/device.  
 
 #### Colour scheme compromise and font challenges
 
-The font and colour scheme chosen for this site initially have problems with the accessibility audits (Firefox, Lighthouse and Accessibility insights). So I had to make a slight change to the colour scheme in order to have the ideal colour contrasts to ensure legibility of content.
+The font and colour scheme chosen for this site initially had problems with the accessibility audits (Firefox, Lighthouse and Accessibility insights). So I had to make a slight change to the colour scheme in order to have the ideal colour contrasts to ensure legibility of content.
 
 ### Version control
 
-For version control I used the UI on Gitpod for making commits, and command line for branches, Merging was done on the GitHub site. I used branches when I was working on new features , some branch's were scrapped didn't make it to the master.
+For version control I used the UI on Gitpod for making commits, and command line for branches, Merging was done on the GitHub site. I used branches when I was working on new features, some branch's were scrapped  and didn't make it to the master.
 
 ### Functionality Testing
 
-Navbar : all the links work, this section is responsive to screen size, menu collapses after item is selected.
+Navbar: all the links work, this section is responsive to screen size, menu collapses after item is selected.
 
-Hero image and text: clearly visible/readable , call to action button takes user to the about section.
+Hero image and text: clearly visible/readable, call to action button takes user to the about section.
 
-About section: The card gallery is a template taken from the bootstrap framework library . It is responsive to screen size off the shelf. Some images have links that take you to another site. No issues found. 
+About section: The card gallery is a template taken from the bootstrap framework library. It is responsive to screen size off the shelf. Some images have links that take you to another site. No issues found. 
 
-Email link on contact page: This behaves as expected, the link should trigger the users browser to open a new window for composing an email , the To field and the subject field should be prepopulated.
+Email link on contact page: This behaves as expected, the link should trigger the users browser to open a new window for composing an email, the To field and the subject field should be prepopulated.
 
 Subscription form : The form displays validation messages if fields are blank when the subscribe button is pressed. 
 
@@ -294,12 +292,11 @@ Devices manually tested browser for the following devices on:
 
 ### CSS3 validator 
 
-A known problem with jigsaw is that it does not recognise root variables and rgba() combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables) . 
-Apart from this limitation with jigsaw, there is no validation issues. 
+A known problem with jigsaw is that it does not recognise root variables and rgba() combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables). Also there is warnings for vendor prefixes (added by the Autoprefixer), but i believe from comments on Slack can safely be ignored. Apart from these limitations with jigsaw, there is no validation issues. 
 
 ### HTML5 validator
 
-Initially I did have typos and invalid syntax , all issues resolved .  No validation errors to report now.
+Initially I did have typos and invalid syntax, all issues resolved.  No validation errors to report now.
 
 ### Usability Testing
 
@@ -319,31 +316,43 @@ The Validation reports [Lighthouse](https://developers.google.com/web/tools/ligh
 
 ### Performance Testing
 
-Lighthouse Performance report highlighted issues for me in regard to Performance. I made improvements to the page based on this feedback such as compressing the images, using lazy loading on images that weren't visible on initial loading .
+Lighthouse Performance report highlighted issues for me in regard to Performance. I made improvements to the page based on this feedback such as compressing the images, using lazy loading on images that weren't visible on initial loading.
 
 ### Testing User Stories
 
 1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
 
+    ![user story 01 screenshot](assets/readme-files/user-story-01.PNG)
+
 *There is bit size pieces of information spread around the home page section and the about page section.*
 
-2. As a visitor to the site, I want to register my details , so I can be added to an email list to receive updates.
+2. As a visitor to the site, I want to register my details, so I can be added to an email list to receive updates.
+
+    ![user story 02 screenshot](assets/readme-files/user-story-02.PNG)
 
 *This can be achieved on the contact page section.* There is a sign up button that links to this section on the home page. 
 
 3. As a visitor to the site, I want to view nice pictures of nature.
 
+    ![user story 03 screenshot](assets/readme-files/user-story-03.PNG)
+
 *Various pictures are used on each section of the site.*
 
 4. As a visitor to the site, I want to read about locations of future forest bathing events.
 
+    ![user story 04 screenshot](assets/readme-files/user-story-04.PNG)
+
 *A list of locations is available on the second card in the about page section.*
 
-5. As the site owner , I want to promote my service and have participants for meetups.
+5. As the site owner, I want to promote my service and have participants for meetups.
 
-*The site is structured to load up fast to avoid bounce from visitors , it also prompts the user to sign up their contact details if they wish the hear more.*
+    ![user story 05 screenshot](assets/readme-files/user-story-05.PNG)
 
-6. As the site owner , I want to promote the benefits of Trees and nature in our environment. 
+*The site is structured to load up fast to avoid bounce from visitors, it also prompts the user to sign up their contact details if they wish the hear more.*
+
+6. As the site owner, I want to promote the benefits of Trees and nature in our environment. 
+
+    ![user story 06 screenshot](assets/readme-files/user-story-06.PNG)
 
 *Various facts about trees and nature are displayed in the about page section.* 
 
@@ -373,20 +382,20 @@ Once you have the completed site in your own repository, you can deploy to GitHu
 1. On GitHub, go to the completed sites repository.
 2. Click on settings, on the settings page scroll down the the GitHub Pages section. 
 3. Under GitHub pages, Select the appropriate branch or folder the index.html is in. 
-4. Click on save . A message should then appear advising the URL of your deployed site.
+4. Click on save. A message should then appear advising the URL of your deployed site.
 
 **Cloning**
 
 If you prefer working on the repository locally, you can clone the repository to your desktop by the following steps.
 
-1. Go to [the Shinrin-Yuko github page](https://github.com/kenwals/shinrin-yoku) .
-2. Above the list of files , click on the code button.
+1. Go to [the Shinrin-Yuko github page](https://github.com/kenwals/shinrin-yoku).
+2. Above the list of files, click on the code button.
 3. - To clone the repository using HTTPS, under "Clone with HTTPS", click the paste icon. 
-   - To clone the repository using an SSH key, click Use SSH, then click the paste icon . 
+   - To clone the repository using an SSH key, click Use SSH, then click the paste icon. 
    - To clone a repository using GitHub CLI, click Use GitHub CLI, then click the paste icon.
 4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory.
-5. Type 'git clone' , then paste the URL you copied earlier above. 
+5. Type 'git clone', then paste the URL you copied earlier above. 
 6. Press Enter to create your local clone.
 
 
@@ -409,7 +418,7 @@ If you prefer working on the repository locally, you can clone the repository to
 - [Bootstrap components](https://getbootstrap.com/)
 - [W3schools](https://www.w3schools.com/)
 - [Code institute's Slack workspace channels](https://slack.com)
-- How to make a Kick-Ass first Milestone (part 1 , 2 and 3)
+- How to make a Kick-Ass first Milestone (part 1, 2 and 3)
 - [CSS tricks](https://css-tricks.com/) 
 - [YouTube](https://www.youtube.com/)
 - [Stack Exchange](https://stackexchange.com/)
@@ -424,7 +433,7 @@ If you prefer working on the repository locally, you can clone the repository to
 
 - [This newspaper article from The Irish Times](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper"). On the back this news article, I was inspired to make a site that could promote the importance of Trees and why they should be cherished and valued more then wider roads in our cities.
 
-- The book ["The Hidden Life of Trees"](https://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees) by Peter Wohlleben .
+- The book ["The Hidden Life of Trees"](https://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees) by Peter Wohlleben.
 
 - Various people at [code institute](https://codeinstitute.net/) and the code institute Slack channel.
 
