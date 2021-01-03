@@ -19,7 +19,6 @@
 	--whitesmoke: 245, 245, 245;
 	/* Off white colour used in the footer for the social media icons */
 }
-
 body {
 	background-color: rgba(var(--green-bg-light), 1);
 	/* green mist #c9d3aa - light green background colour */
@@ -68,12 +67,14 @@ h5 {
 	font-size: 1.17rem;
 	/* needed for lighthouse accessability rating */
 }
-
-.anchor{
-    padding-bottom: 4rem;  /* this is used on the About and Contact id anchor tags */
-}  /*  inspired by code here https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
+.anchor {
+	padding-bottom: 4rem;
+	/* this is used on the About and Contact id anchor tags */
+}
+/*  inspired by code here https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
 
 /*   home page section                           */
+
 .hero-image {
 	/* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
 	background-image: url("../images/phoenix-park-forest.jpg");
@@ -84,7 +85,7 @@ h5 {
 	position: relative;
 	/* taken from  https://www.w3schools.com/howto/howto_css_hero_image.asp */
 	margin-top: 75px;
-    /*  needed as the navbar covers the hero image otherwise */
+	/*  needed as the navbar covers the hero image otherwise */
 }
 .hero-image-text {
 	color: rgba(var(--white-text), 1);
@@ -93,11 +94,11 @@ h5 {
 	margin-top: 33vh;
 	padding-left: 0.5rem;
 	letter-spacing: 0.051em;
-    background-color: rgba(var(--green-hg-dark), 0.8);
-    border-radius: 5px;
+	background-color: rgba(var(--green-hg-dark), 0.8);
+	border-radius: 5px;
 }
-
 /*    about section                          */
+
 .mid-section {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -108,8 +109,8 @@ h5 {
 	background-color: rgba(var(--green-mossy), 1);
 	/*   Nandor #4F5C54   */
 	color: rgba(var(--white-text), 1);
-    text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.8);
-    border-radius: 5px;
+	text-shadow: 1px 1px rgba(var(--green-hg-dark), 0.8);
+	border-radius: 5px;
 }
 .mid-section-text {
 	padding-left: 5px;
@@ -118,57 +119,56 @@ h5 {
 .about-section {
 	margin-bottom: 4rem;
 }
-
 /*    cards gallery                          */
+
 .card {
 	background-color: transparent;
 }
-
 .card-shadow {
-  -webkit-box-shadow: 0 1px 3px rgba(var(--lemon-grass),0.12), 0 1px 2px rgba(var(--lemon-grass),0.24);
-          box-shadow: 0 1px 3px rgba(var(--lemon-grass),0.12), 0 1px 2px rgba(var(--lemon-grass),0.24);
-  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-} /*  taken from https://codepen.io/sdthornton/pen/wBZdXq mentioned on slack */
+	-webkit-box-shadow: 0 1px 3px rgba(var(--lemon-grass), 0.12), 0 1px 2px rgba(var(--lemon-grass), 0.24);
+	box-shadow: 0 1px 3px rgba(var(--lemon-grass), 0.12), 0 1px 2px rgba(var(--lemon-grass), 0.24);
+	-webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	-o-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+/*  taken from https://codepen.io/sdthornton/pen/wBZdXq mentioned on slack */
 
 .card-shadow:hover {
-  -webkit-box-shadow: 0 14px 28px rgba(var(--lemon-grass),0.25), 0 10px 10px rgba(var(--lemon-grass),0.22);
-          box-shadow: 0 14px 28px rgba(var(--lemon-grass),0.25), 0 10px 10px rgba(var(--lemon-grass),0.22);
-} /*  taken from https://codepen.io/sdthornton/pen/wBZdXq mentioned on slack */
+	-webkit-box-shadow: 0 14px 28px rgba(var(--lemon-grass), 0.25), 0 10px 10px rgba(var(--lemon-grass), 0.22);
+	box-shadow: 0 14px 28px rgba(var(--lemon-grass), 0.25), 0 10px 10px rgba(var(--lemon-grass), 0.22);
+}
+/*  taken from https://codepen.io/sdthornton/pen/wBZdXq mentioned on slack */
 
 /*     contact us section                         */
-.contact-page-image {
-    display: block;
-    margin-bottom: 2rem;
-}
 
+.contact-page-image {
+	display: block;
+	margin-bottom: 2rem;
+}
 .email-link {
 	color: rgba(var(--green-hg-dark), 1);
 	/* needed for lighthouse accessability rating */
 }
-
 .contact-form {
 	margin-bottom: 2rem;
 	width: 300px;
 }
-
 /*    footer section                       */
+
 .footer {
 	background-color: rgba(var(--green-hg-dark), 1);
-    margin-top: 1rem;
-    padding: 1rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+	margin-top: 1rem;
+	padding: 1rem;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
-
-.footer-list-item{
+.footer-list-item {
 	color: rgba(var(--whitesmoke), 1);
 	padding: 1rem;
 }
-
 /* Pulse Grow  taken from hover css https://ianlunn.github.io/Hover/#effects  used for the footer icons  */
+
 @-webkit-keyframes hvr-pulse-grow {
 	to {
 		-webkit-transform: scale(1.5);
@@ -201,15 +201,15 @@ h5 {
 	-webkit-animation-direction: alternate;
 	animation-direction: alternate;
 }
-
 /* Small devices (landscape phones, screen width 576px and higher )  */
+
 @media (min-width: 576px) {
 	h1 {
 		font-size: 2.5rem;
 		/* default h1 size */
-    }
-    
-    .anchor{
-    padding-bottom: 5rem;  /* this is used on the About and Contact id anchor tags */
-}  
+	}
+	.anchor {
+		padding-bottom: 5rem;
+		/* this is used on the About and Contact id anchor tags */
+	}
 }
