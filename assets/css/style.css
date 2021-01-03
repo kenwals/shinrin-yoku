@@ -70,7 +70,7 @@ h5 {
 }
 
 .anchor{
-    padding-bottom: 80px;  /* this is used on the About and Contact id anchor tags */
+    padding-bottom: 4rem;  /* this is used on the About and Contact id anchor tags */
 }  /*  inspired by code here https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
 
 /*   home page section                           */
@@ -116,7 +116,6 @@ h5 {
 	margin-left: 2vw;
 }
 .about-section {
-	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
 
@@ -135,17 +134,19 @@ h5 {
 } /*  taken from https://codepen.io/sdthornton/pen/wBZdXq mentioned on slack */
 
 /*     contact us section                         */
-.contact-form {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	width: 300px;
-}
 .contact-page-image {
-	display: block;
+    display: block;
+    margin-bottom: 2rem;
 }
+
 .email-link {
 	color: rgba(var(--green-hg-dark), 1);
 	/* needed for lighthouse accessability rating */
+}
+
+.contact-form {
+	margin-bottom: 2rem;
+	width: 300px;
 }
 
 /*    footer section                       */
@@ -200,5 +201,9 @@ h5 {
 	h1 {
 		font-size: 2.5rem;
 		/* default h1 size */
-	}
+    }
+    
+    .anchor{
+    padding-bottom: 5rem;  /* this is used on the About and Contact id anchor tags */
+}  
 }
