@@ -148,7 +148,7 @@ The site is laid out on one page that has several sections.
   
 ### Features Left to Implement
 
-- Have the subscription form add the visitor to an email list database. 
+- Have the subscription form add the visitor details to an email list database. 
 
  ##### back to [contents](#table-of-contents)
 
