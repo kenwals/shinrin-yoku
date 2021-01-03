@@ -88,7 +88,7 @@ Below is the initial wireframe.
 
 **Colours**
 
-The site theme is about connecting with nature, so the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours choosen are taken from the site images using a colour palette tool. 
+The site theme is about connecting with nature, so the colours too are connected to nature. Various shades of green or natural colours are used. Point of reference for the colours chosen are taken from the site images using a colour palette tool. 
 
 ![demonstration of colour sourcing to image](assets/readme-files/canva_swatch.png)
 
@@ -258,7 +258,7 @@ Gitpod has been an enemy of mine on some occasions, I have lost work a few times
 
 #### Images format dilema 
 
-In the lighthouse performance audit report, the images are sometimes flagged as being an opurtunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so i abandoned that opurtunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains on mobile browser, but i think the site felt slower on desktop. Also the images failed to load on Safari Browser(a friend checked this for me!). So i decided to abondon it, perhaps in a later version of the site i can have the images dynamic to the browser/device.  
+In the lighthouse performance audit report, the images are sometimes flagged as being an opportunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so i abandoned that opportunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains on mobile browser, but i think the site felt slower on desktop. Also the images failed to load on Safari Browser(a friend checked this for me!). So i decided to abandon it, perhaps in a later version of the site i can have the images dynamic to the browser/device.  
 
 #### Colour scheme compromise and font challenges
 
