@@ -147,30 +147,14 @@ h5 {
 /*    footer section                       */
 .footer {
 	background-color: rgba(var(--green-hg-dark), 1);
-	margin-top: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
 }
-#footer-list {
-	/*    unordered list in the footer section                    */
-	list-style-type: none;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	margin: 0;
-	padding-top: 20px;
-	overflow: hidden;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-.footer-list-item a {
+
+.footer-list-item{
 	color: rgba(var(--whitesmoke), 1);
 	text-align: center;
 	padding: 1rem;
-	text-decoration: none;
 }
 
 /* Pulse Grow  taken from hover css https://ianlunn.github.io/Hover/#effects  used for the footer icons  */
