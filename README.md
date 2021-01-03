@@ -140,7 +140,7 @@ The site is laid out on one page that has several sections.
 
 - In the first two sections a call to action button prompts the user to another section. 
 
-- In the footer section, the icons hover animation that make them grow in size.
+- Hover animations are used on the cards (box shadow appears) in the about section and the social media icons (grow in size) in the footer section.
 
 - Contrasting colours and aria labels are used to ensure site supports visually impaired visitors. 
 
