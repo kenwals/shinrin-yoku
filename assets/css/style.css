@@ -176,14 +176,14 @@ h5 {
 /* Pulse Grow  taken from hover css https://ianlunn.github.io/Hover/#effects  used for the footer icons  */
 @-webkit-keyframes hvr-pulse-grow {
 	to {
-		-webkit-transform: scale(1.1);
-		transform: scale(1.1);
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
 	}
 }
 @keyframes hvr-pulse-grow {
 	to {
-		-webkit-transform: scale(1.1);
-		transform: scale(1.1);
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
 	}
 }
 .hvr-pulse-grow {
