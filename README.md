@@ -193,7 +193,7 @@ The site is laid out on one page that has several sections.
 
 - Autoprefixer CSS : [Autoprefixer](https://autoprefixer.github.io/)
 
-- Beautifier for HTML and CSS : [dirtyMarkUp](https://www.10bestdesign.com/dirtymarkup/)
+- Auto formatter for HTML and CSS : [dirtyMarkUp](https://www.10bestdesign.com/dirtymarkup/) and  [webformatter](https://webformatter.com/html)
 
 - Image conversion tool to WEBP (Next gen image format) : [XnConvert](https://www.xnview.com/en/xnconvert/)
 
@@ -254,9 +254,9 @@ It was desirable to have the navbar menu float at the top of the screen, but I h
 
 Gitpod has been an enemy of mine on some occasions, I have lost work a few times with it. I may have to use another IDE option on future projects. 
 
-#### Images format dilema 
+#### Images format dilemma 
 
-In the lighthouse performance audit report, the images are sometimes flagged as being an opportunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so i abandoned that opportunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains on mobile browser, but i think the site felt slower on desktop. Also the images failed to load on Safari Browser(a friend checked this for me!). So i decided to abandon it, perhaps in a later version of the site i can have the images dynamic to the browser/device.  
+In the lighthouse performance audit report, the images are sometimes flagged as being an opportunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so I abandoned that opportunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains on mobile browser, but i think the site felt slower on desktop. Also the images failed to load on Safari Browser(a friend checked this for me!). So I decided to abandon it, perhaps in a later version of the site i can have the images dynamic to the browser/device.  
 
 #### Colour scheme compromise and font challenges
 
@@ -282,9 +282,9 @@ Footer section : All icons animate when the mouse is hovering over them, each ic
 
 Devices manually tested browser for the following devices on:  
 
-- Android Mobile phone  (Screen width 320px)        Samsung Galaxy SIII mini
-- Android Mobile phone  (Screen width 360px)        Oneplus One
-- Android Mobile phone  (Screen width 412px)        Oneplus Six 
+- Android Mobile phone  (Screen width 320px) xs       Samsung Galaxy SIII mini
+- Android Mobile phone  (Screen width 360px) xs       Oneplus One
+- Android Mobile phone  (Screen width 412px) xs       Oneplus Six 
 - Android Tablet   (Screen width 600px) sm              Google NEXUS 7
 - Smart TV WEBOS  (Screen width 1920px) lg           LG 
 - Windows 10 laptop  (Screen width 2560px)            Dell XPS
@@ -292,11 +292,11 @@ Devices manually tested browser for the following devices on:
 
 ### CSS3 validator 
 
-A known problem with jigsaw is that it does not recognise root variables and rgba() combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables). Also there is warnings for vendor prefixes (added by the Autoprefixer), but i believe from comments on Slack can safely be ignored. Apart from these limitations with jigsaw, there is no validation issues. 
+A known problem with jigsaw is that it does not recognise root variables and rgba() combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables). Also there is warnings for vendor extension prefixes (added by the Autoprefixer), but i believe (from discussions on Slack) these can safely be ignored. Apart from these limitations with jigsaw, there is no validation issues. 
 
 ### HTML5 validator
 
-Initially I did have typos and invalid syntax, all issues resolved.  No validation errors to report now.
+No validation errors to report.
 
 ### Usability Testing
 
