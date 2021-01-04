@@ -167,7 +167,7 @@ The site is laid out on one page that has several sections.
 
 - Kanban planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1). 
 
-- Markdown editor: [Typora](https://typora.io/) was used when doing bulk updates to my README.md file, Gitpod editor was used for minor updates.
+- Markdown editor: [Typora](https://typora.io/) was used when doing spellchecks and big changes to my README.md file, Gitpod editor was used for minor updates.
 
 - Image editing: [Adobe online resize tool](https://www.adobe.com/ie/photoshop/online/resize-image.html) and [tinypng](https://tinypng.com/) compression tool.
 
