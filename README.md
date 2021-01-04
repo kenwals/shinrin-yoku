@@ -116,7 +116,7 @@ As colours are configured using rbga() properties, these can be tweaked with opa
 ![Sample of fonts selected](assets/readme-files/google-font-sample.png)
 
 - **"Shadows Into Light"** was used for Header (h1,h2 and h3) text elements
-- **"Montserrat"**​ was used for all other text. 
+- **"Montserrat"** was used for all other text. 
 
 On slow connections, another font may be visible while the site is loading.
 
