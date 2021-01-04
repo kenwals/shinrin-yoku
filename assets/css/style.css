@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 :root {
 	--green-bg-light: 201, 211, 170;
 	/* green mist #c9d3aa - light green background colour used on body and navbar */
@@ -58,21 +51,6 @@ h5 {
 	font-size: 1rem;
 	/* needed for lighthouse accessability rating */
 }
-.nav-button {
-	margin-bottom: .25rem;
-}
-.btn-success {
-	font-weight: 700;
-	/* needed for lighthouse accessability rating */
-	font-size: 1.17rem;
-	/* needed for lighthouse accessability rating */
-}
-.anchor {
-	padding-bottom: 4rem;
-	/* this is used on the About and Contact id anchor tags */
-}
-/*  inspired by code here https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
-
 /*   home page section                           */
 
 .hero-image {
@@ -96,6 +74,20 @@ h5 {
 	letter-spacing: 0.051em;
 	background-color: rgba(var(--green-hg-dark), 0.8);
 	border-radius: 5px;
+}
+.btn-success {
+	font-weight: 700;
+	/* needed for lighthouse accessability rating */
+	font-size: 1.17rem;
+	/* needed for lighthouse accessability rating */
+}
+.nav-button {
+	margin-bottom: .25rem;
+	/* theses buttons appear on hero image and mid section*/
+}
+.anchor {
+	padding-bottom: 4rem;
+	/* this is used on the About and Contact id anchor tags to compensate for offset from navbar , inspired by code here https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
 }
 /*    about section                          */
 
@@ -210,6 +202,6 @@ h5 {
 	}
 	.anchor {
 		padding-bottom: 5rem;
-		/* this is used on the About and Contact id anchor tags */
+		/* this is used on the About and Contact id anchor tags to compensate for offset from navbar , inspired by code here https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
 	}
 }
