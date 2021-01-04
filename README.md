@@ -96,7 +96,7 @@ Root variables are used so colours can be updated quickly if revisions are neede
 
 Colours used are:
 
-- "Woodland" Green  (#4e5c28) : Used for headings and text when on light background. This colour is used as background on footer. 
+- "Woodland" Green  (#4e5c28) : Used for headings and text when on light background. This colour is also used as background on footer. 
 - "Green Mist"  (#c9d3aa) : Used on the background of the body and navbar.
 - "Nador" Green  (#4F5C54) :  Used on the background of the mid section between hero image and about section.
 - "Lemon Grass"  (#9da19a) : Used for text shadow on the hero image text, and box shadow on cards.
