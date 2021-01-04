@@ -324,13 +324,13 @@ Lighthouse Performance report highlighted issues for me in regard to Performance
 
     ![user story 01 screenshot](assets/readme-files/user-story-01.PNG)
 
-*There is bit size pieces of information spread around the home page section and the about page section.*
+*There is bite size pieces of information spread around the home page section and the about page section.*
 
 2. As a visitor to the site, I want to register my details, so I can be added to an email list to receive updates.
 
     ![user story 02 screenshot](assets/readme-files/user-story-02.PNG)
 
-*This can be achieved on the contact page section.* There is a sign up button that links to this section on the home page. 
+*This can be achieved on the contact page section.There is a sign up button that links to this subscription form section on the home page.*
 
 3. As a visitor to the site, I want to view nice pictures of nature.
 
