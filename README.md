@@ -220,7 +220,7 @@ Utilities/channels used for testing were:
 
 - [Accessibility](https://accessibilityinsights.io/) insight for the web (microsoft)
 
-- [Accessibility insprector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) on Firefox Developer Edition.
+- [Accessibility inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) on Firefox Developer Edition.
 
 - Peer review channel on slack
 
