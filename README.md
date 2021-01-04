@@ -292,11 +292,11 @@ Devices manually tested browser for the following devices on:
 
 ### CSS3 validator 
 
-A known problem with jigsaw is that it does not recognise root variables and rgba() combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables). Also there is warnings for vendor prefixes (added by the Autoprefixer), but i believe from comments on Slack can safely be ignored. Apart from these limitations with jigsaw, there is no validation issues. 
+A known problem with jigsaw is that it does not recognise root variables and rgba() combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables). Also there is warnings for vendor extension prefixes (added by the Autoprefixer), but i believe (from dicsussons on Slack) these can safely be ignored. Apart from these limitations with jigsaw, there is no validation issues. 
 
 ### HTML5 validator
 
-Initially I did have typos and invalid syntax, all issues resolved.  No validation errors to report now.
+No validation errors to report.
 
 ### Usability Testing
 
