@@ -241,6 +241,16 @@ If you prefer working on the repository locally, you can clone the repository to
 5. Type 'git clone', then paste the URL you copied earlier above. 
 6. Press Enter to create your local clone.
 
+**Forking**
+
+You may wish to contribute to this website and have your contribution published, if so, you are welcome to follow these steps below.
+
+1. Go to the GitHub website and log in.
+2. open https://github.com/kenwals/shinrin-yoku 
+3. In the top right-hand corner you will see a fork button, click on this fork button .
+4. This will create a copy the Shinrin-Yoku repository in your github account.
+5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
+6. If your pull request is approved, it will be merged into the master version of the Shinrin-Yoku repository at a future date.
 
 
 ##### back to [contents](#table-of-contents)  
