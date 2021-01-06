@@ -129,7 +129,7 @@ The site is laid out on one page that has several sections.
 
 - The navbar remains fixed to the top of the screen, and collapses into a hamburger button on smaller screens.
 
-- One of the image cards in the gallery is hidden on small screens to improve flow of the page.
+- One of the image cards (title: improving air quality) in the gallery is hidden on small screens to improve flow of the page.
 
 - There is form validation on subscription form, an alert displays if name or email fields are empty. 
 
@@ -152,7 +152,7 @@ The site is laid out on one page that has several sections.
 
 - Languages : HTML, CSS and Bootstrap framework (Navbar uses JavaScript).
 
-- IDE: [Gitpod](https://www.gitpod.io/) (very similar to Visual Studio code but online).
+- IDE: [Gitpod](https://www.gitpod.io/) (runs Visual Studio code online).
 
 - Version control: Git on [Gitpod](https://www.gitpod.io/) and [Github](https://github.com/).
 
