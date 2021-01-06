@@ -14,6 +14,7 @@
 - [**Compatibility testing**](#compatibility-testing)
 - [**Testing user stories**](#testing-user-stories)
 
+
 ---
 
 
@@ -135,6 +136,8 @@ The Validation reports [Lighthouse](https://developers.google.com/web/tools/ligh
 
 ## Testing User Stories
 
+### Visitor goals
+
 1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
 
     ![user story 01 screenshot](assets/readme-files/user-story-01.PNG)
@@ -158,6 +161,8 @@ The Validation reports [Lighthouse](https://developers.google.com/web/tools/ligh
     ![user story 04 screenshot](assets/readme-files/user-story-04.PNG)
 
 *A list of locations is available on the second card in the about page section.*
+
+### Owner goals
 
 5. As the site owner, I want to promote my service and have participants for meetups.
 
