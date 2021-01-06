@@ -43,12 +43,17 @@ This [site](https://kenwals.github.io/shinrin-yoku/) will hopefully create a com
 
 This is a fictional meetup group, so there are no limitations on the content. The site will be made to an MVP first, and if there is additional time, content/features can be added.
 
-**User stories**
+#### User stories
+
+##### Visitor goals
 
 1. As a visitor to the site, I want to read about forest bathing and its benefits, so that I can decide if I wish to take part.
 2. As a visitor to the site, I want to register my details, so I can be added to an email list to receive updates.
 3. As a visitor to the site, I want to view nice pictures of nature.
 4. As a visitor to the site, I want to read about locations of future forest bathing events.
+
+##### Owner goals
+
 5. As the site owner, I want to promote my service and have participants for meetups.
 6. As the site owner, I want to promote the benefits of Trees and nature in our environment. 
 
