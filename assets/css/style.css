@@ -8,9 +8,9 @@
 	--lemon-grass: 157, 161, 154;
 	/* Lemon Grass #9da19a - colour used for text shadow*/
 	--white-text: 255, 255, 255;
-	/* White colour used for text in hero and mid section */
+	/* White colour #FFFFFF - used for text in hero and mid section */
 	--whitesmoke: 245, 245, 245;
-	/* Off white colour used in the footer for the social media icons */
+	/* Off white colour #F5F5F5 - used in the footer for the social media icons */
 }
 body {
 	background-color: rgba(var(--green-bg-light), 1);
