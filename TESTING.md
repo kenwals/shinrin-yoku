@@ -18,7 +18,7 @@
 ---
 
 
-I tested the site as I went along, manual testing or automated testing using online tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
+I tested the site as I went along, manually testing or automated testing using online tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
 
 Utilities/channels used for testing were:
 
@@ -56,7 +56,7 @@ Lighthouse Performance report highlighted issues for me in regard to Performance
 ## Bugs encountered on the way
 
 1. Navbar was not expanding or collapsing correctly. it turned out i choose the wrong emmet shortcut command when starting the site. So the incorrect version of bootstrap and JavaScript was chosen. Once I replaced both the navbar worked correctly.
-2. Git commit issue, in the beginning i was using only using git on the command line. Somehow not all my commits were appearing in GitHub when i pushed them. The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
+2. Git commit issue, in the beginning i was using only using git on the command line. Somehow not all my commits were appearing in GitHub when i pushed them. The problem maybe linked to me using Gitpod in more then one browser (Chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
 3. Page title was too long for mobile phone viewing, it was pushing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
 4. CSS comments, i made a mistake with the format used initially for commenting in the CSS file. I was using the JavaScript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
 5. Images missing on GitHub pages even though they worked in Gitpod environment. fix for this was to input a "." in the beginning of image file address.
@@ -97,9 +97,9 @@ Hero image and text: clearly visible/readable, call to action button takes user 
 
 About section: The card gallery is a template taken from the bootstrap framework library. It is responsive to screen size off the shelf. Some images have links that take you to another site. No issues found. 
 
-Email link on contact page: This behaves as expected, the link should trigger the users browser to open a new window for composing an email, the To field and the subject field should be prepopulated.
+Email link on contact page: This behaves as expected, the link should trigger the users browser to open a new window for composing an email, the To field and the subject field are then prepopulated for the user.
 
-Subscription form : The form displays validation messages if fields are blank when the subscribe button is pressed. 
+Subscription form : The form displays validation messages if fields are left blank when the subscribe button is pressed. 
 
 Footer section : All icons animate when the mouse is hovering over them, each icon links to a new page.
 
@@ -123,7 +123,7 @@ No validation errors to report.
 
 ## Usability Testing
 
-I shared the project on the peer review channel and also with friends/family. No major usability issues were raised.
+I shared the project on the peer-review channel on slack, and also with friends/family. No major usability issues were raised. I did receive feedback on Footer background colour, Footer icon centering and navigation items offset. These snags were all rectified after they were raised. 
 
 The Validation reports [Lighthouse](https://developers.google.com/web/tools/lighthouse) Accessibility and [Microsofts Accessibility Insights](https://accessibilityinsights.io/) gave me interesting insights on issues that would impact visually impaired visitors to the site, as a result I made efforts to improve access for this audience. 
 
@@ -134,7 +134,7 @@ The Validation reports [Lighthouse](https://developers.google.com/web/tools/ligh
 | Android Mobile phone (Screen width 320px) xs | Pass | NA | NA |
 | Android Mobile phone (Screen width 412px) xs | Pass | Pass | Pass |
 | Android Tablet (Screen width 600px) sm       | Pass | Pass | Pass |
-| Windows laptop (Screen width 2560px)         |   pass |  pass |  pass    |
+| Windows laptop (Screen width 2560px)         |   Pass |  Pass |  Pass    |
 
 ## Testing User Stories
 
