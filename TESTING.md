@@ -53,9 +53,9 @@ Lighthouse Performance report highlighted issues for me in regard to Performance
 
 ## Bugs encountered on the way
 
-1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut command when starting the site. So the incorrect version of bootstrap and JavaScript was chosen. Once I replaced both the navbar worked correctly.
-3. Git commit issue, in the beginning i was using only git on the command line. Somehow not all my commits were appearing in GitHub when i pushed them. The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
-4. Page title was too long for mobile phone viewing, it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
+1. Navbar was not expanding or collapsing correctly. it turned out i choose the wrong emmet shortcut command when starting the site. So the incorrect version of bootstrap and JavaScript was chosen. Once I replaced both the navbar worked correctly.
+2. Git commit issue, in the beginning i was using only using git on the command line. Somehow not all my commits were appearing in GitHub when i pushed them. The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
+3. Page title was too long for mobile phone viewing, it was pushing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
 4. CSS comments, i made a mistake with the format used initially for commenting in the CSS file. I was using the JavaScript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
 5. Images missing on GitHub pages even though they worked in Gitpod environment. fix for this was to input a "." in the beginning of image file address.
 
@@ -129,7 +129,7 @@ The Validation reports [Lighthouse](https://developers.google.com/web/tools/ligh
 
 | Screen size\Browser                          | Chrome | Firefox | Edge |
 | -------------------------------------------- | ------ | ------- | ---- |
-| Android Mobile phone (Screen width 320px) xs | Pass | Pass | Pass |
+| Android Mobile phone (Screen width 320px) xs | Pass | NA | NA |
 | Android Mobile phone (Screen width 412px) xs | Pass | Pass | Pass |
 | Android Tablet (Screen width 600px) sm       | Pass | Pass | Pass |
 | Windows laptop (Screen width 2560px)         |   pass |  pass |  pass    |
