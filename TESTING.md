@@ -44,6 +44,8 @@ Utilities/channels used for testing were:
 
 - Personally checking every smart device I had within reach.
 
+- [responsinator.com](http://www.responsinator.com/?url=https%3A%2F%2Fkenwals.github.io%2Fshinrin-yoku%2F)
+
 
 ## Performance Testing
 
