@@ -251,7 +251,7 @@ You may wish to contribute to this website and have your contribution published,
 2. Open https://github.com/kenwals/shinrin-yoku 
 3. In the top right-hand corner you will see a fork button, click on this fork button .
 4. This will create a copy the Shinrin-Yoku repository in your github account.
-5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
+5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository(https://github.com/kenwals/shinrin-yoku).
 6. If your pull request is approved, it will be merged into the master version of the Shinrin-Yoku repository at a future date.
 
 more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
