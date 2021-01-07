@@ -210,7 +210,7 @@ For easy deployment on GitHub pages you will need a GitHub user account and a po
 
 GitHub is a code hosting platform for version control and collaboration. It's free to enrol for a user account and I would recommend you have one if you wish to deploy this repository and make changes.
 
-When you have a GitHub account you can simple click on the Fork button on the top right corner. This is clone the Shinrin-Yuko repository for your GitHub account, then you can make any changes you like.
+When you have a GitHub account you can simple click on the Fork button on the top right corner. This is clone the Shinrin-Yoku repository for your GitHub account, then you can make any changes you like.
 
 **Gitpod**
 
@@ -231,7 +231,7 @@ Once you have the completed site in your own repository, you can deploy to GitHu
 
 If you prefer working on the repository locally, you can clone the repository to your desktop by the following steps.
 
-1. Go to [the Shinrin-Yuko github page](https://github.com/kenwals/shinrin-yoku).
+1. Go to [the Shinrin-Yoku github page](https://github.com/kenwals/shinrin-yoku).
 2. Above the list of files, click on the code button.
 3. - To clone the repository using HTTPS, under "Clone with HTTPS", click the paste icon. 
    - To clone the repository using an SSH key, click Use SSH, then click the paste icon. 
