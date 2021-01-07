@@ -38,7 +38,7 @@ h3 {
 }
 h5 {
 	font-weight: 700;
-}
+}  /* needed for lighthouse accessibility rating */
 .navbar {
 	background-color: rgba(var(--green-bg-light), 1);
 	/* green mist #c9d3aa - light green background colour */
