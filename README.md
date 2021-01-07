@@ -2,7 +2,7 @@
 
 ![display of site seen from different devices](assets/readme-files/amiresponsivescreenshot.png)
 
-This is a [promotional website](https://kenwals.github.io/shinrin-yoku/) for a forest bathing meetup group, one of its strategies is promote the importance of trees and nature. 
+This is a [promotional website](https://kenwals.github.io/shinrin-yoku/) for a forest bathing meetup group, one of its strategies is to promote the importance of trees and nature. 
 
 Forest bathing originated in Japan in the 1980s, where it is known as *Shinrin-Yoku*. It is the practice of walking in any natural environment and consciously connecting with what’s around you.
 
@@ -25,17 +25,7 @@ This [site](https://kenwals.github.io/shinrin-yoku/) will hopefully create a com
 3. [**Technologies Used**](#technologies-used)
 
 4. [**Testing**](#testing)
-    - [**Bugs encountered on the way**](#bugs-encountered-on-the-way)
-    - [**Known issues**](#known-issues)
-    - [**Project barriers and solutions**](#project-barriers-and-solutions)
-    - [**Version control**](#version-control)
-    - [**Functionality testing**](#functionality-testing)
-    - [**CSS3 validator**](#css3-validator)
-    - [**HTML5 validator**](#html5-validator)
-    - [**Usability testing**](#usability-testing)
-    - [**Compatibility testing**](#compatibility-testing)
-    - [**Performance testing**](#performance-testing)
-    - [**Testing user stories**](#testing-user-stories)
+    - [**Testing documentation can be found here in a seperate file**](TESTING.md)
 
 5. [**Deployment**](#deployment)
 
@@ -53,12 +43,17 @@ This [site](https://kenwals.github.io/shinrin-yoku/) will hopefully create a com
 
 This is a fictional meetup group, so there are no limitations on the content. The site will be made to an MVP first, and if there is additional time, content/features can be added.
 
-**User stories**
+#### User stories
+
+##### Visitor goals
 
 1. As a visitor to the site, I want to read about forest bathing and its benefits, so that I can decide if I wish to take part.
 2. As a visitor to the site, I want to register my details, so I can be added to an email list to receive updates.
 3. As a visitor to the site, I want to view nice pictures of nature.
 4. As a visitor to the site, I want to read about locations of future forest bathing events.
+
+##### Owner goals
+
 5. As the site owner, I want to promote my service and have participants for meetups.
 6. As the site owner, I want to promote the benefits of Trees and nature in our environment. 
 
@@ -66,13 +61,13 @@ This is a fictional meetup group, so there are no limitations on the content. Th
 
 Site is put together using HTML, the Bootstrap framework and CSS.
 
-A Mobile first approach is taken - site is all on one page site with three sections, navigation menu at the top. 
+A Mobile first approach is taken - site is all on one page with three sections, navigation menu at the top. 
 
-Navigation between sections can be done via the navbar or by"call to action" buttons.
+Navigation between sections can be done via the navbar or by "call to action" buttons.
 
 ### Skeleton
 
-Section 1 - Home page - Navbar at top. Hero image below. With brief headline paragraph. under that a mid-section with introduction paragraph.
+Section 1 - Home page - Navbar at top. Hero image below. With brief headline paragraph. Under that a mid-section with an introduction paragraph.
 
 Section 2 - About page -  Here is displayed various panels of either Text or images promoting forest bathing, in a gallery format.
 
@@ -134,7 +129,7 @@ The site is laid out on one page that has several sections.
 
 - The navbar remains fixed to the top of the screen, and collapses into a hamburger button on smaller screens.
 
-- One of the image cards in the gallery is hidden on small screens to improve flow of the page.
+- One of the image cards (title: improving air quality) in the gallery is hidden on small screens to improve flow of the page.
 
 - There is form validation on subscription form, an alert displays if name or email fields are empty. 
 
@@ -157,7 +152,7 @@ The site is laid out on one page that has several sections.
 
 - Languages : HTML, CSS and Bootstrap framework (Navbar uses JavaScript).
 
-- IDE: [Gitpod](https://www.gitpod.io/) (very similar to Visual Studio code but online).
+- IDE: [Gitpod](https://www.gitpod.io/) (runs Visual Studio code online).
 
 - Version control: Git on [Gitpod](https://www.gitpod.io/) and [Github](https://github.com/).
 
@@ -202,159 +197,7 @@ The site is laid out on one page that has several sections.
 ---
 ## Testing
 
-I tested the site as I went along, manual testing or automated testing using online tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
-
-![Lighthouse report 03-Jan-2021 on chrome incognito mode and mobile version selected](assets/readme-files/lighthouse-mobile-20210103.png)
-
-Utilities/channels used for testing were:
-
-- [lighthouse](https://developers.google.com/web/tools/lighthouse) report in Chrome devtools and on command line.
-
-- [w3c HTML Markup Validation service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkenwals.github.io%2Fshinrin-yoku%2F)
-
-- [w3c CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
-
-- [WebAIM](https://webaim.org/resources/contrastchecker/) was used for when trying to decide what colours to use for text against which background colour.
-
-- http://ami.responsivedesign.is/
-
-- [Accessibility](https://accessibilityinsights.io/) insight for the web (microsoft)
-
-- [Accessibility inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) on Firefox Developer Edition.
-
-- Peer review channel on slack
-
-- Simulated Devices on Developer tools in Chrome and sometimes on Firefox Developer Edition.
-
-- Friends and family.
-
-- Personally checking every smart device I had within reach.
-
-### Bugs encountered on the way
-
-1. Navbar was not expanding collapsing correctly. its turns out i choose the wrong emmet shortcut command when starting the site. So the incorrect version of bootstrap and JavaScript was chosen. Once I replaced both the navbar worked correctly.
-3. Git commit issue, in the beginning i was using only git on the command line. Somehow not all my commits were appearing in GitHub when i pushed them. The problem maybe linked to me using Gitpod in more then one browser (chrome and Firefox) while i was trying to debug something else. I resolved this issue by git committing with the Gitpod UI instead.
-4. Page title was too long for mobile phone viewing, it was causing the hamburger button onto a new line. Fix was made by adding a media query to allow the h1 title font size reduced for smaller screens.
-4. CSS comments, i made a mistake with the format used initially for commenting in the CSS file. I was using the JavaScript format (//)for commenting, this resulted in a problem with the colours not displaying correctly for a while in the infant version of the site.
-5. Images missing on GitHub pages even though they worked in Gitpod environment. fix for this was to input a "." in the beginning of image file address.
-
-### Known issues
-
-1. On medium and larger screens the navbar items flicker after they have been selected.
-2. When tested on Internet Explorer and my smart tv browser(outdated version of WebOS NetCast), the background colours don't show for hero text, mid section text and footer section.
-3. The [Curio](https://www.curio-eco.com/) website that some images links to is very slow to load. 
-
-### Project barriers and solutions
-
-#### The navbar 
-
-It was desirable to have the navbar menu float at the top of the screen, but I had difficulty getting the menu to collapse itself automatically with the standard Bootstrap template. But I seen [this solution](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) mentioned on Slack, so I included this trick in the navbar links list of classes. 
-
-#### Gitpod
-
-Gitpod has been an enemy of mine on some occasions, I have lost work a few times with it. I may have to use another IDE option on future projects. 
-
-#### Images format dilemma 
-
-In the lighthouse performance audit report, the images are sometimes flagged as being an opportunity to be better served as next-gen formats such as JPEG 2000, or WebP. I tried converting the images to JPEG 2000, but noticed the images got bigger so I abandoned that opportunity. I then converted images to WebP, this did give reduced file size. When testing the performance, I could see gains on mobile browser, but i think the site felt slower on desktop. Also the images failed to load on Safari Browser(a friend checked this for me!). So I decided to abandon it, perhaps in a later version of the site i can have the images dynamic to the browser/device.  
-
-#### Colour scheme compromise and font challenges
-
-The font and colour scheme chosen for this site initially had problems with the accessibility audits (Firefox, Lighthouse and Accessibility insights). So I had to make a slight change to the colour scheme in order to have the ideal colour contrasts to ensure legibility of content.
-
-### Version control
-
-For version control I used the UI on Gitpod for making commits, and command line for branches, Merging was done on the GitHub site. I used branches when I was working on new features, some branch's were scrapped  and didn't make it to the master.
-
-### Functionality Testing
-
-Navbar: all the links work, this section is responsive to screen size, menu collapses after item is selected.
-
-Hero image and text: clearly visible/readable, call to action button takes user to the about section.
-
-About section: The card gallery is a template taken from the bootstrap framework library. It is responsive to screen size off the shelf. Some images have links that take you to another site. No issues found. 
-
-Email link on contact page: This behaves as expected, the link should trigger the users browser to open a new window for composing an email, the To field and the subject field should be prepopulated.
-
-Subscription form : The form displays validation messages if fields are blank when the subscribe button is pressed. 
-
-Footer section : All icons animate when the mouse is hovering over them, each icon links to a new page.
-
-Devices manually tested browser for the following devices on:  
-
-- Android Mobile phone  (Screen width 320px) xs       Samsung Galaxy SIII mini
-- Android Mobile phone  (Screen width 360px) xs       Oneplus One
-- Android Mobile phone  (Screen width 412px) xs       Oneplus Six 
-- Android Tablet   (Screen width 600px) sm              Google NEXUS 7
-- Smart TV WEBOS  (Screen width 1920px) lg           LG 
-- Windows 10 laptop  (Screen width 2560px)            Dell XPS
-  
-
-### CSS3 validator 
-
-A known problem with jigsaw is that it does not recognise root variables and rgba() combinations. [source](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables). Also there is warnings for vendor extension prefixes (added by the Autoprefixer), but i believe (from discussions on Slack) these can safely be ignored. Apart from these limitations with jigsaw, there is no validation issues. 
-
-### HTML5 validator
-
-No validation errors to report.
-
-### Usability Testing
-
-I shared the project on the peer review channel and also with friends/family. No major usability issues were raised.
-
-The Validation reports [Lighthouse](https://developers.google.com/web/tools/lighthouse) Accessibility and [Microsofts Accessibility Insights](https://accessibilityinsights.io/) gave me interesting insights on issues that would impact visually impaired visitors to the site, as a result I made efforts to improve access for this audience. 
-
-### Compatibility Testing
-
-| Screen size\Browser                          | Chrome | Firefox | Edge |
-| -------------------------------------------- | ------ | ------- | ---- |
-| Android Mobile phone (Screen width 320px) xs | Pass | Pass | Pass |
-| Android Mobile phone (Screen width 412px) xs | Pass | Pass | Pass |
-| Android Tablet (Screen width 600px) sm       | Pass | Pass | Pass |
-| Windows laptop (Screen width 2560px)         |   pass |  pass |  pass    |
-
-
-### Performance Testing
-
-Lighthouse Performance report highlighted issues for me in regard to Performance. I made improvements to the page based on this feedback such as compressing the images, using lazy loading on images that weren't visible on initial loading.
-
-### Testing User Stories
-
-1. As a visitor to the site, I want to read about forest bathing and it's benefits, so that I can decide if I wish to take part.
-
-    ![user story 01 screenshot](assets/readme-files/user-story-01.PNG)
-
-*There is bite size pieces of information spread around the home page section and the about page section.*
-
-2. As a visitor to the site, I want to register my details, so I can be added to an email list to receive updates.
-
-    ![user story 02 screenshot](assets/readme-files/user-story-02.PNG)
-
-*This can be achieved on the contact page section.There is a sign up button that links to this subscription form section on the home page.*
-
-3. As a visitor to the site, I want to view nice pictures of nature.
-
-    ![user story 03 screenshot](assets/readme-files/user-story-03.PNG)
-
-*Various pictures are used on each section of the site.*
-
-4. As a visitor to the site, I want to read about locations of future forest bathing events.
-
-    ![user story 04 screenshot](assets/readme-files/user-story-04.PNG)
-
-*A list of locations is available on the second card in the about page section.*
-
-5. As the site owner, I want to promote my service and have participants for meetups.
-
-    ![user story 05 screenshot](assets/readme-files/user-story-05.PNG)
-
-*The site is structured to load up fast to avoid bounce from visitors, it also prompts the user to sign up their contact details if they wish the hear more.*
-
-6. As the site owner, I want to promote the benefits of Trees and nature in our environment. 
-
-    ![user story 06 screenshot](assets/readme-files/user-story-06.PNG)
-
-*Various facts about trees and nature are displayed in the about page section.* 
+Testing documentation can be found [here in a seperate file](TESTING.md) . 
 
 ##### back to [contents](#table-of-contents)
 
@@ -367,11 +210,11 @@ For easy deployment on GitHub pages you will need a GitHub user account and a po
 
 GitHub is a code hosting platform for version control and collaboration. It's free to enrol for a user account and I would recommend you have one if you wish to deploy this repository and make changes.
 
-When you have a GitHub account you can simple click on the Fork button on the top right corner. This is clone the Shinrin-Yuko repository for your GitHub account, then you can make any changes you like.
+When you have a GitHub account you can simple click on the Fork button on the top right corner. This is clone the Shinrin-Yoku repository for your GitHub account, then you can make any changes you like.
 
 **Gitpod**
 
-The site can edited easily on a Gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the Gitpod extension on your preferred internet browser. On signing up you will be expected to  have a GitHub user account.
+The site can be edited easily on a Gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the Gitpod extension on your preferred internet browser. On signing up you will be expected to  have a GitHub user account.
 
 Once you have the extension on your browser, a green Gitpod button will appear beside this repository in GitHub. For best results fork the repository in your personal account before you open it in Gitpod.
 
@@ -388,7 +231,7 @@ Once you have the completed site in your own repository, you can deploy to GitHu
 
 If you prefer working on the repository locally, you can clone the repository to your desktop by the following steps.
 
-1. Go to [the Shinrin-Yuko github page](https://github.com/kenwals/shinrin-yoku).
+1. Go to [the Shinrin-Yoku github page](https://github.com/kenwals/shinrin-yoku).
 2. Above the list of files, click on the code button.
 3. - To clone the repository using HTTPS, under "Clone with HTTPS", click the paste icon. 
    - To clone the repository using an SSH key, click Use SSH, then click the paste icon. 
@@ -398,7 +241,20 @@ If you prefer working on the repository locally, you can clone the repository to
 5. Type 'git clone', then paste the URL you copied earlier above. 
 6. Press Enter to create your local clone.
 
+more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
+**Forking**
+
+You may wish to contribute to this website and have your contribution published, if so, you are welcome to follow these steps below.
+
+1. Go to the GitHub website and log in.
+2. Open https://github.com/kenwals/shinrin-yoku 
+3. In the top right-hand corner you will see a fork button, click on this fork button .
+4. This will create a copy the Shinrin-Yoku repository in your github account.
+5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository(https://github.com/kenwals/shinrin-yoku).
+6. If your pull request is approved, it will be merged into the master version of the Shinrin-Yoku repository at a future date.
+
+more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 
 ##### back to [contents](#table-of-contents)  
 
@@ -408,7 +264,7 @@ If you prefer working on the repository locally, you can clone the repository to
 ### Content
 
 - [Nature therapy ireland](https://www.instagram.com/naturetherapyireland) 
-- [Shinrin Yuko Finland](https://www.shinrin-yoku.fi/home-en)
+- [Shinrin Yoku Finland](https://www.shinrin-yoku.fi/home-en)
 - [Forest Therapy Society,Japan](https://fo-society.jp/therapy/cn45/e_en.html)
 - [Dublin City Council Tree strategy](https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-08/Dublin_City_Tree_Strategy_2016-2020.pdf)
 
@@ -431,11 +287,11 @@ If you prefer working on the repository locally, you can clone the repository to
 
 ### Acknowledgements
 
-- [This newspaper article from The Irish Times](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper"). On the back this news article, I was inspired to make a site that could promote the importance of Trees and why they should be cherished and valued more then wider roads in our cities.
+- [This newspaper article from The Irish Times](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper"). On the back this newspaper article, I was inspired to make this site that could promote the importance of Trees and why they should be cherished and valued more then wider roads in our cities.
 
 - The book ["The Hidden Life of Trees"](https://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees) by Peter Wohlleben.
 
-- Various people at [code institute](https://codeinstitute.net/) and the code institute Slack channel.
+- Various people at the [code institute](https://codeinstitute.net/) and on the code institute Slack channel.
 
 - [Imbibe](https://imbibe.ie/) Coffee Roasters and [Barry's Tea](https://www.barrystea.ie/).
 
