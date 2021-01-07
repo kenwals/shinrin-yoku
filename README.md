@@ -214,7 +214,7 @@ When you have a GitHub account you can simple click on the Fork button on the to
 
 **Gitpod**
 
-The site can edited easily on a Gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the Gitpod extension on your preferred internet browser. On signing up you will be expected to  have a GitHub user account.
+The site can be edited easily on a Gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the Gitpod extension on your preferred internet browser. On signing up you will be expected to  have a GitHub user account.
 
 Once you have the extension on your browser, a green Gitpod button will appear beside this repository in GitHub. For best results fork the repository in your personal account before you open it in Gitpod.
 
@@ -241,6 +241,8 @@ If you prefer working on the repository locally, you can clone the repository to
 5. Type 'git clone', then paste the URL you copied earlier above. 
 6. Press Enter to create your local clone.
 
+more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
 **Forking**
 
 You may wish to contribute to this website and have your contribution published, if so, you are welcome to follow these steps below.
@@ -252,6 +254,7 @@ You may wish to contribute to this website and have your contribution published,
 5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
 6. If your pull request is approved, it will be merged into the master version of the Shinrin-Yoku repository at a future date.
 
+more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 
 ##### back to [contents](#table-of-contents)  
 
