@@ -287,11 +287,11 @@ more detailed instructions available [here](https://docs.github.com/en/free-pro-
 
 ### Acknowledgements
 
-- [This newspaper article from The Irish Times](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper"). On the back this news article, I was inspired to make a site that could promote the importance of Trees and why they should be cherished and valued more then wider roads in our cities.
+- [This newspaper article from The Irish Times](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper"). On the back this newspaper article, I was inspired to make this site that could promote the importance of Trees and why they should be cherished and valued more then wider roads in our cities.
 
 - The book ["The Hidden Life of Trees"](https://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees) by Peter Wohlleben.
 
-- Various people at [code institute](https://codeinstitute.net/) and the code institute Slack channel.
+- Various people at the [code institute](https://codeinstitute.net/) and on the code institute Slack channel.
 
 - [Imbibe](https://imbibe.ie/) Coffee Roasters and [Barry's Tea](https://www.barrystea.ie/).
 
