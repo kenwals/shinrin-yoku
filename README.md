@@ -2,7 +2,7 @@
 
 ![display of site seen from different devices](assets/readme-files/amiresponsivescreenshot.png)
 
-This is a [promotional website](https://kenwals.github.io/shinrin-yoku/) for a forest bathing meetup group, one of its strategies is promote the importance of trees and nature. 
+This is a [promotional website](https://kenwals.github.io/shinrin-yoku/) for a forest bathing meetup group, one of its strategies is to promote the importance of trees and nature. 
 
 Forest bathing originated in Japan in the 1980s, where it is known as *Shinrin-Yoku*. It is the practice of walking in any natural environment and consciously connecting with what’s around you.
 
@@ -61,13 +61,13 @@ This is a fictional meetup group, so there are no limitations on the content. Th
 
 Site is put together using HTML, the Bootstrap framework and CSS.
 
-A Mobile first approach is taken - site is all on one page site with three sections, navigation menu at the top. 
+A Mobile first approach is taken - site is all on one page with three sections, navigation menu at the top. 
 
-Navigation between sections can be done via the navbar or by"call to action" buttons.
+Navigation between sections can be done via the navbar or by "call to action" buttons.
 
 ### Skeleton
 
-Section 1 - Home page - Navbar at top. Hero image below. With brief headline paragraph. under that a mid-section with introduction paragraph.
+Section 1 - Home page - Navbar at top. Hero image below. With brief headline paragraph. Under that a mid-section with an introduction paragraph.
 
 Section 2 - About page -  Here is displayed various panels of either Text or images promoting forest bathing, in a gallery format.
 
@@ -261,7 +261,7 @@ You may wish to contribute to this website and have your contribution published,
 ### Content
 
 - [Nature therapy ireland](https://www.instagram.com/naturetherapyireland) 
-- [Shinrin Yuko Finland](https://www.shinrin-yoku.fi/home-en)
+- [Shinrin Yoku Finland](https://www.shinrin-yoku.fi/home-en)
 - [Forest Therapy Society,Japan](https://fo-society.jp/therapy/cn45/e_en.html)
 - [Dublin City Council Tree strategy](https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-08/Dublin_City_Tree_Strategy_2016-2020.pdf)
 
