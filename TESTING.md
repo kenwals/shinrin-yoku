@@ -18,7 +18,7 @@
 ---
 
 
-I tested the site as I went along, manually testing or automated testing using online tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
+I tested the site as I went along, manually testing or using automated online testing tools (listed below). I focused on getting the site working on a small mobile phone screen first (iPhone 5 simulation on the Chrome Developer tools), and then subsequently all other screen sizes.
 
 Utilities/channels used for testing were:
 
